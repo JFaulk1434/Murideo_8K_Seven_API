@@ -939,6 +939,188 @@ Murideo_WebUI = {  # Master Dictionary for WebUI of Murideo 8K Seven Genderator
                     "tag": "Moving Ball",
                 },
             },
+            "isf": {
+                "White Pluge UHD": {
+                    "id": 36,
+                    "tag": "White Pluge UHD",
+                },
+                "Black Pluge UHD": {
+                    "id": 37,
+                    "tag": "Black Pluge UHD",
+                },
+                "Geometry UHD": {
+                    "id": 38,
+                    "tag": "Geometry UHD",
+                },
+                "White Pluge HD": {
+                    "id": 39,
+                    "tag": "White Pluge HD",
+                },
+                "Black Pluge HD": {
+                    "id": 40,
+                    "tag": "Black Pluge HD",
+                },
+                "Geometry 178 HD": {
+                    "id": 41,
+                    "tag": "Geometry 178 HD",
+                },
+                "Geometry 240 HD": {
+                    "id": 42,
+                    "tag": "Geometry 240 HD",
+                },
+                "ISF Color Girls": {
+                    "id": 43,
+                    "tag": "ISF Color Girls",
+                },
+                "PD Family": {
+                    "id": 44,
+                    "tag": "PD Family",
+                },
+                "Red Blue MTB": {
+                    "id": 45,
+                    "tag": "Red Blue MTB",
+                },
+                "Cone Gradiant": {
+                    "id": 46,
+                    "tag": "Cone Gradiant",
+                },
+                "ISF Dog": {
+                    "id": 47,
+                    "tag": "ISF Dog",
+                },
+            },
+            "dvs hdr": {
+                "clipping & color": {
+                    "Black Level 1": {
+                        "id": 48,
+                        "tag": "Black Level 1",
+                    },
+                    "Black Level 2": {
+                        "id": 49,
+                        "tag": "Black Level 2",
+                    },
+                    "White Level 1": {
+                        "id": 50,
+                        "tag": "White Level 1",
+                    },
+                    "White Level 2": {
+                        "id": 51,
+                        "tag": "White Level 2",
+                    },
+                    "White Level 3": {
+                        "id": 52,
+                        "tag": "White Level 3",
+                    },
+                    "White 80-100": {
+                        "id": 53,
+                        "tag": "White 80-100",
+                    },
+                    "HDR Mix": {
+                        "id": 54,
+                        "tag": "HDR Mix",
+                    },
+                    "HDR Greyscale": {
+                        "id": 55,
+                        "tag": "HDR Greyscale",
+                    },
+                    "HDR Red": {
+                        "id": 56,
+                        "tag": "HDR Red",
+                    },
+                    "HDR Green": {
+                        "id": 57,
+                        "tag": "HDR Green",
+                    },
+                    "HDR Blue": {
+                        "id": 58,
+                        "tag": "HDR Blue",
+                    },
+                    "HDR Yellow": {
+                        "id": 59,
+                        "tag": "HDR Yellow",
+                    },
+                    "HDR Cyan": {
+                        "id": 60,
+                        "tag": "HDR Cyan",
+                    },
+                    "HDR Magenta": {
+                        "id": 61,
+                        "tag": "HDR Magenta",
+                    },
+                    "Multi-Cube": {
+                        "id": 62,
+                        "tag": "Multi-Cube",
+                    },
+                    "10 Patch Mix": {
+                        "id": 63,
+                        "tag": "10 Patch Mix",
+                    },
+                    "Greyscale 1000": {
+                        "id": 64,
+                        "tag": "Greyscale 1000",
+                    },
+                    "Greyscale 2000": {
+                        "id": 65,
+                        "tag": "Greyscale 2000",
+                    },
+                    "Greyscale 4000": {
+                        "id": 66,
+                        "tag": "Greyscale 4000",
+                    },
+                    "Greyscale 10000": {
+                        "id": 67,
+                        "tag": "Greyscale 10000",
+                    },
+                    "Color High": {
+                        "id": 68,
+                        "tag": "Color High",
+                    },
+                    "Color Low": {
+                        "id": 69,
+                        "tag": "Color Low",
+                    },
+                    "Decoding 50%": {
+                        "id": 70,
+                        "tag": "Decoding 50%",
+                    },
+                    "Decoding 100%": {
+                        "id": 71,
+                        "tag": "Decoding 100%",
+                    },
+                    "Blue Filter 100%": {
+                        "id": 72,
+                        "tag": "Blue Filter 100%",
+                    },
+                    "Green Filter 100%": {
+                        "id": 73,
+                        "tag": "Green Filter 100%",
+                    },
+                    "Red Filter 100%": {
+                        "id": 74,
+                        "tag": "Red Filter 100%",
+                    },
+                    "Blue Filter 50%": {
+                        "id": 75,
+                        "tag": "Blue Filter 50%",
+                    },
+                    "Green Filter 50%": {
+                        "id": 76,
+                        "tag": "Green Filter 50%",
+                    },
+                    "Red Filter 50%": {
+                        "id": 77,
+                        "tag": "Red Filter 50%",
+                    },
+                    "Color Flashing": {
+                        "id": 78,
+                        "tag": "Color Flashing",
+                    },
+                    "Dynamic Contrast": {
+                        "id": 79,
+                        "tag": "Dynamic Contrast",
+                    },
+                }
+            },
         },
     }
 }
