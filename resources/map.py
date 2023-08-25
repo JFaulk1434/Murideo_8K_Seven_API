@@ -1414,6 +1414,72 @@ Murideo_WebUI = {  # Master Dictionary for WebUI of Murideo 8K Seven Genderator
                         "tag": "Radial Magenta",
                     },
                 },
+                "resolution, ansi, placement": {
+                    "Resolution Mix": {
+                        "id": 152,
+                        "tag": "Resoltuion Mix",
+                    },
+                    "Checkerboard": {
+                        "id": 153,
+                        "tag": "Checkerboard",
+                    },
+                    "Horizontal 1px": {
+                        "id": 154,
+                        "tag": "Horizontal 1px",
+                    },
+                    "Horizontal 2px": {
+                        "id": 155,
+                        "tag": "Horizontal 2px",
+                    },
+                    "Horizontal 3px": {
+                        "id": 156,
+                        "tag": "Horizontal 3px",
+                    },
+                    "Vertical 1px": {
+                        "id": 157,
+                        "tag": "Vertical 1px",
+                    },
+                    "Vertical 2px": {
+                        "id": 158,
+                        "tag": "Vertical 2px",
+                    },
+                    "Vertical 3px": {
+                        "id": 159,
+                        "tag": "Vertical 3px",
+                    },
+                    "Black Pixels": {
+                        "id": 160,
+                        "tag": "Black Pixels",
+                    },
+                    "ANSI Meter 8x8": {
+                        "id": 161,
+                        "tag": "ANSI Meter 8x8",
+                    },
+                    "ANSI 8x8": {
+                        "id": 162,
+                        "tag": "ANSI 8x8",
+                    },
+                    "ANSI Meter 5x4": {
+                        "id": 163,
+                        "tag": "ANSI Meter 5x4",
+                    },
+                    "ANSI 5x4 Black": {
+                        "id": 164,
+                        "tag": "ANSI M5x4 Black",
+                    },
+                    "ANSI 5x4 White": {
+                        "id": 165,
+                        "tag": "ANSI M5x4 White",
+                    },
+                    "Meter Placement": {
+                        "id": 166,
+                        "tag": "Meter Placement",
+                    },
+                    "Sharp & Scan": {
+                        "id": 167,
+                        "tag": "Sharp & Scan",
+                    },
+                },
             },
         },
     }
