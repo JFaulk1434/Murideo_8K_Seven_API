@@ -1,3 +1,5 @@
+"""Testing proof of concept"""
+
 import asyncio
 import websockets
 

@@ -1,3 +1,5 @@
+"""Decoder ring for the WebUI on the murideo"""
+
 Murideo_WebUI = {  # Master Dictionary for WebUI of Murideo 8K Seven Genderator
     "video_generator": {
         "timing": {
