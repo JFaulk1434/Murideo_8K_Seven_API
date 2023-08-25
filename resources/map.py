@@ -1119,7 +1119,187 @@ Murideo_WebUI = {  # Master Dictionary for WebUI of Murideo 8K Seven Genderator
                         "id": 79,
                         "tag": "Dynamic Contrast",
                     },
-                }
+                },
+                "evaluation": {
+                    "Landscape": {
+                        "id": 80,
+                        "tag": "Landscape",
+                    },
+                    "Nature": {
+                        "id": 81,
+                        "tag": "Skin Tone",
+                    },
+                    "Skin Tone": {
+                        "id": 82,
+                        "tag": "Skin Tone",
+                    },
+                    "City Sunset": {
+                        "id": 83,
+                        "tag": "City Sunset",
+                    },
+                    "Oceanside": {
+                        "id": 84,
+                        "tag": "Oceanside",
+                    },
+                    "Pantone Skin": {
+                        "id": 85,
+                        "tag": "Pantone Skin",
+                    },
+                    "Restaurant": {
+                        "id": 86,
+                        "tag": "Restaurant",
+                    },
+                    "Indian Market": {
+                        "id": 87,
+                        "tag": "Indian Market",
+                    },
+                    "Ambient 05 Nit": {
+                        "id": 88,
+                        "tag": "Ambient 05 Nit",
+                    },
+                    "Ambient 10 Nit": {
+                        "id": 89,
+                        "tag": "Ambient 10 Nit",
+                    },
+                    "Ambient 15 Nit": {
+                        "id": 90,
+                        "tag": "Ambient 15 Nit",
+                    },
+                    "Chroma Sub 100": {
+                        "id": 91,
+                        "tag": "Chroma Sub 100",
+                    },
+                    "Chroma Sub 500": {
+                        "id": 92,
+                        "tag": "Chroma Sub 500",
+                    },
+                    "Chroma Sub 1000": {
+                        "id": 93,
+                        "tag": "Chroma Sub 1000",
+                    },
+                    "Judder 24 FPS": {
+                        "id": 94,
+                        "tag": "Judder 24 FPS",
+                    },
+                    "Judder 60 FPS": {
+                        "id": 95,
+                        "tag": "Judder 60 FPS",
+                    },
+                    "M Judder 24 FPS": {
+                        "id": 96,
+                        "tag": "M Judder 24 FPS",
+                    },
+                },
+                "geometry & convergence": {
+                    "Apsect Ratio 1.78": {
+                        "id": 97,
+                        "tag": "Apsect Ratio 1.78",
+                    },
+                    "Apsect Ratio 1.85": {
+                        "id": 98,
+                        "tag": "Apsect Ratio 1.85",
+                    },
+                    "Apsect Ratio 2.00": {
+                        "id": 99,
+                        "tag": "Apsect Ratio 2.00",
+                    },
+                    "Apsect Ratio 2.35": {
+                        "id": 100,
+                        "tag": "Apsect Ratio 2.35",
+                    },
+                    "Apsect Ratio 2.40": {
+                        "id": 101,
+                        "tag": "Apsect Ratio 2.40",
+                    },
+                    "Apsect Ratio All": {
+                        "id": 102,
+                        "tag": "Apsect Ratio All",
+                    },
+                    "Grid White": {
+                        "id": 103,
+                        "tag": "Grid White",
+                    },
+                    "Grid Red": {
+                        "id": 104,
+                        "tag": "Grid Red",
+                    },
+                    "Grid Green": {
+                        "id": 105,
+                        "tag": "Grid Green",
+                    },
+                    "Grid Blue": {
+                        "id": 106,
+                        "tag": "Grid Blue",
+                    },
+                    "Grid Yellow": {
+                        "id": 107,
+                        "tag": "Grid Yellow",
+                    },
+                    "Grid Cyan": {
+                        "id": 108,
+                        "tag": "Grid Cyan",
+                    },
+                    "Grid Magenta": {
+                        "id": 109,
+                        "tag": "Grid Magenta",
+                    },
+                    "Dot White": {
+                        "id": 110,
+                        "tag": "Dot White",
+                    },
+                    "Dot Red": {
+                        "id": 111,
+                        "tag": "Dot Red",
+                    },
+                    "Dot Green": {
+                        "id": 112,
+                        "tag": "Dot Green",
+                    },
+                    "Dot Blue": {
+                        "id": 113,
+                        "tag": "Dot Blue",
+                    },
+                    "Dot Yellow": {
+                        "id": 114,
+                        "tag": "Dot Yellow",
+                    },
+                    "Dot Cyan": {
+                        "id": 115,
+                        "tag": "Dot Cyan",
+                    },
+                    "Dot Magenta": {
+                        "id": 116,
+                        "tag": "Dot Magenta",
+                    },
+                    "Cross White": {
+                        "id": 117,
+                        "tag": "Cross White",
+                    },
+                    "Cross Red": {
+                        "id": 118,
+                        "tag": "Cross Red",
+                    },
+                    "Cross Green": {
+                        "id": 119,
+                        "tag": "Cross Green",
+                    },
+                    "Cross Blue": {
+                        "id": 120,
+                        "tag": "Cross Blue",
+                    },
+                    "Cross Yellow": {
+                        "id": 121,
+                        "tag": "Cross Yellow",
+                    },
+                    "Cross Cyan": {
+                        "id": 122,
+                        "tag": "Cross Cyan",
+                    },
+                    "Cross Magenta": {
+                        "id": 123,
+                        "tag": "Cross Magenta",
+                    },
+                },
             },
         },
     }
