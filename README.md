@@ -152,7 +152,7 @@ Programming is not my job, but I write programs to help with my workflow and thi
 
 MU-GEN-SEVEN
 The Seven Generator: An Approved Test Device for Dolby Vision™ and Dolby Audio™​
-![Alt text](MU-GEN-7.jpeg)
+![Alt text](resources/images/MU-GEN-7.jpeg)
 Impeccable performance in HDMI video generation is just the beginning with the the SEVEN Generator. The extensive audio and video capabilities include:
 
 - An Approved Test Device for Dolby Audio™
