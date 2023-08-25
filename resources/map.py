@@ -1481,6 +1481,172 @@ Murideo_WebUI = {  # Master Dictionary for WebUI of Murideo 8K Seven Genderator
                     },
                 },
             },
+            "dvs dolby vision": {
+                "clipping & color": {
+                    "Black Level 1": {
+                        "id": 472,
+                        "tag": "Black Level 1",
+                    },
+                    "Black Level 2": {
+                        "id": 473,
+                        "tag": "Black Level 2",
+                    },
+                    "White Level 1": {
+                        "id": 474,
+                        "tag": "White Level 1",
+                    },
+                    "White Level 2": {
+                        "id": 475,
+                        "tag": "White Level 2",
+                    },
+                    "White Level 3": {
+                        "id": 476,
+                        "tag": "White Level 3",
+                    },
+                    "White 80-100": {
+                        "id": 477,
+                        "tag": "White 80-100",
+                    },
+                    "Blue Filter 50%": {
+                        "id": 478,
+                        "tag": "Blue Filter 50%",
+                    },
+                    "Green Filter 50%": {
+                        "id": 479,
+                        "tag": "Green Filter 50%",
+                    },
+                    "Red Filter 50%": {
+                        "id": 480,
+                        "tag": "Red Filter 50%",
+                    },
+                    "Color Clipping High": {
+                        "id": 481,
+                        "tag": "Color Clipping High",
+                    },
+                    "Color Clipping Low": {
+                        "id": 482,
+                        "tag": "Color Clipping Low",
+                    },
+                    "Color Decoding": {
+                        "id": 483,
+                        "tag": "Color Decoding",
+                    },
+                    "Color Flashing": {
+                        "id": 484,
+                        "tag": "Color Flashing",
+                    },
+                },
+                "evaluation": {
+                    "Landscape": {
+                        "id": 485,
+                        "tag": "Landscape",
+                    },
+                    "Nature": {
+                        "id": 486,
+                        "tag": "Nature",
+                    },
+                    "Skin Tone": {
+                        "id": 487,
+                        "tag": "Skin Tone",
+                    },
+                    "City Sunset": {
+                        "id": 488,
+                        "tag": "City Sunset",
+                    },
+                    "Oceanside": {
+                        "id": 489,
+                        "tag": "Oceanside",
+                    },
+                    "Pantone Skin": {
+                        "id": 490,
+                        "tag": "Pantone Skin",
+                    },
+                    "Restaurant": {
+                        "id": 491,
+                        "tag": "Restaurant",
+                    },
+                    "Indian Market": {
+                        "id": 492,
+                        "tag": "Indian Market",
+                    },
+                },
+                "ramps, gradients, zone plates": {
+                    "Greyscale Steps": {
+                        "id": 493,
+                        "tag": "Greyscale Steps",
+                    },
+                    "Greyscale Ramp": {
+                        "id": 494,
+                        "tag": "Greyscale Ramp",
+                    },
+                    "Greyscale Mix": {
+                        "id": 495,
+                        "tag": "Greyscale Mix",
+                    },
+                    "Color Steps": {
+                        "id": 496,
+                        "tag": "Color Steps",
+                    },
+                    "Red Radial Gradient": {
+                        "id": 497,
+                        "tag": "Red Radial Gradient",
+                    },
+                    "Green Radial Gradient": {
+                        "id": 498,
+                        "tag": "Green Radial Gradient",
+                    },
+                    "Blue Radial Gradient": {
+                        "id": 499,
+                        "tag": "Blue Radial Gradient",
+                    },
+                    "Yellow Radial Gradient": {
+                        "id": 500,
+                        "tag": "Yellow Radial Gradient",
+                    },
+                    "Cyan Radial Gradient": {
+                        "id": 501,
+                        "tag": "Cyan Radial Gradient",
+                    },
+                    "Magenta Radial Gradient": {
+                        "id": 502,
+                        "tag": "Magenta Radial Gradient",
+                    },
+                },
+                "resolution, ansi, placement": {
+                    "ANSI Meter 8x8": {
+                        "id": 503,
+                        "tag": "ANSI Meter 8x8",
+                    },
+                    "ANSI 8x8 Black": {
+                        "id": 504,
+                        "tag": "ANSI 8x8 Black",
+                    },
+                    "ANSI 8x8 White": {
+                        "id": 505,
+                        "tag": "ANSI 8x8 White",
+                    },
+                    "ANSI Meter 5x4": {
+                        "id": 506,
+                        "tag": "ANSI Meter 5x4",
+                    },
+                    "ANSI 5x4 Black": {
+                        "id": 507,
+                        "tag": "ANSI M5x4 Black",
+                    },
+                    "ANSI 5x4 White": {
+                        "id": 508,
+                        "tag": "ANSI M5x4 White",
+                    },
+                    "Meter Placement": {
+                        "id": 509,
+                        "tag": "Meter Placement",
+                    },
+                    "Sharp & Scan": {
+                        "id": 510,
+                        "tag": "Sharp & Scan",
+                    },
+                },
+            },
         },
     }
 }
