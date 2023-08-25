@@ -1647,6 +1647,288 @@ Murideo_WebUI = {  # Master Dictionary for WebUI of Murideo 8K Seven Genderator
                     },
                 },
             },
+            "dvs hlg": {
+                "clipping & color": {
+                    "Black Level 1": {
+                        "id": 511,
+                        "tag": "Black Level 1",
+                    },
+                    "Black Level 2": {
+                        "id": 512,
+                        "tag": "Black Level 2",
+                    },
+                    "White Level 1": {
+                        "id": 513,
+                        "tag": "White Level 1",
+                    },
+                    "White Level 2": {
+                        "id": 514,
+                        "tag": "White Level 2",
+                    },
+                    "White Level 3": {
+                        "id": 515,
+                        "tag": "White Level 3",
+                    },
+                    "HDR Mix": {
+                        "id": 517,
+                        "tag": "HDR Mix",
+                    },
+                    "HDR Greyscale": {
+                        "id": 518,
+                        "tag": "HDR Greyscale",
+                    },
+                    "HDR Red": {
+                        "id": 519,
+                        "tag": "HDR Red",
+                    },
+                    "HDR Green": {
+                        "id": 520,
+                        "tag": "HDR Green",
+                    },
+                    "HDR Blue": {
+                        "id": 521,
+                        "tag": "HDR Blue",
+                    },
+                    "HDR Yellow": {
+                        "id": 522,
+                        "tag": "HDR Yellow",
+                    },
+                    "HDR Cyan": {
+                        "id": 523,
+                        "tag": "HDR Cyan",
+                    },
+                    "HDR Magenta": {
+                        "id": 524,
+                        "tag": "HDR Magenta",
+                    },
+                    "Multi-Cube": {
+                        "id": 525,
+                        "tag": "Multi-Cube",
+                    },
+                    "10 Patch Mix": {
+                        "id": 526,
+                        "tag": "10 Patch Mix",
+                    },
+                    "Blue Filter 100%": {
+                        "id": 529,
+                        "tag": "Blue Filter 100%",
+                    },
+                    "Green Filter 100%": {
+                        "id": 530,
+                        "tag": "Green Filter 100%",
+                    },
+                    "Red Filter 100%": {
+                        "id": 531,
+                        "tag": "Red Filter 100%",
+                    },
+                    "Color Clipping High": {
+                        "id": 527,
+                        "tag": "Color Clipping High",
+                    },
+                    "Color Clipping Low": {
+                        "id": 528,
+                        "tag": "Color Clipping Low",
+                    },
+                    "Color Decoding 50%": {
+                        "id": 532,
+                        "tag": "Color Decoding 50%",
+                    },
+                    "Color Decoding 100%": {
+                        "id": 533,
+                        "tag": "Color Decoding 100%",
+                    },
+                    "Color Flashing": {
+                        "id": 516,
+                        "tag": "Color Flashing",
+                    },
+                },
+                "evaluation": {
+                    "Landscape": {
+                        "id": 534,
+                        "tag": "Landscape",
+                    },
+                    "Nature": {
+                        "id": 535,
+                        "tag": "Nature",
+                    },
+                    "Skin Tone": {
+                        "id": 536,
+                        "tag": "Skin Tone",
+                    },
+                    "City Sunset": {
+                        "id": 537,
+                        "tag": "City Sunset",
+                    },
+                    "Oceanside": {
+                        "id": 538,
+                        "tag": "Oceanside",
+                    },
+                    "Pantone Skin": {
+                        "id": 539,
+                        "tag": "Pantone Skin",
+                    },
+                    "Restaurant": {
+                        "id": 540,
+                        "tag": "Restaurant",
+                    },
+                    "Indian Market": {
+                        "id": 541,
+                        "tag": "Indian Market",
+                    },
+                },
+                "ramps, gradients, zone plates": {
+                    "Greyscale Steps": {
+                        "id": 542,
+                        "tag": "Greyscale Steps",
+                    },
+                    "Greyscale Ramp": {
+                        "id": 543,
+                        "tag": "Greyscale Ramp",
+                    },
+                    "Greyscale Mix": {
+                        "id": 544,
+                        "tag": "Greyscale Mix",
+                    },
+                    "Color Steps": {
+                        "id": 545,
+                        "tag": "Color Steps",
+                    },
+                    "Color Ramp": {
+                        "id": 546,
+                        "tag": "Color Ramp",
+                    },
+                    "Color Ramp H&V": {
+                        "id": 547,
+                        "tag": "Color Ramp H&V",
+                    },
+                    "Color Ramp Mix": {
+                        "id": 548,
+                        "tag": "Color Ramp Mix",
+                    },
+                    "Color Bar Ramp": {
+                        "id": 549,
+                        "tag": "Color Bar Ramp",
+                    },
+                    "Ramp Red": {
+                        "id": 550,
+                        "tag": "Ramp Red",
+                    },
+                    "Ramp Green": {
+                        "id": 551,
+                        "tag": "Ramp Green",
+                    },
+                    "Ramp Blue": {
+                        "id": 552,
+                        "tag": "Ramp Blue",
+                    },
+                    "Ramp Yellow": {
+                        "id": 553,
+                        "tag": "Ramp Yellow",
+                    },
+                    "Ramp Cyan": {
+                        "id": 554,
+                        "tag": "Ramp Cyan",
+                    },
+                    "Ramp Magenta": {
+                        "id": 555,
+                        "tag": "Ramp Magenta",
+                    },
+                    "Zone White": {
+                        "id": 556,
+                        "tag": "Zone White",
+                    },
+                    "Zone Red": {
+                        "id": 557,
+                        "tag": "Zone Red",
+                    },
+                    "Zone Green": {
+                        "id": 558,
+                        "tag": "Zone Green",
+                    },
+                    "Zone Blue": {
+                        "id": 559,
+                        "tag": "Zone Blue",
+                    },
+                    "Zone Magenta": {
+                        "id": 560,
+                        "tag": "Zone Magenta",
+                    },
+                    "Zone Yellow": {
+                        "id": 561,
+                        "tag": "Zone Yellow",
+                    },
+                    "Zone Cyan": {
+                        "id": 562,
+                        "tag": "Zone Cyan",
+                    },
+                    "Radial Grey": {
+                        "id": 563,
+                        "tag": "Radial Grey",
+                    },
+                    "Radial Red": {
+                        "id": 564,
+                        "tag": "Radial Red",
+                    },
+                    "Radial Green": {
+                        "id": 565,
+                        "tag": "Radial Green",
+                    },
+                    "Radial Blue": {
+                        "id": 566,
+                        "tag": "Radial Blue",
+                    },
+                    "Radial Yellow": {
+                        "id": 567,
+                        "tag": "Radial Yellow",
+                    },
+                    "Radial Cyan": {
+                        "id": 568,
+                        "tag": "Radial Cyan",
+                    },
+                    "Radial Magenta": {
+                        "id": 569,
+                        "tag": "Radial Magenta",
+                    },
+                },
+                "resolution, ansi, placement": {
+                    "ANSI Meter 8x8": {
+                        "id": 570,
+                        "tag": "ANSI Meter 8x8",
+                    },
+                    "ANSI 8x8 Black": {
+                        "id": 571,
+                        "tag": "ANSI 8x8 Black",
+                    },
+                    "ANSI 8x8 White": {
+                        "id": 572,
+                        "tag": "ANSI 8x8 White",
+                    },
+                    "ANSI Meter 5x4": {
+                        "id": 573,
+                        "tag": "ANSI Meter 5x4",
+                    },
+                    "ANSI 5x4 Black": {
+                        "id": 574,
+                        "tag": "ANSI M5x4 Black",
+                    },
+                    "ANSI 5x4 White": {
+                        "id": 575,
+                        "tag": "ANSI M5x4 White",
+                    },
+                    "Meter Placement": {
+                        "id": 576,
+                        "tag": "Meter Placement",
+                    },
+                    "Sharp & Scan": {
+                        "id": 577,
+                        "tag": "Sharp & Scan",
+                    },
+                    "Resolution Mix": {
+                        "id": 578,
+                        "tag": "Resolution Mix",
+                    },
+                },
+            },
         },
     }
 }
