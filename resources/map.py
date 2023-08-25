@@ -1300,6 +1300,120 @@ Murideo_WebUI = {  # Master Dictionary for WebUI of Murideo 8K Seven Genderator
                         "tag": "Cross Magenta",
                     },
                 },
+                "ramps, gradients, zone plates": {
+                    "Greyscale Steps": {
+                        "id": 124,
+                        "tag": "Greyscale Steps",
+                    },
+                    "Greyscale Ramp": {
+                        "id": 125,
+                        "tag": "Greyscale Ramp",
+                    },
+                    "Greyscale Mix": {
+                        "id": 126,
+                        "tag": "Greyscale Mix",
+                    },
+                    "Color Steps": {
+                        "id": 127,
+                        "tag": "Color Steps",
+                    },
+                    "Color Ramp": {
+                        "id": 128,
+                        "tag": "Color Ramp",
+                    },
+                    "Color Ramp H&V": {
+                        "id": 129,
+                        "tag": "Color Ramp H&V",
+                    },
+                    "Color Ramp Mix": {
+                        "id": 130,
+                        "tag": "Color Ramp Mix",
+                    },
+                    "Color Bar Ramp": {
+                        "id": 131,
+                        "tag": "Color Bar Ramp",
+                    },
+                    "Ramp Red": {
+                        "id": 132,
+                        "tag": "Ramp Red",
+                    },
+                    "Ramp Green": {
+                        "id": 133,
+                        "tag": "Ramp Green",
+                    },
+                    "Ramp Blue": {
+                        "id": 134,
+                        "tag": "Ramp Blue",
+                    },
+                    "Ramp Yellow": {
+                        "id": 135,
+                        "tag": "Ramp Yellow",
+                    },
+                    "Ramp Cyan": {
+                        "id": 136,
+                        "tag": "Ramp Cyan",
+                    },
+                    "Ramp Magenta": {
+                        "id": 137,
+                        "tag": "Ramp Magenta",
+                    },
+                    "Zone White": {
+                        "id": 138,
+                        "tag": "Zone White",
+                    },
+                    "Zone Red": {
+                        "id": 139,
+                        "tag": "Zone Red",
+                    },
+                    "Zone Green": {
+                        "id": 140,
+                        "tag": "Zone Green",
+                    },
+                    "Zone Blue": {
+                        "id": 141,
+                        "tag": "Zone Blue",
+                    },
+                    "Zone Magenta": {
+                        "id": 142,
+                        "tag": "Zone Magenta",
+                    },
+                    "Zone Yellow": {
+                        "id": 143,
+                        "tag": "Zone Yellow",
+                    },
+                    "Zone Cyan": {
+                        "id": 144,
+                        "tag": "Zone Cyan",
+                    },
+                    "Radial Grey": {
+                        "id": 145,
+                        "tag": "Radial Grey",
+                    },
+                    "Radial Red": {
+                        "id": 146,
+                        "tag": "Radial Red",
+                    },
+                    "Radial Green": {
+                        "id": 147,
+                        "tag": "Radial Green",
+                    },
+                    "Radial Blue": {
+                        "id": 148,
+                        "tag": "Radial Blue",
+                    },
+                    "Radial Yellow": {
+                        "id": 149,
+                        "tag": "Radial Yellow",
+                    },
+                    "Radial Cyan": {
+                        "id": 150,
+                        "tag": "Radial Cyan",
+                    },
+                    "Radial Magenta": {
+                        "id": 151,
+                        "tag": "Radial Magenta",
+                    },
+                },
             },
         },
     }
