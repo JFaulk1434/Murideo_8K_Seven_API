@@ -3029,6 +3029,155 @@ Murideo_WebUI = {  # Master Dictionary for WebUI of Murideo 8K Seven Genderator
                     "tag": "(4:4:4 Limit) Girl HDR & SDR",
                 },
             },
+            "spears & munsil": {
+                "Bias_Light_10%": {
+                    "id": 456,
+                    "tag": "Bias_Light_10%",
+                },
+                "Bias_Light_15%": {
+                    "id": 457,
+                    "tag": "Bias_Light_15%",
+                },
+                "Framing": {
+                    "id": 458,
+                    "tag": "Framing",
+                },
+                "Hammock_24p": {
+                    "id": 459,
+                    "tag": "Hammock_24p",
+                },
+                "Hammock_30p": {
+                    "id": 460,
+                    "tag": "Hammock_30p",
+                },
+                "Hammock_60i": {
+                    "id": 461,
+                    "tag": "Hammock_260i",
+                },
+                "Mixed_video_H_60i": {
+                    "id": 462,
+                    "tag": "Mixed_video_H_60i",
+                },
+                "Mixed_Video_V_60i": {
+                    "id": 463,
+                    "tag": "Mixed_Video_V_60i",
+                },
+                "ColorTint_01_Red": {
+                    "id": 464,
+                    "tag": "ColorTint_01_Red",
+                },
+                "ColorTint_01_Green": {
+                    "id": 465,
+                    "tag": "ColorTint_01_Green",
+                },
+                "ColorTint_01_Blue": {
+                    "id": 466,
+                    "tag": "ColorTint_01_Blue",
+                },
+                "Jaggies_Full_60i": {
+                    "id": 467,
+                    "tag": "Jaggies_Full_60i",
+                },
+                "Ship1_60i": {
+                    "id": 468,
+                    "tag": "Ship1_60i",
+                },
+                "Ship2_60i": {
+                    "id": 469,
+                    "tag": "Ship2_60i",
+                },
+                "Ship3_60i": {
+                    "id": 470,
+                    "tag": "Ship3_60i",
+                },
+            },
+            "user (stills)": {
+                "User Pattern1": {
+                    "id": 398,
+                    "tag": "User Pattern1 ()",
+                },
+                "User Pattern2": {
+                    "id": 399,
+                    "tag": "User Pattern2 ()",
+                },
+                "User Pattern3": {
+                    "id": 400,
+                    "tag": "User Pattern3 ()",
+                },
+                "User Pattern4": {
+                    "id": 401,
+                    "tag": "User Pattern4 ()",
+                },
+                "User Pattern5": {
+                    "id": 402,
+                    "tag": "User Pattern5 ()",
+                },
+                "User Pattern6": {
+                    "id": 403,
+                    "tag": "User Pattern6 ()",
+                },
+            },
+            "ire window": {
+                # TODO need to figure out to structure this
+            },
+            "shortcuts": {
+                "shortcuts 1": {
+                    "id": 471,
+                    "tag": "SHORTCUTS 1",
+                },
+                "shortcuts 2": {
+                    "id": 472,
+                    "tag": "SHORTCUTS 2",
+                },
+                "shortcuts 3": {
+                    "id": 473,
+                    "tag": "SHORTCUTS 3",
+                },
+                "shortcuts 4": {
+                    "id": 474,
+                    "tag": "SHORTCUTS 4",
+                },
+                "shortcuts 5": {
+                    "id": 475,
+                    "tag": "SHORTCUTS 5",
+                },
+                "shortcuts 6": {
+                    "id": 476,
+                    "tag": "SHORTCUTS 6",
+                },
+                "shortcuts 7": {
+                    "id": 477,
+                    "tag": "SHORTCUTS 7",
+                },
+                "shortcuts 8": {
+                    "id": 478,
+                    "tag": "SHORTCUTS 8",
+                },
+                "shortcuts 9": {
+                    "id": 495,
+                    "tag": "SHORTCUTS 9",
+                },
+                "shortcuts 10": {
+                    "id": 480,
+                    "tag": "SHORTCUTS 10",
+                },
+                "shortcuts 11": {
+                    "id": 481,
+                    "tag": "SHORTCUTS 11",
+                },
+                "shortcuts 12": {
+                    "id": 482,
+                    "tag": "SHORTCUTS 12",
+                },
+                "shortcuts 13": {
+                    "id": 483,
+                    "tag": "SHORTCUTS 13",
+                },
+                "shortcuts 14": {
+                    "id": 484,
+                    "tag": "SHORTCUTS 14",
+                },
+            },
         },
     }
 }
