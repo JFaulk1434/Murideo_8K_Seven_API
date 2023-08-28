@@ -2653,6 +2653,80 @@ Murideo_WebUI = {  # Master Dictionary for WebUI of Murideo 8K Seven Genderator
                     },
                 },
             },
+            "dolby vision": {
+                "Dolby Vision UHD": {
+                    "id": 425,
+                    "tag": "Dolby Vision UHD",
+                },
+                "CornerBox_UHD": {
+                    "id": 426,
+                    "tag": "CornerBox_UHD",
+                },
+                "Checker_UHD": {
+                    "id": 427,
+                    "tag": "Checker_UHD",
+                },
+                "Steps_UHD_L255rm1": {
+                    "id": 428,
+                    "tag": "Steps_UHD_L255rm1",
+                },
+                "Steps_UHD_L255rm2": {
+                    "id": 429,
+                    "tag": "Steps_UHD_L255rm2",
+                },
+                "Steps_UHD_noL255": {
+                    "id": 430,
+                    "tag": "Steps_UHD_noL255",
+                },
+                "Ramp_UHD_L255rm1": {
+                    "id": 431,
+                    "tag": "Ramp_UHD_L255rm1",
+                },
+                "Ramp_UHD_L255rm2": {
+                    "id": 432,
+                    "tag": "Ramp_UHD_L255rm2",
+                },
+                "Ramp_UHD_noL255": {
+                    "id": 433,
+                    "tag": "Ramp_UHD_noL255",
+                },
+                "Dolby Vision FHD": {
+                    "id": 434,
+                    "tag": "Dolby Vision FHD",
+                },
+                "CornerBox_FHD": {
+                    "id": 435,
+                    "tag": "CornerBox_FHD",
+                },
+                "Checker_FHD": {
+                    "id": 436,
+                    "tag": "Checker_FHD",
+                },
+                "Steps_FHD_L255rm1": {
+                    "id": 437,
+                    "tag": "Steps_FHD_L255rm1",
+                },
+                "Steps_FHD_L255rm2": {
+                    "id": 438,
+                    "tag": "Steps_FHD_L255rm2",
+                },
+                "Steps_FHD_noL255": {
+                    "id": 439,
+                    "tag": "Steps_FHD_noL255",
+                },
+                "Ramp_FHD_L255rm1": {
+                    "id": 440,
+                    "tag": "Ramp_FHD_L255rm1",
+                },
+                "Ramp_FHD_L255rm2": {
+                    "id": 441,
+                    "tag": "Ramp_FHD_L255rm2",
+                },
+                "Ramp_FHD_noL255": {
+                    "id": 442,
+                    "tag": "Ramp_FHD_noL255",
+                },
+            },
         },
     }
 }
