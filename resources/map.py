@@ -2727,6 +2727,196 @@ Murideo_WebUI = {  # Master Dictionary for WebUI of Murideo 8K Seven Genderator
                     "tag": "Ramp_FHD_noL255",
                 },
             },
+            "hd": {
+                "High Clipping": {
+                    "id": 350,
+                    "tag": "High Clipping",
+                },
+                "Low Clipping": {
+                    "id": 351,
+                    "tag": "Low Clipping",
+                },
+                "Color Noise 01": {
+                    "id": 352,
+                    "tag": "Color Noise 01",
+                },
+                "Color Noise 02": {
+                    "id": 353,
+                    "tag": "Color Noise 02",
+                },
+                "Color Noise 04": {
+                    "id": 354,
+                    "tag": "Color Noise 04",
+                },
+                "Color Noise 08": {
+                    "id": 355,
+                    "tag": "Color Noise 08",
+                },
+                "Triangle": {
+                    "id": 356,
+                    "tag": "Triangle",
+                },
+                "Color Wipe Full": {
+                    "id": 357,
+                    "tag": "Color Wipe Full",
+                },
+                "Color Wipe Half": {
+                    "id": 358,
+                    "tag": "Color Wipe Half",
+                },
+                "Composite": {
+                    "id": 359,
+                    "tag": "Composite",
+                },
+                "H Multiburst": {
+                    "id": 360,
+                    "tag": "H Multiburst",
+                },
+                "V Multiburst": {
+                    "id": 361,
+                    "tag": "V Multiburst",
+                },
+                "Checkers 02": {
+                    "id": 362,
+                    "tag": "Checkers 02",
+                },
+                "Checkers 04": {
+                    "id": 363,
+                    "tag": "Checkers 04",
+                },
+                "Checkers 08": {
+                    "id": 364,
+                    "tag": "Checkers 08",
+                },
+                "Checkers 16": {
+                    "id": 365,
+                    "tag": "Checkers 16",
+                },
+                "Checkers 32": {
+                    "id": 366,
+                    "tag": "Checkers 32",
+                },
+                "Checkers Log": {
+                    "id": 367,
+                    "tag": "Checkers Log",
+                },
+                "Many Circles": {
+                    "id": 368,
+                    "tag": "Many Circles",
+                },
+                "Center Circle": {
+                    "id": 369,
+                    "tag": "Center Circle",
+                },
+                "Many Squares": {
+                    "id": 370,
+                    "tag": "Many Squares",
+                },
+                "Grid": {
+                    "id": 371,
+                    "tag": "Grid",
+                },
+                "H Lines 02": {
+                    "id": 372,
+                    "tag": "H Lines 02",
+                },
+                "H Lines 04": {
+                    "id": 373,
+                    "tag": "H Lines 04",
+                },
+                "H Lines 08": {
+                    "id": 374,
+                    "tag": "H Lines 08",
+                },
+                "H Lines Log": {
+                    "id": 375,
+                    "tag": "H Lines Log",
+                },
+                "V Lines 02": {
+                    "id": 376,
+                    "tag": "V Lines 02",
+                },
+                "V Lines 04": {
+                    "id": 377,
+                    "tag": "V Lines 04",
+                },
+                "V Lines 08": {
+                    "id": 378,
+                    "tag": "V Lines 08",
+                },
+                "Geometry Points 02": {
+                    "id": 380,
+                    "tag": "Geometry Points 02",
+                },
+                "Geometry Points 04": {
+                    "id": 381,
+                    "tag": "Geometry Points 04",
+                },
+                "Geometry Points 08": {
+                    "id": 382,
+                    "tag": "Geometry Points 08",
+                },
+                "Geometry Points 16": {
+                    "id": 383,
+                    "tag": "Geometry Points 16",
+                },
+                "Geometry Points 32": {
+                    "id": 384,
+                    "tag": "Geometry Points 32",
+                },
+                "Geometry Squares 04": {
+                    "id": 385,
+                    "tag": "Geometry Squares 04",
+                },
+                "Geometry Squares 08": {
+                    "id": 386,
+                    "tag": "Geometry Squares 08",
+                },
+                "Geometry Squares 16": {
+                    "id": 387,
+                    "tag": "Geometry Squares 16",
+                },
+                "Geometry Squares 32": {
+                    "id": 388,
+                    "tag": "Geometry Squares 32",
+                },
+                "H Length": {
+                    "id": 389,
+                    "tag": "H Length",
+                },
+                "V Length": {
+                    "id": 390,
+                    "tag": "V Length",
+                },
+                "Overscan": {
+                    "id": 391,
+                    "tag": "Overscan",
+                },
+                "BW Evaluation 2": {
+                    "id": 392,
+                    "tag": "BW Evaluation 2",
+                },
+                "BW Evaluation": {
+                    "id": 393,
+                    "tag": "BW Evaluation",
+                },
+                "H Wedge": {
+                    "id": 394,
+                    "tag": "H Wedge",
+                },
+                "Star Burst": {
+                    "id": 395,
+                    "tag": "Star Burst",
+                },
+                "V Wedge": {
+                    "id": 396,
+                    "tag": "V Wedge",
+                },
+                "RGB Text": {
+                    "id": 397,
+                    "tag": "RGB Text",
+                },
+            },
         },
     }
 }
