@@ -1,7 +1,8 @@
 """Decoder ring for the WebUI on the murideo"""
 
+# Master Dictionary for WebUI of Murideo 8K Seven Genderator
 Murideo_WebUI = (
-    {  # Master Dictionary for WebUI of Murideo 8K Seven Genderator
+    {
         "video generator": {
             "timing": {
                 "function": "sendsingle",  # Function needed to send the command ex: SENDSINGLE||97,110
@@ -3232,16 +3233,10 @@ Murideo_WebUI = (
                 "hdr custom 6": {"id": 8, "tag": "HDR CUSTOM 6"},
                 "hdr custom 7": {"id": 9, "tag": "HDR CUSTOM 7"},
                 "hdr custom 8": {"id": 10, "tag": "HDR CUSTOM 8"},
-                "infoframe injection": {
-                    # TODO Need to add this
-                },
+                "infoframe injection": {},  # TODO Need to add this
             },
-            "rgb triplet": {
-                # TODO Add this
-            },
-            "timing details": {
-                # TODO need to add this
-            },
+            "rgb triplet": {},  # TODO Need to add this
+            "timing details": {},  # TODO Need to add this
         },
         "video tests": {
             "function": "senddouble",
@@ -3274,6 +3269,59 @@ Murideo_WebUI = (
             "user video clip 1": {"id": 409, "tag": "User Video Clip 1"},
             "user video clip 2": {"id": 410, "tag": "User Video Clip 2"},
             "automation testing clip": {"id": 471, "tag": "Automation Testing Clip"},
+        },
+        "audio generator": {
+            "audio sampling rate": {
+                "function": "sendsingle",
+                "category_type": 103,
+                "32k": {"id": 0, "tag": "32K"},
+                "44.1k": {"id": 1, "tag": "44.1K"},
+                "48k": {"id": 2, "tag": "48K"},
+                "88k": {"id": 3, "tag": "88K"},
+                "96k": {"id": 4, "tag": "96K"},
+                "176k": {"id": 5, "tag": "176k"},
+                "192k": {"id": 6, "tag": "192k"},
+            },
+            "audio bit depth": {
+                "function": "sendsingle",
+                "category_type": 104,
+                "16bit": {"id": 0, "tag": "16Bit"},
+                "20bit": {"id": 1, "tag": "20Bit"},
+                "24bit": {"id": 2, "tag": "24Bit"},
+            },
+            "sinewave tone": {
+                "function": "sendsingle",
+                "category_type": 115,
+                "100hz": {"id": 0, "tag": "SINEWAVE TONE(100Hz)"},
+                "200hz": {"id": 1, "tag": "SINEWAVE TONE(200Hz)"},
+                "300hz": {"id": 2, "tag": "SINEWAVE TONE(300Hz)"},
+                "400hz": {"id": 3, "tag": "SINEWAVE TONE(400Hz)"},
+                "500hz": {"id": 4, "tag": "SINEWAVE TONE(500Hz)"},
+                "600hz": {"id": 5, "tag": "SINEWAVE TONE(600Hz)"},
+                "700hz": {"id": 6, "tag": "SINEWAVE TONE(700Hz)"},
+                "800hz": {"id": 7, "tag": "SINEWAVE TONE(800Hz)"},
+                "900hz": {"id": 8, "tag": "SINEWAVE TONE(900Hz)"},
+                "1khz": {"id": 9, "tag": "SINEWAVE TONE(1KHz)"},
+                "2khz": {"id": 10, "tag": "SINEWAVE TONE(2KHz)"},
+                "3khz": {"id": 11, "tag": "SINEWAVE TONE(3KHz)"},
+                "4khz": {"id": 12, "tag": "SINEWAVE TONE(4KHz)"},
+                "5khz": {"id": 13, "tag": "SINEWAVE TONE(5KHz)"},
+            },
+            "audio volume": {
+                "function": "sendsingle",
+                "category_type": 109,
+                "-60db": {"id": 0, "tag": "-60db"},
+                "-54db": {"id": 1, "tag": "-54db"},
+                "-48db": {"id": 2, "tag": "-48db"},
+                "-42db": {"id": 3, "tag": "-42db"},
+                "-36db": {"id": 4, "tag": "-36db"},
+                "-30db": {"id": 5, "tag": "-30db"},
+                "-24db": {"id": 6, "tag": "-24db"},
+                "-18db": {"id": 7, "tag": "-18db"},
+                "-12": {"id": 8, "tag": "-12"},
+                "-6db": {"id": 9, "tag": "-6db"},
+                "0db": {"id": 10, "tag": "0db"},
+            },
         },
     },
 )
