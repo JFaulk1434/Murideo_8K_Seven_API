@@ -1929,6 +1929,730 @@ Murideo_WebUI = {  # Master Dictionary for WebUI of Murideo 8K Seven Genderator
                     },
                 },
             },
+            "uhd sdr": {
+                "clipping & gamma": {
+                    "Target Limited": {
+                        "id": 168,
+                        "tag": "Target Limited",
+                    },
+                    "Target Full": {
+                        "id": 169,
+                        "tag": "Target Full",
+                    },
+                    "Contrast Check": {
+                        "id": 170,
+                        "tag": "Contrast Check",
+                    },
+                    "Contrast Lines": {
+                        "id": 171,
+                        "tag": "Contrast Lines",
+                    },
+                    "Gamma Check": {
+                        "id": 172,
+                        "tag": "Gamma Check",
+                    },
+                    "Gamma Lines": {
+                        "id": 173,
+                        "tag": "Gamma Lines",
+                    },
+                    "High Clipping": {
+                        "id": 174,
+                        "tag": "High Clipping",
+                    },
+                    "High Clip Red": {
+                        "id": 175,
+                        "tag": "High Clip Red",
+                    },
+                    "High Clip Green": {
+                        "id": 176,
+                        "tag": "High Clip Green",
+                    },
+                    "High Clip Blue": {
+                        "id": 177,
+                        "tag": "High Clip Blue",
+                    },
+                    "Low Clipping": {
+                        "id": 178,
+                        "tag": "Low Clipping",
+                    },
+                    "Low Clip Red": {
+                        "id": 179,
+                        "tag": "Low Clip Red",
+                    },
+                    "Low Clip Green": {
+                        "id": 180,
+                        "tag": "Low Clip Green",
+                    },
+                    "Low Clip Blue": {
+                        "id": 181,
+                        "tag": "Low Clip Blue",
+                    },
+                    "Composite Grey": {
+                        "id": 182,
+                        "tag": "Composite Grey",
+                    },
+                    "Composite Red": {
+                        "id": 183,
+                        "tag": "Composite Red",
+                    },
+                    "Composite Green": {
+                        "id": 184,
+                        "tag": "Composite Green",
+                    },
+                    "Composite Blue": {
+                        "id": 185,
+                        "tag": "Composite Blue",
+                    },
+                    "Lin Step Grey": {
+                        "id": 186,
+                        "tag": "Lin Step Grey",
+                    },
+                    "Lin Step Red": {
+                        "id": 187,
+                        "tag": "Lin Step Red",
+                    },
+                    "Lin Step Green": {
+                        "id": 188,
+                        "tag": "Lin Step Green",
+                    },
+                    "Lin Step Blue": {
+                        "id": 189,
+                        "tag": "Lin Step Blue",
+                    },
+                    "Lin Step Magent": {
+                        "id": 190,
+                        "tag": "Lin Step Magent",
+                    },
+                    "Lin Step Yellow": {
+                        "id": 191,
+                        "tag": "Lin Step Yellow",
+                    },
+                    "Lin Step Cyan": {
+                        "id": 192,
+                        "tag": "Lin Step Cyan",
+                    },
+                    "Log Step Grey": {
+                        "id": 193,
+                        "tag": "Log Step Grey",
+                    },
+                    "Log Step Red": {
+                        "id": 194,
+                        "tag": "Log Step Red",
+                    },
+                    "Log Step Green": {
+                        "id": 195,
+                        "tag": "Log Step Green",
+                    },
+                    "Log Step Blue": {
+                        "id": 196,
+                        "tag": "Log Step Blue",
+                    },
+                    "Log Step Magent": {
+                        "id": 197,
+                        "tag": "Log Step Magent",
+                    },
+                    "Log Step Yellow": {
+                        "id": 198,
+                        "tag": "Log Step Yellow",
+                    },
+                    "Log Step Cyan": {
+                        "id": 199,
+                        "tag": "Log Step Cyan",
+                    },
+                    "Gamma Grey": {
+                        "id": 200,
+                        "tag": "Gamma Grey",
+                    },
+                    "Gamma Red": {
+                        "id": 201,
+                        "tag": "Gamma Red",
+                    },
+                    "Gamma Green": {
+                        "id": 202,
+                        "tag": "Gamma Green",
+                    },
+                    "Gamma Blue": {
+                        "id": 203,
+                        "tag": "Gamma Blue",
+                    },
+                    "Gamma Lines Grey": {
+                        "id": 204,
+                        "tag": "Gamma Lines Grey",
+                    },
+                    "Gamma Lines Red": {
+                        "id": 205,
+                        "tag": "Gamma Lines Red",
+                    },
+                    "Gamma Lines Green": {
+                        "id": 206,
+                        "tag": "Gamma Lines Green",
+                    },
+                    "Gamma Lines Blue": {
+                        "id": 207,
+                        "tag": "Gamma Lines Blue",
+                    },
+                },
+                "color bars & noise": {
+                    "Color Wipe Full": {
+                        "id": 208,
+                        "tag": "Color Wipe Full",
+                    },
+                    "Color Wipe Half": {
+                        "id": 209,
+                        "tag": "Color Wipe Half",
+                    },
+                    "Quick Check": {
+                        "id": 210,
+                        "tag": "Quick Check",
+                    },
+                    "H Bars RGB": {
+                        "id": 211,
+                        "tag": "H Bars RGB",
+                    },
+                    "H Bars RGBCMY": {
+                        "id": 212,
+                        "tag": "H Bars RGBCMY",
+                    },
+                    "H Bars Shade": {
+                        "id": 214,
+                        "tag": "H Bars Shade",
+                    },
+                    "V Bars RGB": {
+                        "id": 215,
+                        "tag": "V Bars RGB",
+                    },
+                    "V Bars RGBCMY": {
+                        "id": 216,
+                        "tag": "V Bars RGBCMY",
+                    },
+                    "V Bars Layover": {
+                        "id": 217,
+                        "tag": "V Bars Layover",
+                    },
+                    "V Bars Shade": {
+                        "id": 218,
+                        "tag": "V Bars Shade",
+                    },
+                    "Color Noise 01": {
+                        "id": 219,
+                        "tag": "Color Noise 01",
+                    },
+                    "Color Noise 02": {
+                        "id": 220,
+                        "tag": "Color Noise 02",
+                    },
+                    "Color Noise 04": {
+                        "id": 221,
+                        "tag": "Color Noise 04",
+                    },
+                    "Color Noise 08": {
+                        "id": 222,
+                        "tag": "Color Noise 08",
+                    },
+                    "Color Noise 16": {
+                        "id": 223,
+                        "tag": "Color Noise 16",
+                    },
+                    "Grey Moise 01": {
+                        "id": 224,
+                        "tag": "Color Noise 01",
+                    },
+                    "Grey Moise 02": {
+                        "id": 225,
+                        "tag": "Color Noise 02",
+                    },
+                    "Grey Moise 04": {
+                        "id": 226,
+                        "tag": "Color Noise 04",
+                    },
+                    "Grey Moise 08": {
+                        "id": 227,
+                        "tag": "Color Noise 08",
+                    },
+                    "Grey Moise 16": {
+                        "id": 228,
+                        "tag": "Color Noise 16",
+                    },
+                },
+                "color checker": {
+                    "HSL BlueMagenta": {
+                        "id": 229,
+                        "tag": "HSL BlueMagenta",
+                    },
+                    "HSL Blue": {
+                        "id": 230,
+                        "tag": "HSL Blue",
+                    },
+                    "HSL Cyan Blue": {
+                        "id": 231,
+                        "tag": "HSL Cyan Blue",
+                    },
+                    "HSL Cyan": {
+                        "id": 232,
+                        "tag": "HSL Cyan",
+                    },
+                    "HSL Green Cyan": {
+                        "id": 233,
+                        "tag": "HSL Green Cyan",
+                    },
+                    "HSL Green": {
+                        "id": 234,
+                        "tag": "HSL Green",
+                    },
+                    "HSL Magenta Red": {
+                        "id": 235,
+                        "tag": "HSL Magenta Red",
+                    },
+                    "HSL Magenta": {
+                        "id": 236,
+                        "tag": "HSL Magenta",
+                    },
+                    "HSL Red": {
+                        "id": 237,
+                        "tag": "HSL Red",
+                    },
+                    "HSL Yellow Green": {
+                        "id": 238,
+                        "tag": "HSL Yellow Green",
+                    },
+                    "HSL Yellow Red": {
+                        "id": 239,
+                        "tag": "HSL Yellow Red",
+                    },
+                    "HSL Yellow": {
+                        "id": 240,
+                        "tag": "HSL Yellow",
+                    },
+                    "HSV BlueMagenta": {
+                        "id": 241,
+                        "tag": "HSV BlueMagenta",
+                    },
+                    "HSV Cyan Blue": {
+                        "id": 243,
+                        "tag": "HSV Cyan Blue",
+                    },
+                    "HSV Cyan": {
+                        "id": 244,
+                        "tag": "HSV Cyan",
+                    },
+                    "HSV Green Cyan": {
+                        "id": 245,
+                        "tag": "HSV Green Cyan",
+                    },
+                    "HSV Green": {
+                        "id": 246,
+                        "tag": "HSV Green",
+                    },
+                    "HSV Magenta Red": {
+                        "id": 247,
+                        "tag": "HSV Magenta Red",
+                    },
+                    "HSV Magenta": {
+                        "id": 248,
+                        "tag": "HSV Magenta",
+                    },
+                    "HSV Red": {
+                        "id": 249,
+                        "tag": "HSV Red",
+                    },
+                    "HSV Yellow Green": {
+                        "id": 250,
+                        "tag": "HSV Yellow Green",
+                    },
+                    "HSV Yellow Red": {
+                        "id": 251,
+                        "tag": "HSV Yellow Red",
+                    },
+                    "HSV Yellow": {
+                        "id": 252,
+                        "tag": "HSV Yellow",
+                    },
+                    "RGB Blue 064": {
+                        "id": 253,
+                        "tag": "RGB Blue 064",
+                    },
+                    "RGB Blue 127": {
+                        "id": 254,
+                        "tag": "RGB Blue 127",
+                    },
+                    "RGB Blue 191": {
+                        "id": 255,
+                        "tag": "RGB Blue 191",
+                    },
+                    "RGB Blue 255": {
+                        "id": 256,
+                        "tag": "RGB Blue 255",
+                    },
+                    "RGB Green 064": {
+                        "id": 257,
+                        "tag": "RGB Green 064",
+                    },
+                    "RGB Green 127": {
+                        "id": 258,
+                        "tag": "RGB Green 127",
+                    },
+                    "RGB Green 191": {
+                        "id": 259,
+                        "tag": "RGB Green 191",
+                    },
+                    "RGB Green 255": {
+                        "id": 260,
+                        "tag": "RGB Green 255",
+                    },
+                    "RGB Red 064": {
+                        "id": 261,
+                        "tag": "RGB Red 064",
+                    },
+                    "RGB Red 127": {
+                        "id": 262,
+                        "tag": "RGB Red 127",
+                    },
+                    "RGB Red 191": {
+                        "id": 263,
+                        "tag": "RGB Red 191",
+                    },
+                    "RGB Red 255": {
+                        "id": 264,
+                        "tag": "RGB Red 255",
+                    },
+                },
+                "geometry and resolution": {
+                    "H Convergence": {
+                        "id": 265,
+                        "tag": "H Convergence",
+                    },
+                    "V Convergence": {
+                        "id": 266,
+                        "tag": "V Convergence",
+                    },
+                    "H Length": {
+                        "id": 267,
+                        "tag": "H Length",
+                    },
+                    "V Length": {
+                        "id": 268,
+                        "tag": "V Length",
+                    },
+                    "Overscan": {
+                        "id": 269,
+                        "tag": "Overscan",
+                    },
+                    "BW Evaluation": {
+                        "id": 270,
+                        "tag": "BW Evaluation",
+                    },
+                    "BW Evaluation 2": {
+                        "id": 271,
+                        "tag": "BW Evaluation 2",
+                    },
+                    "H Wedge": {
+                        "id": 272,
+                        "tag": "H Wedge",
+                    },
+                    "Star Burst": {
+                        "id": 273,
+                        "tag": "Star Burst",
+                    },
+                    "V Wedge": {
+                        "id": 274,
+                        "tag": "V Wedge",
+                    },
+                    "H Multiburst": {
+                        "id": 275,
+                        "tag": "H Multiburst",
+                    },
+                    "V Multiburst": {
+                        "id": 276,
+                        "tag": "V Multiburst",
+                    },
+                    "Checkers 02": {
+                        "id": 277,
+                        "tag": "Checkers 02",
+                    },
+                    "Checkers 04": {
+                        "id": 278,
+                        "tag": "Checkers 04",
+                    },
+                    "Checkers 08": {
+                        "id": 279,
+                        "tag": "Checkers 08",
+                    },
+                    "Checkers 16": {
+                        "id": 280,
+                        "tag": "Checkers 16",
+                    },
+                    "Checkers 32": {
+                        "id": 281,
+                        "tag": "Checkers 32",
+                    },
+                    "Checkers Log": {
+                        "id": 282,
+                        "tag": "Checkers Log",
+                    },
+                    "Many Circles": {
+                        "id": 283,
+                        "tag": "Many Circles",
+                    },
+                    "Center Circle": {
+                        "id": 284,
+                        "tag": "Center Circle",
+                    },
+                    "Many Squares": {
+                        "id": 285,
+                        "tag": "Many Squares",
+                    },
+                    "Grid": {
+                        "id": 286,
+                        "tag": "Grid",
+                    },
+                    "H Lines 02": {
+                        "id": 287,
+                        "tag": "H Lines 02",
+                    },
+                    "H Lines 04": {
+                        "id": 288,
+                        "tag": "H Lines 04",
+                    },
+                    "H Lines 08": {
+                        "id": 289,
+                        "tag": "H Lines 08",
+                    },
+                    "H Lines Log": {
+                        "id": 290,
+                        "tag": "H Lines Log",
+                    },
+                    "V Lines 02": {
+                        "id": 291,
+                        "tag": "V Lines 02",
+                    },
+                    "V Lines 04": {
+                        "id": 292,
+                        "tag": "V Lines 04",
+                    },
+                    "V Lines 08": {
+                        "id": 293,
+                        "tag": "V Lines 08",
+                    },
+                    "V Lines Log": {
+                        "id": 294,
+                        "tag": "V Lines Log",
+                    },
+                    "Points 02": {
+                        "id": 295,
+                        "tag": "Points 02",
+                    },
+                    "Points 04": {
+                        "id": 296,
+                        "tag": "Points 04",
+                    },
+                    "Points 08": {
+                        "id": 297,
+                        "tag": "Points 08",
+                    },
+                    "Points 16": {
+                        "id": 298,
+                        "tag": "Points 16",
+                    },
+                    "Points 32": {
+                        "id": 299,
+                        "tag": "Points 32",
+                    },
+                    "Squares 02": {
+                        "id": 300,
+                        "tag": "Squares 02",
+                    },
+                    "Squares 04": {
+                        "id": 301,
+                        "tag": "Squares 04",
+                    },
+                    "Squares 08": {
+                        "id": 302,
+                        "tag": "Squares 08",
+                    },
+                    "Squares 16": {
+                        "id": 303,
+                        "tag": "Squares 16",
+                    },
+                    "Squares 32": {
+                        "id": 304,
+                        "tag": "Squares 32",
+                    },
+                },
+                "ramps": {
+                    "Color Patch": {
+                        "id": 305,
+                        "tag": "Color Patch",
+                    },
+                    "Triangle ": {
+                        "id": 306,
+                        "tag": "Triangle",
+                    },
+                    "Wireframe": {
+                        "id": 307,
+                        "tag": "Wireframe",
+                    },
+                    "Full Red": {
+                        "id": 308,
+                        "tag": "Full Red",
+                    },
+                    "Full Green": {
+                        "id": 309,
+                        "tag": "Full Green",
+                    },
+                    "Full Blue": {
+                        "id": 310,
+                        "tag": "Full Blue",
+                    },
+                    "Full Magenta": {
+                        "id": 311,
+                        "tag": "Full Magenta",
+                    },
+                    "Full Yellow": {
+                        "id": 312,
+                        "tag": "Full Yellow",
+                    },
+                    "Full Cyan": {
+                        "id": 313,
+                        "tag": "Full Cyan",
+                    },
+                    "Full Grey": {
+                        "id": 314,
+                        "tag": "Full Grey",
+                    },
+                    "Half Red": {
+                        "id": 315,
+                        "tag": "Half Red",
+                    },
+                    "Half Green": {
+                        "id": 316,
+                        "tag": "Half Green",
+                    },
+                    "Half Blue": {
+                        "id": 317,
+                        "tag": "Half Blue",
+                    },
+                    "Half Magenta": {
+                        "id": 318,
+                        "tag": "Half Magenta",
+                    },
+                    "Half Yellow": {
+                        "id": 319,
+                        "tag": "Half Yellow",
+                    },
+                    "Half Cyan": {
+                        "id": 320,
+                        "tag": "Half Cyan",
+                    },
+                    "HSL Sat 0.00": {
+                        "id": 321,
+                        "tag": "HSL Sat 0.00",
+                    },
+                    "HSL Hue 0.00": {
+                        "id": 322,
+                        "tag": "HSL Hue 0.00",
+                    },
+                    "HSL Hue 0.33": {
+                        "id": 323,
+                        "tag": "HSL Hue 0.33",
+                    },
+                    "HSL Hue 0.66": {
+                        "id": 324,
+                        "tag": "HSL Hue 0.66",
+                    },
+                    "HSL Lev 0.25": {
+                        "id": 325,
+                        "tag": "HSL Lev 0.25",
+                    },
+                    "HSL Lev 0.50": {
+                        "id": 326,
+                        "tag": "HSL Lev 0.50",
+                    },
+                    "HSL Lev 0.75": {
+                        "id": 327,
+                        "tag": "HSL Lev 0.75",
+                    },
+                    "HSV Sat 0.00": {
+                        "id": 328,
+                        "tag": "HSV Sat 0.00",
+                    },
+                    "HSV Sat 0.50": {
+                        "id": 329,
+                        "tag": "HSV Sat 0.50",
+                    },
+                    "HSV Sat 1.00": {
+                        "id": 330,
+                        "tag": "HSV Sat 1.00",
+                    },
+                    "HSV Hue 0.00": {
+                        "id": 331,
+                        "tag": "HSV Hue 0.00",
+                    },
+                    "HSV Hue 0.33": {
+                        "id": 332,
+                        "tag": "HSV Hue 0.33",
+                    },
+                    "HSV Hue 0.66": {
+                        "id": 333,
+                        "tag": "HSV Hue 0.66",
+                    },
+                    "HSV Sat 0.50": {
+                        "id": 334,
+                        "tag": "HSV Sat 0.50",
+                    },
+                    "HSV Sat 1.00": {
+                        "id": 335,
+                        "tag": "HSV Sat 1.00",
+                    },
+                    "HSV Val 0.00": {
+                        "id": 336,
+                        "tag": "HSV Sat 0.00",
+                    },
+                    "HSV Val 0.50": {
+                        "id": 337,
+                        "tag": "HSV Sat 0.50",
+                    },
+                    "HSV Val 1.00": {
+                        "id": 338,
+                        "tag": "HSV Sat 1.00",
+                    },
+                    "RGB Green 000": {
+                        "id": 339,
+                        "tag": "RGB Green 000",
+                    },
+                    "RGB Green 127": {
+                        "id": 340,
+                        "tag": "RGB Green 127",
+                    },
+                    "RGB Green 255": {
+                        "id": 341,
+                        "tag": "RGB Green 255",
+                    },
+                    "RGB Blue 000": {
+                        "id": 342,
+                        "tag": "RGB Blue 000",
+                    },
+                    "RGB Blue 127": {
+                        "id": 343,
+                        "tag": "RGB Blue 127",
+                    },
+                    "RGB Blue 255": {
+                        "id": 344,
+                        "tag": "RGB Blue 255",
+                    },
+                    "RGB Red 000": {
+                        "id": 345,
+                        "tag": "RGB Red 000",
+                    },
+                    "RGB Red 127": {
+                        "id": 346,
+                        "tag": "RGB Red 127",
+                    },
+                    "RGB Red 255": {
+                        "id": 347,
+                        "tag": "RGB Red 255",
+                    },
+                },
+            },
         },
     }
 }
