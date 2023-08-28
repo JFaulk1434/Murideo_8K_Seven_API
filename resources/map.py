@@ -2917,6 +2917,118 @@ Murideo_WebUI = {  # Master Dictionary for WebUI of Murideo 8K Seven Genderator
                     "tag": "RGB Text",
                 },
             },
+            "pva": {
+                "BT709 White_Clipping": {
+                    "id": 443,
+                    "tag": "(BT709) White_Clipping",
+                },
+                "BT709 Black_Clipping": {
+                    "id": 444,
+                    "tag": "(BT709) Black_Clipping",
+                },
+                "BT709 APL_W_B_CLipping": {
+                    "id": 445,
+                    "tag": "(BT709) APL_W_B_Clipping",
+                },
+                "BT709 Color_Clipping": {
+                    "id": 446,
+                    "tag": "(BT709) Color_Clipping",
+                },
+                "BT709 Sharpness_Overscan": {
+                    "id": 447,
+                    "tag": "(BT709) Sharpness_Overscan",
+                },
+                "BT709 Alignment": {
+                    "id": 448,
+                    "tag": "(BT709) Alignment",
+                },
+                "BT709 Multi_Skin_Tone": {
+                    "id": 449,
+                    "tag": "(BT709) Multi_Skin_Tone",
+                },
+                "BT709 Restaurant_Scene": {
+                    "id": 450,
+                    "tag": "(BT709) Restaurant_Scene",
+                },
+                "BT709 Skin_Tone": {
+                    "id": 451,
+                    "tag": "(BT709) Skin_Tone",
+                },
+                "BT2020 White_Clipping": {
+                    "id": 579,
+                    "tag": "(BT2020) White_Clipping",
+                },
+                "BT2020 Black_Clipping": {
+                    "id": 580,
+                    "tag": "(BT2020) Black_Clipping",
+                },
+                "BT2020 APL_W_B_CLipping": {
+                    "id": 581,
+                    "tag": "(BT2020) APL_W_B_Clipping",
+                },
+                "BT2020 Color_Clipping": {
+                    "id": 582,
+                    "tag": "(BT2020) Color_Clipping",
+                },
+                "BT2020 Sharpness_Overscan": {
+                    "id": 583,
+                    "tag": "(BT2020) Sharpness_Overscan",
+                },
+                "BT2020 Alignment": {
+                    "id": 584,
+                    "tag": "(BT2020) Alignment",
+                },
+                "BT2020 Multi_Skin_Tone": {
+                    "id": 585,
+                    "tag": "(BT2020) Multi_Skin_Tone",
+                },
+                "BT2020 Restaurant_Scene": {
+                    "id": 586,
+                    "tag": "(BT2020) Restaurant_Scene",
+                },
+                "BT2020 Skin_Tone": {
+                    "id": 587,
+                    "tag": "(BT2020) Skin_Tone",
+                },
+            },
+            "spe": {
+                "4:2:0 Girl": {
+                    "id": 452,
+                    "tag": "(4:2:0) Girl",
+                },
+                "4:2:0 Women": {
+                    "id": 453,
+                    "tag": "(4:2:0) Women",
+                },
+                "4:2:0 Girl HDR & SDR": {
+                    "id": 454,
+                    "tag": "(4:2:0) Girl HDR & SDR",
+                },
+                "4:4:4 Full Girl": {
+                    "id": 455,
+                    "tag": "(4:4:4 Full) Girl",
+                },
+                "4:4:4 Full Women": {
+                    "id": 588,
+                    "tag": "(4:4:4 Full) Women",
+                },
+                "4:4:4 Full Girl HDR & SDR": {
+                    "id": 589,
+                    "tag": "(4:4:4 Full) Girl HDR & SDR",
+                },
+                "4:4:4 Limit Girl": {
+                    "id": 590,
+                    "tag": "(4:4:4 Limit) Girl",
+                },
+                "4:4:4 Limit Women": {
+                    "id": 591,
+                    "tag": "(4:4:4 Limit) Women",
+                },
+                "4:4:4 Limit Girl HDR & SDR": {
+                    "id": 590,
+                    "tag": "(4:4:4 Limit) Girl HDR & SDR",
+                },
+            },
         },
     }
 }
