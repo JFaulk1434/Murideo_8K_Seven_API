@@ -3,10 +3,13 @@
 # Master Dictionary for WebUI of Murideo 8K Seven Genderator
 Murideo_WebUI = {
     "video generator": {
+        "tag": "Video Generator",
         "timing": {
+            "tag": "TIMING",
             "function": "sendsingle",  # Function needed to send the command ex: SENDSINGLE||97,110
             "category_type": 97,  # ID For the category in this case it's 97=Timing
             "8k": {
+                "tag": "8K",
                 "7680x4320@30": {
                     "id": 110,  # command to be called for this resolution
                     "h_rez": 7680,  # Horizontal Pixels
@@ -15,2083 +18,1168 @@ Murideo_WebUI = {
                     "tag": "7680x4320 30Hz",  # The actual Button text
                 },
                 "7680x4320@29.97": {
-                    "id": 111,  # command to be called for this resolution
-                    "h_rez": 7680,  # Horizontal Pixels
-                    "v_rez": 4320,  # Vertical Pixels
-                    "refresh": 29.97,  # Refresh Rate
-                    "tag": "7680x4320 29.97Hz",  # The actual Button text
+                    "id": 111,
+                    "h_rez": 7680,
+                    "v_rez": 4320,
+                    "refresh": 29.97,
+                    "tag": "7680x4320 29.97Hz",
                 },
                 "7680x4320@25": {
-                    "id": 112,  # command to be called for this resolution
-                    "h_rez": 7680,  # Horizontal Pixels
-                    "v_rez": 4320,  # Vertical Pixels
-                    "refresh": 25,  # Refresh Rate
-                    "tag": "7680x4320 25Hz",  # The actual Button text
+                    "id": 112,
+                    "h_rez": 7680,
+                    "v_rez": 4320,
+                    "refresh": 25,
+                    "tag": "7680x4320 25Hz",
                 },
                 "7680x4320@24": {
-                    "id": 113,  # command to be called for this resolution
-                    "h_rez": 7680,  # Horizontal Pixels
-                    "v_rez": 4320,  # Vertical Pixels
-                    "refresh": 24,  # Refresh Rate
-                    "tag": "7680x4320 24Hz",  # The actual Button text
+                    "id": 113,
+                    "h_rez": 7680,
+                    "v_rez": 4320,
+                    "refresh": 24,
+                    "tag": "7680x4320 24Hz",
                 },
                 "7680x4320@23.98": {
-                    "id": 114,  # command to be called for this resolution
-                    "h_rez": 7680,  # Horizontal Pixels
-                    "v_rez": 4320,  # Vertical Pixels
-                    "refresh": 23.98,  # Refresh Rate
-                    "tag": "7680x4320 23.98Hz",  # The actual Button text
+                    "id": 114,
+                    "h_rez": 7680,
+                    "v_rez": 4320,
+                    "refresh": 23.98,
+                    "tag": "7680x4320 23.98Hz",
                 },
                 "7680x4320@60": {
-                    "id": 115,  # command to be called for this resolution
-                    "h_rez": 7680,  # Horizontal Pixels
-                    "v_rez": 4320,  # Vertical Pixels
-                    "refresh": 60,  # Refresh Rate
-                    "tag": "7680x4320 60Hz",  # The actual Button text
+                    "id": 115,
+                    "h_rez": 7680,
+                    "v_rez": 4320,
+                    "refresh": 60,
+                    "tag": "7680x4320 60Hz",
                 },
                 "7680x4320@59.94": {
-                    "id": 116,  # command to be called for this resolution
-                    "h_rez": 7680,  # Horizontal Pixels
-                    "v_rez": 4320,  # Vertical Pixels
-                    "refresh": 59.94,  # Refresh Rate
-                    "tag": "7680x4320 59.94Hz",  # The actual Button text
+                    "id": 116,
+                    "h_rez": 7680,
+                    "v_rez": 4320,
+                    "refresh": 59.94,
+                    "tag": "7680x4320 59.94Hz",
                 },
                 "7680x4320@50": {
-                    "id": 117,  # command to be called for this resolution
-                    "h_rez": 7680,  # Horizontal Pixels
-                    "v_rez": 4320,  # Vertical Pixels
-                    "refresh": 50,  # Refresh Rate
-                    "tag": "7680x4320 50Hz",  # The actual Button text
+                    "id": 117,
+                    "h_rez": 7680,
+                    "v_rez": 4320,
+                    "refresh": 50,
+                    "tag": "7680x4320 50Hz",
                 },
                 "7680x4320@48": {
-                    "id": 118,  # command to be called for this resolution
-                    "h_rez": 7680,  # Horizontal Pixels
-                    "v_rez": 4320,  # Vertical Pixels
-                    "refresh": 48,  # Refresh Rate
-                    "tag": "7680x4320 48Hz",  # The actual Button text
+                    "id": 118,
+                    "h_rez": 7680,
+                    "v_rez": 4320,
+                    "refresh": 48,
+                    "tag": "7680x4320 48Hz",
                 },
                 "7680x4320@47.95": {
-                    "id": 119,  # command to be called for this resolution
-                    "h_rez": 7680,  # Horizontal Pixels
-                    "v_rez": 4320,  # Vertical Pixels
-                    "refresh": 47.95,  # Refresh Rate
-                    "tag": "7680x4320 47.95Hz",  # The actual Button text
+                    "id": 119,
+                    "h_rez": 7680,
+                    "v_rez": 4320,
+                    "refresh": 47.95,
+                    "tag": "7680x4320 47.95Hz",
                 },
             },
             "uhd": {
+                "tag": "UHD",
                 "3840x2160@30": {
-                    "id": 28,  # command to be called for this resolution
-                    "h_rez": 3840,  # Horizontal Pixels
-                    "v_rez": 2160,  # Vertical Pixels
-                    "refresh": 30,  # Refresh Rate
-                    "tag": "3840x2160 30Hz",  # The actual Button text
+                    "id": 28,
+                    "h_rez": 3840,
+                    "v_rez": 2160,
+                    "refresh": 30,
+                    "tag": "3840x2160 30Hz",
                 },
                 "3840x2160@29.97": {
-                    "id": 29,  # command to be called for this resolution
-                    "h_rez": 3840,  # Horizontal Pixels
-                    "v_rez": 2160,  # Vertical Pixels
-                    "refresh": 29.97,  # Refresh Rate
-                    "tag": "3840x2160 29.97Hz",  # The actual Button text
+                    "id": 29,
+                    "h_rez": 3840,
+                    "v_rez": 2160,
+                    "refresh": 29.97,
+                    "tag": "3840x2160 29.97Hz",
                 },
                 "3840x2160@25": {
-                    "id": 30,  # command to be called for this resolution
-                    "h_rez": 3840,  # Horizontal Pixels
-                    "v_rez": 2160,  # Vertical Pixels
-                    "refresh": 25,  # Refresh Rate
-                    "tag": "3840x2160 25Hz",  # The actual Button text
+                    "id": 30,
+                    "h_rez": 3840,
+                    "v_rez": 2160,
+                    "refresh": 25,
+                    "tag": "3840x2160 25Hz",
                 },
                 "3840x2160@24": {
-                    "id": 31,  # command to be called for this resolution
-                    "h_rez": 3840,  # Horizontal Pixels
-                    "v_rez": 2160,  # Vertical Pixels
-                    "refresh": 24,  # Refresh Rate
-                    "tag": "3840x2160 24Hz",  # The actual Button text
+                    "id": 31,
+                    "h_rez": 3840,
+                    "v_rez": 2160,
+                    "refresh": 24,
+                    "tag": "3840x2160 24Hz",
                 },
                 "3840x2160@23.98": {
-                    "id": 32,  # command to be called for this resolution
-                    "h_rez": 3840,  # Horizontal Pixels
-                    "v_rez": 2160,  # Vertical Pixels
-                    "refresh": 23.98,  # Refresh Rate
-                    "tag": "3840x2160 23.98Hz",  # The actual Button text
+                    "id": 32,
+                    "h_rez": 3840,
+                    "v_rez": 2160,
+                    "refresh": 23.98,
+                    "tag": "3840x2160 23.98Hz",
                 },
                 "3840x2160@60": {
-                    "id": 34,  # command to be called for this resolution
-                    "h_rez": 3840,  # Horizontal Pixels
-                    "v_rez": 2160,  # Vertical Pixels
-                    "refresh": 60,  # Refresh Rate
-                    "tag": "3840x2160 60Hz",  # The actual Button text
+                    "id": 34,
+                    "h_rez": 3840,
+                    "v_rez": 2160,
+                    "refresh": 60,
+                    "tag": "3840x2160 60Hz",
                 },
                 "3840x2160@59.94": {
-                    "id": 35,  # command to be called for this resolution
-                    "h_rez": 3840,  # Horizontal Pixels
-                    "v_rez": 2160,  # Vertical Pixels
-                    "refresh": 59.94,  # Refresh Rate
-                    "tag": "3840x2160 59.94Hz",  # The actual Button text
+                    "id": 35,
+                    "h_rez": 3840,
+                    "v_rez": 2160,
+                    "refresh": 59.94,
+                    "tag": "3840x2160 59.94Hz",
                 },
                 "3840x2160@50": {
-                    "id": 36,  # command to be called for this resolution
-                    "h_rez": 3840,  # Horizontal Pixels
-                    "v_rez": 2160,  # Vertical Pixels
-                    "refresh": 50,  # Refresh Rate
-                    "tag": "3840x2160 50Hz",  # The actual Button text
+                    "id": 36,
+                    "h_rez": 3840,
+                    "v_rez": 2160,
+                    "refresh": 50,
+                    "tag": "3840x2160 50Hz",
                 },
                 "3840x2160@48": {
-                    "id": 103,  # command to be called for this resolution
-                    "h_rez": 3840,  # Horizontal Pixels
-                    "v_rez": 2160,  # Vertical Pixels
-                    "refresh": 48,  # Refresh Rate
-                    "tag": "3840x2160 48Hz",  # The actual Button text
+                    "id": 103,
+                    "h_rez": 3840,
+                    "v_rez": 2160,
+                    "refresh": 48,
+                    "tag": "3840x2160 48Hz",
                 },
                 "3840x2160@47.95": {
-                    "id": 104,  # command to be called for this resolution
-                    "h_rez": 3840,  # Horizontal Pixels
-                    "v_rez": 2160,  # Vertical Pixels
-                    "refresh": 47.95,  # Refresh Rate
-                    "tag": "3840x2160 47.95Hz",  # The actual Button text
+                    "id": 104,
+                    "h_rez": 3840,
+                    "v_rez": 2160,
+                    "refresh": 47.95,
+                    "tag": "3840x2160 47.95Hz",
                 },
                 "3840x2160@100": {
-                    "id": 107,  # command to be called for this resolution
-                    "h_rez": 3840,  # Horizontal Pixels
-                    "v_rez": 2160,  # Vertical Pixels
-                    "refresh": 100,  # Refresh Rate
-                    "tag": "3840x2160 100Hz",  # The actual Button text
+                    "id": 107,
+                    "h_rez": 3840,
+                    "v_rez": 2160,
+                    "refresh": 100,
+                    "tag": "3840x2160 100Hz",
                 },
                 "3840x2160@120": {
-                    "id": 108,  # command to be called for this resolution
-                    "h_rez": 3840,  # Horizontal Pixels
-                    "v_rez": 2160,  # Vertical Pixels
-                    "refresh": 120,  # Refresh Rate
-                    "tag": "3840x2160 120Hz",  # The actual Button text
+                    "id": 108,
+                    "h_rez": 3840,
+                    "v_rez": 2160,
+                    "refresh": 120,
+                    "tag": "3840x2160 120Hz",
                 },
                 "3840x2160@119.88": {
-                    "id": 109,  # command to be called for this resolution
-                    "h_rez": 3840,  # Horizontal Pixels
-                    "v_rez": 2160,  # Vertical Pixels
-                    "refresh": 119.88,  # Refresh Rate
-                    "tag": "3840x2160 119.88Hz",  # The actual Button text
+                    "id": 109,
+                    "h_rez": 3840,
+                    "v_rez": 2160,
+                    "refresh": 119.88,
+                    "tag": "3840x2160 119.88Hz",
                 },
             },
             "4k-dci": {
+                "tag": "4K-DCI",
                 "4096x2160@30": {
-                    "id": 53,  # command to be called for this resolution
-                    "h_rez": 4096,  # Horizontal Pixels
-                    "v_rez": 2160,  # Vertical Pixels
-                    "refresh": 30,  # Refresh Rate
-                    "tag": "4096x2160 30Hz",  # The actual Button text
+                    "id": 53,
+                    "h_rez": 4096,
+                    "v_rez": 2160,
+                    "refresh": 30,
+                    "tag": "4096x2160 30Hz",
                 },
                 "4096x2160@29.97": {
-                    "id": 54,  # command to be called for this resolution
-                    "h_rez": 4096,  # Horizontal Pixels
-                    "v_rez": 2160,  # Vertical Pixels
-                    "refresh": 29.97,  # Refresh Rate
-                    "tag": "4096x2160 29.97Hz",  # The actual Button text
+                    "id": 54,
+                    "h_rez": 4096,
+                    "v_rez": 2160,
+                    "refresh": 29.97,
+                    "tag": "4096x2160 29.97Hz",
                 },
                 "4096x2160@25": {
-                    "id": 55,  # command to be called for this resolution
-                    "h_rez": 4096,  # Horizontal Pixels
-                    "v_rez": 2160,  # Vertical Pixels
-                    "refresh": 25,  # Refresh Rate
-                    "tag": "4096x2160 25Hz",  # The actual Button text
+                    "id": 55,
+                    "h_rez": 4096,
+                    "v_rez": 2160,
+                    "refresh": 25,
+                    "tag": "4096x2160 25Hz",
                 },
                 "4096x2160@24": {
-                    "id": 44,  # command to be called for this resolution
-                    "h_rez": 4096,  # Horizontal Pixels
-                    "v_rez": 2160,  # Vertical Pixels
-                    "refresh": 24,  # Refresh Rate
-                    "tag": "4096x2160 24Hz",  # The actual Button text
+                    "id": 44,
+                    "h_rez": 4096,
+                    "v_rez": 2160,
+                    "refresh": 24,
+                    "tag": "4096x2160 24Hz",
                 },
                 "4096x2160@23.976": {
-                    "id": 56,  # command to be called for this resolution
-                    "h_rez": 4096,  # Horizontal Pixels
-                    "v_rez": 2160,  # Vertical Pixels
-                    "refresh": 23.976,  # Refresh Rate
-                    "tag": "4096x2160 23.976Hz",  # The actual Button text
+                    "id": 56,
+                    "h_rez": 4096,
+                    "v_rez": 2160,
+                    "refresh": 23.976,
+                    "tag": "4096x2160 23.976Hz",
                 },
                 "4096x2160@60": {
-                    "id": 57,  # command to be called for this resolution
-                    "h_rez": 4096,  # Horizontal Pixels
-                    "v_rez": 2160,  # Vertical Pixels
-                    "refresh": 60,  # Refresh Rate
-                    "tag": "4096x2160 60Hz",  # The actual Button text
+                    "id": 57,
+                    "h_rez": 4096,
+                    "v_rez": 2160,
+                    "refresh": 60,
+                    "tag": "4096x2160 60Hz",
                 },
                 "4096x2160@59.94": {
-                    "id": 58,  # command to be called for this resolution
-                    "h_rez": 4096,  # Horizontal Pixels
-                    "v_rez": 2160,  # Vertical Pixels
-                    "refresh": 59.94,  # Refresh Rate
-                    "tag": "4096x2160 59.94Hz",  # The actual Button text
+                    "id": 58,
+                    "h_rez": 4096,
+                    "v_rez": 2160,
+                    "refresh": 59.94,
+                    "tag": "4096x2160 59.94Hz",
                 },
                 "4096x2160@50": {
-                    "id": 59,  # command to be called for this resolution
-                    "h_rez": 4096,  # Horizontal Pixels
-                    "v_rez": 2160,  # Vertical Pixels
-                    "refresh": 50,  # Refresh Rate
-                    "tag": "4096x2160 50Hz",  # The actual Button text
+                    "id": 59,
+                    "h_rez": 4096,
+                    "v_rez": 2160,
+                    "refresh": 50,
+                    "tag": "4096x2160 50Hz",
                 },
                 "4096x2160@48": {
-                    "id": 105,  # command to be called for this resolution
-                    "h_rez": 4096,  # Horizontal Pixels
-                    "v_rez": 2160,  # Vertical Pixels
-                    "refresh": 48,  # Refresh Rate
-                    "tag": "4096x2160 48Hz",  # The actual Button text
+                    "id": 105,
+                    "h_rez": 4096,
+                    "v_rez": 2160,
+                    "refresh": 48,
+                    "tag": "4096x2160 48Hz",
                 },
                 "4096x2160@47.95": {
-                    "id": 106,  # command to be called for this resolution
-                    "h_rez": 4096,  # Horizontal Pixels
-                    "v_rez": 2160,  # Vertical Pixels
-                    "refresh": 47.95,  # Refresh Rate
-                    "tag": "4096x2160 47.95Hz",  # The actual Button text
+                    "id": 106,
+                    "h_rez": 4096,
+                    "v_rez": 2160,
+                    "refresh": 47.95,
+                    "tag": "4096x2160 47.95Hz",
                 },
             },
             "2k-dci": {
+                "tag": "2K-DCI",
                 "2048x1080@30": {
-                    "id": 73,  # command to be called for this resolution
-                    "h_rez": 2048,  # Horizontal Pixels
-                    "v_rez": 1080,  # Vertical Pixels
-                    "refresh": 30,  # Refresh Rate
-                    "tag": "2048x1080 30Hz",  # The actual Button text
+                    "id": 73,
+                    "h_rez": 2048,
+                    "v_rez": 1080,
+                    "refresh": 30,
+                    "tag": "2048x1080 30Hz",
                 },
                 "2048x1080@29.97": {
-                    "id": 74,  # command to be called for this resolution
-                    "h_rez": 2048,  # Horizontal Pixels
-                    "v_rez": 1080,  # Vertical Pixels
-                    "refresh": 29.97,  # Refresh Rate
-                    "tag": "2048x1080 29.97Hz",  # The actual Button text
+                    "id": 74,
+                    "h_rez": 2048,
+                    "v_rez": 1080,
+                    "refresh": 29.97,
+                    "tag": "2048x1080 29.97Hz",
                 },
                 "2048x1080@25": {
-                    "id": 75,  # command to be called for this resolution
-                    "h_rez": 2048,  # Horizontal Pixels
-                    "v_rez": 1080,  # Vertical Pixels
-                    "refresh": 25,  # Refresh Rate
-                    "tag": "2048x1080 25Hz",  # The actual Button text
+                    "id": 75,
+                    "h_rez": 2048,
+                    "v_rez": 1080,
+                    "refresh": 25,
+                    "tag": "2048x1080 25Hz",
                 },
                 "2048x1080@24": {
-                    "id": 76,  # command to be called for this resolution
-                    "h_rez": 2048,  # Horizontal Pixels
-                    "v_rez": 1080,  # Vertical Pixels
-                    "refresh": 24,  # Refresh Rate
-                    "tag": "2048x1080 24Hz",  # The actual Button text
+                    "id": 76,
+                    "h_rez": 2048,
+                    "v_rez": 1080,
+                    "refresh": 24,
+                    "tag": "2048x1080 24Hz",
                 },
                 "2048x1080@23.976": {
-                    "id": 77,  # command to be called for this resolution
-                    "h_rez": 2048,  # Horizontal Pixels
-                    "v_rez": 1080,  # Vertical Pixels
-                    "refresh": 23.976,  # Refresh Rate
-                    "tag": "2048x1080 23.976Hz",  # The actual Button text
+                    "id": 77,
+                    "h_rez": 2048,
+                    "v_rez": 1080,
+                    "refresh": 23.976,
+                    "tag": "2048x1080 23.976Hz",
                 },
                 "2048x1080@60": {
-                    "id": 78,  # command to be called for this resolution
-                    "h_rez": 2048,  # Horizontal Pixels
-                    "v_rez": 1080,  # Vertical Pixels
-                    "refresh": 60,  # Refresh Rate
-                    "tag": "2048x1080 60Hz",  # The actual Button text
+                    "id": 78,
+                    "h_rez": 2048,
+                    "v_rez": 1080,
+                    "refresh": 60,
+                    "tag": "2048x1080 60Hz",
                 },
                 "2048x1080@59.94": {
-                    "id": 79,  # command to be called for this resolution
-                    "h_rez": 2048,  # Horizontal Pixels
-                    "v_rez": 1080,  # Vertical Pixels
-                    "refresh": 59.94,  # Refresh Rate
-                    "tag": "2048x1080 59.94Hz",  # The actual Button text
+                    "id": 79,
+                    "h_rez": 2048,
+                    "v_rez": 1080,
+                    "refresh": 59.94,
+                    "tag": "2048x1080 59.94Hz",
                 },
                 "2048x1080@50": {
-                    "id": 80,  # command to be called for this resolution
-                    "h_rez": 2048,  # Horizontal Pixels
-                    "v_rez": 1080,  # Vertical Pixels
-                    "refresh": 50,  # Refresh Rate
-                    "tag": "2048x1080 50Hz",  # The actual Button text
+                    "id": 80,
+                    "h_rez": 2048,
+                    "v_rez": 1080,
+                    "refresh": 50,
+                    "tag": "2048x1080 50Hz",
                 },
             },
             "hd": {
+                "tag": "HD",
                 "1280x720p@60": {
-                    "id": 12,  # command to be called for this resolution
-                    "h_rez": 1280,  # Horizontal Pixels
-                    "v_rez": 720,  # Vertical Pixels
-                    "refresh": 60,  # Refresh Rate
-                    "tag": "720P 60Hz",  # The actual Button text
+                    "id": 12,
+                    "h_rez": 1280,
+                    "v_rez": 720,
+                    "refresh": 60,
+                    "tag": "720P 60Hz",
                 },
                 "1280x720p@59.94": {
-                    "id": 13,  # command to be called for this resolution
-                    "h_rez": 1280,  # Horizontal Pixels
-                    "v_rez": 720,  # Vertical Pixels
-                    "refresh": 59.94,  # Refresh Rate
-                    "tag": "720P 59.94Hz",  # The actual Button text
+                    "id": 13,
+                    "h_rez": 1280,
+                    "v_rez": 720,
+                    "refresh": 59.94,
+                    "tag": "720P 59.94Hz",
                 },
                 "1920x1080i@60": {
-                    "id": 14,  # command to be called for this resolution
-                    "h_rez": 1920,  # Horizontal Pixels
-                    "v_rez": 1080,  # Vertical Pixels
-                    "refresh": 60,  # Refresh Rate
-                    "tag": "1080i 60Hz",  # The actual Button text
+                    "id": 14,
+                    "h_rez": 1920,
+                    "v_rez": 1080,
+                    "refresh": 60,
+                    "tag": "1080i 60Hz",
                 },
                 "1920x1080i@59.94": {
-                    "id": 15,  # command to be called for this resolution
-                    "h_rez": 1920,  # Horizontal Pixels
-                    "v_rez": 1080,  # Vertical Pixels
-                    "refresh": 59.94,  # Refresh Rate
-                    "tag": "1080i 59.94Hz",  # The actual Button text
+                    "id": 15,
+                    "h_rez": 1920,
+                    "v_rez": 1080,
+                    "refresh": 59.94,
+                    "tag": "1080i 59.94Hz",
                 },
                 "1920x1080p@30": {
-                    "id": 16,  # command to be called for this resolution
-                    "h_rez": 1920,  # Horizontal Pixels
-                    "v_rez": 1080,  # Vertical Pixels
-                    "refresh": 30,  # Refresh Rate
-                    "tag": "1080p 30Hz",  # The actual Button text
+                    "id": 16,
+                    "h_rez": 1920,
+                    "v_rez": 1080,
+                    "refresh": 30,
+                    "tag": "1080p 30Hz",
                 },
                 "1920x1080p@29.97": {
-                    "id": 17,  # command to be called for this resolution
-                    "h_rez": 1920,  # Horizontal Pixels
-                    "v_rez": 1080,  # Vertical Pixels
-                    "refresh": 29.97,  # Refresh Rate
-                    "tag": "1080p 29.97Hz",  # The actual Button text
+                    "id": 17,
+                    "h_rez": 1920,
+                    "v_rez": 1080,
+                    "refresh": 29.97,
+                    "tag": "1080p 29.97Hz",
                 },
                 "1920x1080p@24": {
-                    "id": 18,  # command to be called for this resolution
-                    "h_rez": 1920,  # Horizontal Pixels
-                    "v_rez": 1080,  # Vertical Pixels
-                    "refresh": 24,  # Refresh Rate
-                    "tag": "1080p 24Hz",  # The actual Button text
+                    "id": 18,
+                    "h_rez": 1920,
+                    "v_rez": 1080,
+                    "refresh": 24,
+                    "tag": "1080p 24Hz",
                 },
                 "1920x1080p@23.976": {
-                    "id": 19,  # command to be called for this resolution
-                    "h_rez": 1920,  # Horizontal Pixels
-                    "v_rez": 1080,  # Vertical Pixels
-                    "refresh": 23.976,  # Refresh Rate
-                    "tag": "1080p 23.976Hz",  # The actual Button text
+                    "id": 19,
+                    "h_rez": 1920,
+                    "v_rez": 1080,
+                    "refresh": 23.976,
+                    "tag": "1080p 23.976Hz",
                 },
                 "1920x1080p@60": {
-                    "id": 20,  # command to be called for this resolution
-                    "h_rez": 1920,  # Horizontal Pixels
-                    "v_rez": 1080,  # Vertical Pixels
-                    "refresh": 60,  # Refresh Rate
-                    "tag": "1080p 60Hz",  # The actual Button text
+                    "id": 20,
+                    "h_rez": 1920,
+                    "v_rez": 1080,
+                    "refresh": 60,
+                    "tag": "1080p 60Hz",
                 },
                 "1920x1080p@59.94": {
-                    "id": 21,  # command to be called for this resolution
-                    "h_rez": 1920,  # Horizontal Pixels
-                    "v_rez": 1080,  # Vertical Pixels
-                    "refresh": 59.94,  # Refresh Rate
-                    "tag": "1080p 59.94Hz",  # The actual Button text
+                    "id": 21,
+                    "h_rez": 1920,
+                    "v_rez": 1080,
+                    "refresh": 59.94,
+                    "tag": "1080p 59.94Hz",
                 },
                 "1280x720p@50": {
-                    "id": 24,  # command to be called for this resolution
-                    "h_rez": 1280,  # Horizontal Pixels
-                    "v_rez": 720,  # Vertical Pixels
-                    "refresh": 50,  # Refresh Rate
-                    "tag": "720P 50Hz",  # The actual Button text
+                    "id": 24,
+                    "h_rez": 1280,
+                    "v_rez": 720,
+                    "refresh": 50,
+                    "tag": "720P 50Hz",
                 },
                 "1920x1080i@50": {
-                    "id": 25,  # command to be called for this resolution
-                    "h_rez": 1920,  # Horizontal Pixels
-                    "v_rez": 1080,  # Vertical Pixels
-                    "refresh": 50,  # Refresh Rate
-                    "tag": "1080i 50Hz",  # The actual Button text
+                    "id": 25,
+                    "h_rez": 1920,
+                    "v_rez": 1080,
+                    "refresh": 50,
+                    "tag": "1080i 50Hz",
                 },
                 "1920x1080p@25": {
-                    "id": 26,  # command to be called for this resolution
-                    "h_rez": 1920,  # Horizontal Pixels
-                    "v_rez": 1080,  # Vertical Pixels
-                    "refresh": 25,  # Refresh Rate
-                    "tag": "1080p 25Hz",  # The actual Button text
+                    "id": 26,
+                    "h_rez": 1920,
+                    "v_rez": 1080,
+                    "refresh": 25,
+                    "tag": "1080p 25Hz",
                 },
                 "1920x1080p@50": {
-                    "id": 27,  # command to be called for this resolution
-                    "h_rez": 1920,  # Horizontal Pixels
-                    "v_rez": 1080,  # Vertical Pixels
-                    "refresh": 50,  # Refresh Rate
-                    "tag": "1080p 50Hz",  # The actual Button text
+                    "id": 27,
+                    "h_rez": 1920,
+                    "v_rez": 1080,
+                    "refresh": 50,
+                    "tag": "1080p 50Hz",
                 },
                 "1920x1080p@120": {
-                    "id": 81,  # command to be called for this resolution
-                    "h_rez": 1920,  # Horizontal Pixels
-                    "v_rez": 1080,  # Vertical Pixels
-                    "refresh": 120,  # Refresh Rate
-                    "tag": "1080p 120Hz",  # The actual Button text
+                    "id": 81,
+                    "h_rez": 1920,
+                    "v_rez": 1080,
+                    "refresh": 120,
+                    "tag": "1080p 120Hz",
                 },
                 "1920x1080p@119.88": {
-                    "id": 82,  # command to be called for this resolution
-                    "h_rez": 1920,  # Horizontal Pixels
-                    "v_rez": 1080,  # Vertical Pixels
-                    "refresh": 119.88,  # Refresh Rate
-                    "tag": "1080p 119.88Hz",  # The actual Button text
+                    "id": 82,
+                    "h_rez": 1920,
+                    "v_rez": 1080,
+                    "refresh": 119.88,
+                    "tag": "1080p 119.88Hz",
                 },
                 "1920x1080p@100": {
-                    "id": 102,  # command to be called for this resolution
-                    "h_rez": 1920,  # Horizontal Pixels
-                    "v_rez": 1080,  # Vertical Pixels
-                    "refresh": 100,  # Refresh Rate
-                    "tag": "1080p 100Hz",  # The actual Button text
+                    "id": 102,
+                    "h_rez": 1920,
+                    "v_rez": 1080,
+                    "refresh": 100,
+                    "tag": "1080p 100Hz",
                 },
             },
             "sd": {
+                "tag": "SD",
                 "720x480i@59.94": {
-                    "id": 10,  # command to be called for this resolution
-                    "h_rez": 720,  # Horizontal Pixels
-                    "v_rez": 480,  # Vertical Pixels
-                    "refresh": 59.94,  # Refresh Rate
-                    "tag": "480i 59.94Hz",  # The actual Button text
+                    "id": 10,
+                    "h_rez": 720,
+                    "v_rez": 480,
+                    "refresh": 59.94,
+                    "tag": "480i 59.94Hz",
                 },
                 "720x480p@59.94": {
-                    "id": 11,  # command to be called for this resolution
-                    "h_rez": 720,  # Horizontal Pixels
-                    "v_rez": 480,  # Vertical Pixels
-                    "refresh": 59.94,  # Refresh Rate
-                    "tag": "480p 59.94Hz",  # The actual Button text
+                    "id": 11,
+                    "h_rez": 720,
+                    "v_rez": 480,
+                    "refresh": 59.94,
+                    "tag": "480p 59.94Hz",
                 },
                 "720x576i@50": {
-                    "id": 22,  # command to be called for this resolution
-                    "h_rez": 720,  # Horizontal Pixels
-                    "v_rez": 576,  # Vertical Pixels
-                    "refresh": 50,  # Refresh Rate
-                    "tag": "576i 50Hz",  # The actual Button text
+                    "id": 22,
+                    "h_rez": 720,
+                    "v_rez": 576,
+                    "refresh": 50,
+                    "tag": "576i 50Hz",
                 },
                 "720x576p@50": {
-                    "id": 23,  # command to be called for this resolution
-                    "h_rez": 720,  # Horizontal Pixels
-                    "v_rez": 576,  # Vertical Pixels
-                    "refresh": 50,  # Refresh Rate
-                    "tag": "576p 50Hz",  # The actual Button text
+                    "id": 23,
+                    "h_rez": 720,
+                    "v_rez": 576,
+                    "refresh": 50,
+                    "tag": "576p 50Hz",
                 },
             },
             "vesa": {
+                "tag": "VESA",
                 "640x480@60": {
-                    "id": 0,  # command to be called for this resolution
-                    "h_rez": 640,  # Horizontal Pixels
-                    "v_rez": 480,  # Vertical Pixels
-                    "refresh": 60,  # Refresh Rate
-                    "tag": "VGA 640x480",  # The actual Button text
+                    "id": 0,
+                    "h_rez": 640,
+                    "v_rez": 480,
+                    "refresh": 60,
+                    "tag": "VGA 640x480",
                 },
                 "800x600@60": {
-                    "id": 1,  # command to be called for this resolution
-                    "h_rez": 800,  # Horizontal Pixels
-                    "v_rez": 600,  # Vertical Pixels
-                    "refresh": 60,  # Refresh Rate
-                    "tag": "SVGA 800x600",  # The actual Button text
+                    "id": 1,
+                    "h_rez": 800,
+                    "v_rez": 600,
+                    "refresh": 60,
+                    "tag": "SVGA 800x600",
                 },
                 "1024x768@60": {
-                    "id": 2,  # command to be called for this resolution
-                    "h_rez": 1024,  # Horizontal Pixels
-                    "v_rez": 768,  # Vertical Pixels
-                    "refresh": 60,  # Refresh Rate
-                    "tag": "XGA 1024x768",  # The actual Button text
+                    "id": 2,
+                    "h_rez": 1024,
+                    "v_rez": 768,
+                    "refresh": 60,
+                    "tag": "XGA 1024x768",
                 },
                 "1152x864@60": {
-                    "id": 72,  # command to be called for this resolution
-                    "h_rez": 1152,  # Horizontal Pixels
-                    "v_rez": 864,  # Vertical Pixels
-                    "refresh": 60,  # Refresh Rate
-                    "tag": "XGA+ 1152x864",  # The actual Button text
+                    "id": 72,
+                    "h_rez": 1152,
+                    "v_rez": 864,
+                    "refresh": 60,
+                    "tag": "XGA+ 1152x864",
                 },
                 "1360x768@60": {
-                    "id": 4,  # command to be called for this resolution
-                    "h_rez": 1360,  # Horizontal Pixels
-                    "v_rez": 768,  # Vertical Pixels
-                    "refresh": 60,  # Refresh Rate
-                    "tag": "HD 1360x768",  # The actual Button text
+                    "id": 4,
+                    "h_rez": 1360,
+                    "v_rez": 768,
+                    "refresh": 60,
+                    "tag": "HD 1360x768",
                 },
                 "1280x768@60": {
-                    "id": 3,  # command to be called for this resolution
-                    "h_rez": 1280,  # Horizontal Pixels
-                    "v_rez": 768,  # Vertical Pixels
-                    "refresh": 60,  # Refresh Rate
-                    "tag": "HD 1280x768",  # The actual Button text
+                    "id": 3,
+                    "h_rez": 1280,
+                    "v_rez": 768,
+                    "refresh": 60,
+                    "tag": "HD 1280x768",
                 },
                 "1280x960@60": {
-                    "id": 5,  # command to be called for this resolution
-                    "h_rez": 1280,  # Horizontal Pixels
-                    "v_rez": 896064,  # Vertical Pixels
-                    "refresh": 60,  # Refresh Rate
-                    "tag": "SXGA 1280x960",  # The actual Button text
+                    "id": 5,
+                    "h_rez": 1280,
+                    "v_rez": 896064,
+                    "refresh": 60,
+                    "tag": "SXGA 1280x960",
                 },
                 "1400x1050@60": {
-                    "id": 7,  # command to be called for this resolution
-                    "h_rez": 1400,  # Horizontal Pixels
-                    "v_rez": 1050,  # Vertical Pixels
-                    "refresh": 60,  # Refresh Rate
-                    "tag": "SXGA+ 1400x1050",  # The actual Button text
+                    "id": 7,
+                    "h_rez": 1400,
+                    "v_rez": 1050,
+                    "refresh": 60,
+                    "tag": "SXGA+ 1400x1050",
                 },
                 "1440x900@60": {
-                    "id": 69,  # command to be called for this resolution
-                    "h_rez": 1440,  # Horizontal Pixels
-                    "v_rez": 60,  # Vertical Pixels
-                    "refresh": 60,  # Refresh Rate
-                    "tag": "WXGA+ 1440x900",  # The actual Button text
+                    "id": 69,
+                    "h_rez": 1440,
+                    "v_rez": 60,
+                    "refresh": 60,
+                    "tag": "WXGA+ 1440x900",
                 },
                 "1600x900@60": {
-                    "id": 70,  # command to be called for this resolution
-                    "h_rez": 1600,  # Horizontal Pixels
-                    "v_rez": 900,  # Vertical Pixels
-                    "refresh": 60,  # Refresh Rate
-                    "tag": "HD+ 1600x900",  # The actual Button text
+                    "id": 70,
+                    "h_rez": 1600,
+                    "v_rez": 900,
+                    "refresh": 60,
+                    "tag": "HD+ 1600x900",
                 },
                 "1600x1200@60": {
-                    "id": 8,  # command to be called for this resolution
-                    "h_rez": 1600,  # Horizontal Pixels
-                    "v_rez": 1200,  # Vertical Pixels
-                    "refresh": 60,  # Refresh Rate
-                    "tag": "UXGA 1600x1200",  # The actual Button text
+                    "id": 8,
+                    "h_rez": 1600,
+                    "v_rez": 1200,
+                    "refresh": 60,
+                    "tag": "UXGA 1600x1200",
                 },
                 "1920x1200@60": {
-                    "id": 9,  # command to be called for this resolution
-                    "h_rez": 1920,  # Horizontal Pixels
-                    "v_rez": 1200,  # Vertical Pixels
-                    "refresh": 60,  # Refresh Rate
-                    "tag": "WUXGA 1920x1200",  # The actual Button text
+                    "id": 9,
+                    "h_rez": 1920,
+                    "v_rez": 1200,
+                    "refresh": 60,
+                    "tag": "WUXGA 1920x1200",
                 },
                 "1152x900@60": {
-                    "id": 83,  # command to be called for this resolution
-                    "h_rez": 1152,  # Horizontal Pixels
-                    "v_rez": 900,  # Vertical Pixels
-                    "refresh": 60,  # Refresh Rate
-                    "tag": "XGA+ 1152x900",  # The actual Button text
+                    "id": 83,
+                    "h_rez": 1152,
+                    "v_rez": 900,
+                    "refresh": 60,
+                    "tag": "XGA+ 1152x900",
                 },
                 "1280x800@60": {
-                    "id": 84,  # command to be called for this resolution
-                    "h_rez": 1280,  # Horizontal Pixels
-                    "v_rez": 800,  # Vertical Pixels
-                    "refresh": 60,  # Refresh Rate
-                    "tag": "WXGA 1280x800",  # The actual Button text
+                    "id": 84,
+                    "h_rez": 1280,
+                    "v_rez": 800,
+                    "refresh": 60,
+                    "tag": "WXGA 1280x800",
                 },
                 "1280x1050@60": {
-                    "id": 85,  # command to be called for this resolution
-                    "h_rez": 1280,  # Horizontal Pixels
-                    "v_rez": 1050,  # Vertical Pixels
-                    "refresh": 60,  # Refresh Rate
-                    "tag": "SXGA 1280x1050",  # The actual Button text
+                    "id": 85,
+                    "h_rez": 1280,
+                    "v_rez": 1050,
+                    "refresh": 60,
+                    "tag": "SXGA 1280x1050",
                 },
                 "1920x1280@60": {
-                    "id": 86,  # command to be called for this resolution
-                    "h_rez": 1920,  # Horizontal Pixels
-                    "v_rez": 1280,  # Vertical Pixels
-                    "refresh": 60,  # Refresh Rate
-                    "tag": "UN 1920x1280",  # The actual Button text
+                    "id": 86,
+                    "h_rez": 1920,
+                    "v_rez": 1280,
+                    "refresh": 60,
+                    "tag": "UN 1920x1280",
                 },
                 "1920x1440@60": {
-                    "id": 87,  # command to be called for this resolution
-                    "h_rez": 1920,  # Horizontal Pixels
-                    "v_rez": 1440,  # Vertical Pixels
-                    "refresh": 60,  # Refresh Rate
-                    "tag": "UN 1920x1440",  # The actual Button text
+                    "id": 87,
+                    "h_rez": 1920,
+                    "v_rez": 1440,
+                    "refresh": 60,
+                    "tag": "UN 1920x1440",
                 },
                 "2048x1152@60": {
-                    "id": 88,  # command to be called for this resolution
-                    "h_rez": 2048,  # Horizontal Pixels
-                    "v_rez": 1152,  # Vertical Pixels
-                    "refresh": 60,  # Refresh Rate
-                    "tag": "QWXGA 2048x1152",  # The actual Button text
+                    "id": 88,
+                    "h_rez": 2048,
+                    "v_rez": 1152,
+                    "refresh": 60,
+                    "tag": "QWXGA 2048x1152",
                 },
                 "2048x1536@60": {
-                    "id": 89,  # command to be called for this resolution
-                    "h_rez": 2048,  # Horizontal Pixels
-                    "v_rez": 1536,  # Vertical Pixels
-                    "refresh": 60,  # Refresh Rate
-                    "tag": "QXGA 2048x1536",  # The actual Button text
+                    "id": 89,
+                    "h_rez": 2048,
+                    "v_rez": 1536,
+                    "refresh": 60,
+                    "tag": "QXGA 2048x1536",
                 },
                 "2160x1440@60": {
-                    "id": 90,  # command to be called for this resolution
-                    "h_rez": 2160,  # Horizontal Pixels
-                    "v_rez": 1440,  # Vertical Pixels
-                    "refresh": 60,  # Refresh Rate
-                    "tag": "UN 2160x1440",  # The actual Button text
+                    "id": 90,
+                    "h_rez": 2160,
+                    "v_rez": 1440,
+                    "refresh": 60,
+                    "tag": "UN 2160x1440",
                 },
                 "2560x1080@60": {
-                    "id": 91,  # command to be called for this resolution
-                    "h_rez": 2560,  # Horizontal Pixels
-                    "v_rez": 1080,  # Vertical Pixels
-                    "refresh": 60,  # Refresh Rate
-                    "tag": "UN 2560x1080",  # The actual Button text
+                    "id": 91,
+                    "h_rez": 2560,
+                    "v_rez": 1080,
+                    "refresh": 60,
+                    "tag": "UN 2560x1080",
                 },
                 "2560x1440@60": {
-                    "id": 92,  # command to be called for this resolution
-                    "h_rez": 2560,  # Horizontal Pixels
-                    "v_rez": 1440,  # Vertical Pixels
-                    "refresh": 60,  # Refresh Rate
-                    "tag": "QHD 2560x1440",  # The actual Button text
+                    "id": 92,
+                    "h_rez": 2560,
+                    "v_rez": 1440,
+                    "refresh": 60,
+                    "tag": "QHD 2560x1440",
                 },
                 "2560x1600@60": {
-                    "id": 93,  # command to be called for this resolution
-                    "h_rez": 2560,  # Horizontal Pixels
-                    "v_rez": 1600,  # Vertical Pixels
-                    "refresh": 60,  # Refresh Rate
-                    "tag": "WQXGA 2560x1600",  # The actual Button text
+                    "id": 93,
+                    "h_rez": 2560,
+                    "v_rez": 1600,
+                    "refresh": 60,
+                    "tag": "WQXGA 2560x1600",
                 },
                 "2560x2048@60": {
-                    "id": 94,  # command to be called for this resolution
-                    "h_rez": 2560,  # Horizontal Pixels
-                    "v_rez": 2048,  # Vertical Pixels
-                    "refresh": 60,  # Refresh Rate
-                    "tag": "QSXGA 2560x2048",  # The actual Button text
+                    "id": 94,
+                    "h_rez": 2560,
+                    "v_rez": 2048,
+                    "refresh": 60,
+                    "tag": "QSXGA 2560x2048",
                 },
                 "2880x1800@60": {
-                    "id": 95,  # command to be called for this resolution
-                    "h_rez": 2880,  # Horizontal Pixels
-                    "v_rez": 1800,  # Vertical Pixels
-                    "refresh": 60,  # Refresh Rate
-                    "tag": "QWXGA+ 2880x1800",  # The actual Button text
+                    "id": 95,
+                    "h_rez": 2880,
+                    "v_rez": 1800,
+                    "refresh": 60,
+                    "tag": "QWXGA+ 2880x1800",
                 },
                 "2960x1440@60": {
-                    "id": 96,  # command to be called for this resolution
-                    "h_rez": 2960,  # Horizontal Pixels
-                    "v_rez": 1440,  # Vertical Pixels
-                    "refresh": 60,  # Refresh Rate
-                    "tag": "GAL 2960x1440",  # The actual Button text
+                    "id": 96,
+                    "h_rez": 2960,
+                    "v_rez": 1440,
+                    "refresh": 60,
+                    "tag": "GAL 2960x1440",
                 },
                 "3000x2000@60": {
-                    "id": 97,  # command to be called for this resolution
-                    "h_rez": 3000,  # Horizontal Pixels
-                    "v_rez": 2000,  # Vertical Pixels
-                    "refresh": 60,  # Refresh Rate
-                    "tag": "SUR 3000x2000",  # The actual Button text
+                    "id": 97,
+                    "h_rez": 3000,
+                    "v_rez": 2000,
+                    "refresh": 60,
+                    "tag": "SUR 3000x2000",
                 },
                 "3200x2048@60": {
-                    "id": 98,  # command to be called for this resolution
-                    "h_rez": 3200,  # Horizontal Pixels
-                    "v_rez": 2048,  # Vertical Pixels
-                    "refresh": 60,  # Refresh Rate
-                    "tag": "WQSXGA 3200x2048",  # The actual Button text
+                    "id": 98,
+                    "h_rez": 3200,
+                    "v_rez": 2048,
+                    "refresh": 60,
+                    "tag": "WQSXGA 3200x2048",
                 },
                 "3440x1440@60": {
-                    "id": 99,  # command to be called for this resolution
-                    "h_rez": 3440,  # Horizontal Pixels
-                    "v_rez": 1440,  # Vertical Pixels
-                    "refresh": 60,  # Refresh Rate
-                    "tag": "UWQHD 3440X1440",  # The actual Button text
+                    "id": 99,
+                    "h_rez": 3440,
+                    "v_rez": 1440,
+                    "refresh": 60,
+                    "tag": "UWQHD 3440X1440",
                 },
                 "3840x1600@60": {
-                    "id": 72,  # command to be called for this resolution
-                    "h_rez": 3840,  # Horizontal Pixels
-                    "v_rez": 1600,  # Vertical Pixels
-                    "refresh": 60,  # Refresh Rate
-                    "tag": "UW4K 3840x1600",  # The actual Button text
+                    "id": 72,
+                    "h_rez": 3840,
+                    "v_rez": 1600,
+                    "refresh": 60,
+                    "tag": "UW4K 3840x1600",
                 },
                 "3840x2400@60": {
-                    "id": 101,  # command to be called for this resolution
-                    "h_rez": 3840,  # Horizontal Pixels
-                    "v_rez": 2400,  # Vertical Pixels
-                    "refresh": 60,  # Refresh Rate
-                    "tag": "WQUXGA 3840x2400",  # The actual Button text
+                    "id": 101,
+                    "h_rez": 3840,
+                    "v_rez": 2400,
+                    "refresh": 60,
+                    "tag": "WQUXGA 3840x2400",
                 },
             },
             "3d": {
+                "tag": "3D",
                 "1280x720p@60": {
-                    "id": 37,  # command to be called for this resolution
-                    "h_rez": 1280,  # Horizontal Pixels
-                    "v_rez": 720,  # Vertical Pixels
-                    "refresh": 60,  # Refresh Rate
-                    "tag": "720P 60Hz (3D-FP)",  # The actual Button text
+                    "id": 37,
+                    "h_rez": 1280,
+                    "v_rez": 720,
+                    "refresh": 60,
+                    "tag": "720P 60Hz (3D-FP)",
                 },
                 "1280x720p@59.94": {
-                    "id": 38,  # command to be called for this resolution
-                    "h_rez": 1280,  # Horizontal Pixels
-                    "v_rez": 720,  # Vertical Pixels
-                    "refresh": 59.94,  # Refresh Rate
-                    "tag": "720P 59.94Hz (3D-FP)",  # The actual Button text
+                    "id": 38,
+                    "h_rez": 1280,
+                    "v_rez": 720,
+                    "refresh": 59.94,
+                    "tag": "720P 59.94Hz (3D-FP)",
                 },
                 "1920x1080p@24": {
-                    "id": 39,  # command to be called for this resolution
-                    "h_rez": 1920,  # Horizontal Pixels
-                    "v_rez": 1080,  # Vertical Pixels
-                    "refresh": 24,  # Refresh Rate
-                    "tag": "1080P 24Hz (3D-FP)",  # The actual Button text
+                    "id": 39,
+                    "h_rez": 1920,
+                    "v_rez": 1080,
+                    "refresh": 24,
+                    "tag": "1080P 24Hz (3D-FP)",
                 },
                 "1920x1080P@23.976": {
-                    "id": 40,  # command to be called for this resolution
-                    "h_rez": 1920,  # Horizontal Pixels
-                    "v_rez": 1080,  # Vertical Pixels
-                    "refresh": 23.976,  # Refresh Rate
-                    "tag": "1080P 23.976Hz (3D-FP)",  # The actual Button text
+                    "id": 40,
+                    "h_rez": 1920,
+                    "v_rez": 1080,
+                    "refresh": 23.976,
+                    "tag": "1080P 23.976Hz (3D-FP)",
                 },
                 "1280x720p@50": {
-                    "id": 41,  # command to be called for this resolution
-                    "h_rez": 1280,  # Horizontal Pixels
-                    "v_rez": 720,  # Vertical Pixels
-                    "refresh": 50,  # Refresh Rate
-                    "tag": "720P 50Hz (3D-FP)",  # The actual Button text
+                    "id": 41,
+                    "h_rez": 1280,
+                    "v_rez": 720,
+                    "refresh": 50,
+                    "tag": "720P 50Hz (3D-FP)",
                 },
             },
             "custom": {
+                "tag": "CUSTOM",
                 "USER-1": {
-                    "id": 43,  # command to be called for this resolution
-                    "h_rez": None,  # Horizontal Pixels
-                    "v_rez": None,  # Vertical Pixels
-                    "refresh": None,  # Refresh Rate
-                    "tag": "USER-1",  # The actual Button text
+                    "id": 43,
+                    "h_rez": None,
+                    "v_rez": None,
+                    "refresh": None,
+                    "tag": "USER-1",
                 },
                 "USER-2": {
-                    "id": 44,  # command to be called for this resolution
-                    "h_rez": None,  # Horizontal Pixels
-                    "v_rez": None,  # Vertical Pixels
-                    "refresh": None,  # Refresh Rate
-                    "tag": "USER-2",  # The actual Button text
+                    "id": 44,
+                    "h_rez": None,
+                    "v_rez": None,
+                    "refresh": None,
+                    "tag": "USER-2",
                 },
                 "USER-3": {
-                    "id": 45,  # command to be called for this resolution
-                    "h_rez": None,  # Horizontal Pixels
-                    "v_rez": None,  # Vertical Pixels
-                    "refresh": None,  # Refresh Rate
-                    "tag": "USER-3",  # The actual Button text
+                    "id": 45,
+                    "h_rez": None,
+                    "v_rez": None,
+                    "refresh": None,
+                    "tag": "USER-3",
                 },
                 "USER-4": {
-                    "id": 46,  # command to be called for this resolution
-                    "h_rez": None,  # Horizontal Pixels
-                    "v_rez": None,  # Vertical Pixels
-                    "refresh": None,  # Refresh Rate
-                    "tag": "USER-4",  # The actual Button text
+                    "id": 46,
+                    "h_rez": None,
+                    "v_rez": None,
+                    "refresh": None,
+                    "tag": "USER-4",
                 },
                 "USER-5": {
-                    "id": 47,  # command to be called for this resolution
-                    "h_rez": None,  # Horizontal Pixels
-                    "v_rez": None,  # Vertical Pixels
-                    "refresh": None,  # Refresh Rate
-                    "tag": "USER-5",  # The actual Button text
+                    "id": 47,
+                    "h_rez": None,
+                    "v_rez": None,
+                    "refresh": None,
+                    "tag": "USER-5",
                 },
                 "USER-6": {
-                    "id": 48,  # command to be called for this resolution
-                    "h_rez": None,  # Horizontal Pixels
-                    "v_rez": None,  # Vertical Pixels
-                    "refresh": None,  # Refresh Rate
-                    "tag": "USER-6",  # The actual Button text
+                    "id": 48,
+                    "h_rez": None,
+                    "v_rez": None,
+                    "refresh": None,
+                    "tag": "USER-6",
                 },
                 "USER-7": {
-                    "id": 49,  # command to be called for this resolution
-                    "h_rez": None,  # Horizontal Pixels
-                    "v_rez": None,  # Vertical Pixels
-                    "refresh": None,  # Refresh Rate
-                    "tag": "USER-9",  # The actual Button text
+                    "id": 49,
+                    "h_rez": None,
+                    "v_rez": None,
+                    "refresh": None,
+                    "tag": "USER-9",
                 },
                 "USER-8": {
-                    "id": 50,  # command to be called for this resolution
-                    "h_rez": None,  # Horizontal Pixels
-                    "v_rez": None,  # Vertical Pixels
-                    "refresh": None,  # Refresh Rate
-                    "tag": "USER-8",  # The actual Button text
+                    "id": 50,
+                    "h_rez": None,
+                    "v_rez": None,
+                    "refresh": None,
+                    "tag": "USER-8",
                 },
                 "USER-9": {
-                    "id": 51,  # command to be called for this resolution
-                    "h_rez": None,  # Horizontal Pixels
-                    "v_rez": None,  # Vertical Pixels
-                    "refresh": None,  # Refresh Rate
-                    "tag": "USER-9",  # The actual Button text
+                    "id": 51,
+                    "h_rez": None,
+                    "v_rez": None,
+                    "refresh": None,
+                    "tag": "USER-9",
                 },
                 "USER-10": {
-                    "id": 52,  # command to be called for this resolution
-                    "h_rez": None,  # Horizontal Pixels
-                    "v_rez": None,  # Vertical Pixels
-                    "refresh": None,  # Refresh Rate
-                    "tag": "USER-10",  # The actual Button text
+                    "id": 52,
+                    "h_rez": None,
+                    "v_rez": None,
+                    "refresh": None,
+                    "tag": "USER-10",
                 },
             },
             "auto": {
+                "tag": "AUTO",
                 "AUTO": {
-                    "id": 43,  # command to be called for this resolution
-                    "h_rez": None,  # Horizontal Pixels
-                    "v_rez": None,  # Vertical Pixels
-                    "refresh": None,  # Refresh Rate
-                    "tag": "Auto(Output timing based on EDID of sink device)",  # The actual Button text
+                    "id": 43,
+                    "h_rez": None,
+                    "v_rez": None,
+                    "refresh": None,
+                    "tag": "Auto(Output timing based on EDID of sink device)",
                     "note": "This needs to send 2 commands, 1. SENDSINGLE||97,42 2. SENDSINGLE||47160,1",  # TODO Figure out how to send 2 commands
                 },
             },
         },
         "pattern": {
+            "tag": "PATTERN",
             "function": "senddouble",  # Function needed to send the command ex: SENDDOUBLE||98,458
             "category_type": 98,  # ID for the category in this case it's 98=Pattern
             "fpga": {
-                "100% Color Bars": {
-                    "id": 0,
-                    "tag": "100% Color Bars",
-                },
-                "75% Color Bars": {
-                    "id": 1,
-                    "tag": "75% Color Bars",
-                },
-                "8 Step Gray Bars": {
-                    "id": 2,
-                    "tag": "8 Step Gray Bars",
-                },
-                "16 Step Gray Bars": {
-                    "id": 3,
-                    "tag": "16 Step Gray Bars",
-                },
-                "Red Screen": {
-                    "id": 4,
-                    "tag": "Red Screen",
-                },
-                "Green Screen": {
-                    "id": 5,
-                    "tag": "Green Screen",
-                },
-                "Blue Screen": {
-                    "id": 6,
-                    "tag": "Blue Screen",
-                },
-                "Cyan Screen": {
-                    "id": 7,
-                    "tag": "Cyan Screen",
-                },
-                "Magenta Screen": {
-                    "id": 8,
-                    "tag": "Magenta Screen",
-                },
-                "Yellow Screen": {
-                    "id": 9,
-                    "tag": "Yellow Screen",
-                },
-                "Black Screen": {
-                    "id": 10,
-                    "tag": "Black Screen",
-                },
-                "White Screen": {
-                    "id": 11,
-                    "tag": "White Screen",
-                },
-                "Vertical Split": {
-                    "id": 12,
-                    "tag": "Vertical Split",
-                },
-                "Horizontal Split": {
-                    "id": 13,
-                    "tag": "Horizontal Split",
-                },
-                "Multiburst Vert.": {
-                    "id": 14,
-                    "tag": "Multiburst Vert.",
-                },
-                "Multiburst Hor.": {
-                    "id": 15,
-                    "tag": "Multiburst Hor.",
-                },
-                "Quarter Block 1": {
-                    "id": 16,
-                    "tag": "Quarter Block 1",
-                },
-                "Quarter Block 2": {
-                    "id": 17,
-                    "tag": "Quarter Block 2",
-                },
-                "Alternate W.B": {
-                    "id": 18,
-                    "tag": "Alternate W.B",
-                },
-                "RGB CMY Ramps": {
-                    "id": 19,
-                    "tag": "RGB CMY Ramps",
-                },
-                "Black Pluge": {
-                    "id": 20,
-                    "tag": "Black Pluge",
-                },
-                "White Pluge": {
-                    "id": 21,
-                    "tag": "White Pluge",
-                },
-                "Still Gray Ramp 1": {
-                    "id": 22,
-                    "tag": "Still Gray Ramp 1",
-                },
-                "Still Gray Ramp 2": {
-                    "id": 23,
-                    "tag": "Still gray Ramp 2",
-                },
-                "Smpte Bars": {
-                    "id": 24,
-                    "tag": "Smpte Bars",
-                },
-                "Border Lines": {
-                    "id": 25,
-                    "tag": "Border Lines",
-                },
-                "Window": {
-                    "id": 26,
-                    "tag": "Window",
-                },
-                "3D Boxes": {
-                    "id": 27,
-                    "tag": "3D Boxes",
-                },
-                "Line V.Scroll": {
-                    "id": 28,
-                    "tag": "Line V.Scroll",
-                },
-                "Line H.Scroll": {
-                    "id": 29,
-                    "tag": "Line H.Scroll",
-                },
-                "A/V Sync": {
-                    "id": 30,
-                    "tag": "A/V Sync",
-                },
-                "Gray Ramp": {
-                    "id": 31,
-                    "tag": "Gray Ramp",
-                },
-                "Red Ramp": {
-                    "id": 32,
-                    "tag": "Red Ramp",
-                },
-                "Green Ramp": {
-                    "id": 33,
-                    "tag": "Green Ramp",
-                },
-                "Blue Ramp": {
-                    "id": 34,
-                    "tag": "Blue Ramp",
-                },
-                "Moving Ball": {
-                    "id": 35,
-                    "tag": "Moving Ball",
-                },
+                "tag": "FPGA",
+                1: {"id": 0, "tag": "100% Color Bars"},
+                2: {"id": 1, "tag": "75% Color Bars"},
+                3: {"id": 2, "tag": "8 Step Gray Bars"},
+                4: {"id": 3, "tag": "16 Step Gray Bars"},
+                5: {"id": 4, "tag": "Red Screen"},
+                6: {"id": 5, "tag": "Green Screen"},
+                7: {"id": 6, "tag": "Blue Screen"},
+                8: {"id": 7, "tag": "Cyan Screen"},
+                9: {"id": 8, "tag": "Magenta Screen"},
+                10: {"id": 9, "tag": "Yellow Screen"},
+                11: {"id": 10, "tag": "Black Screen"},
+                12: {"id": 11, "tag": "White Screen"},
+                13: {"id": 12, "tag": "Vertical Split"},
+                14: {"id": 13, "tag": "Horizontal Split"},
+                15: {"id": 14, "tag": "Multiburst Vert."},
+                16: {"id": 15, "tag": "Multiburst Hor."},
+                17: {"id": 16, "tag": "Quarter Block 1"},
+                18: {"id": 17, "tag": "Quarter Block 2"},
+                19: {"id": 18, "tag": "Alternate W.B"},
+                20: {"id": 19, "tag": "RGB CMY Ramps"},
+                21: {"id": 20, "tag": "Black Pluge"},
+                22: {"id": 21, "tag": "White Pluge"},
+                23: {"id": 22, "tag": "Still Gray Ramp 1"},
+                24: {"id": 23, "tag": "Still gray Ramp 2"},
+                25: {"id": 24, "tag": "Smpte Bars"},
+                26: {"id": 25, "tag": "Border Lines"},
+                27: {"id": 26, "tag": "Window"},
+                28: {"id": 27, "tag": "3D Boxes"},
+                29: {"id": 28, "tag": "Line V.Scroll"},
+                30: {"id": 29, "tag": "Line H.Scroll"},
+                31: {"id": 30, "tag": "A/V Sync"},
+                32: {"id": 31, "tag": "Gray Ramp"},
+                33: {"id": 32, "tag": "Red Ramp"},
+                34: {"id": 33, "tag": "Green Ramp"},
+                35: {"id": 34, "tag": "Blue Ramp"},
+                36: {"id": 35, "tag": "Moving Ball"},
             },
             "isf": {
-                "White Pluge UHD": {
-                    "id": 36,
-                    "tag": "White Pluge UHD",
-                },
-                "Black Pluge UHD": {
-                    "id": 37,
-                    "tag": "Black Pluge UHD",
-                },
-                "Geometry UHD": {
-                    "id": 38,
-                    "tag": "Geometry UHD",
-                },
-                "White Pluge HD": {
-                    "id": 39,
-                    "tag": "White Pluge HD",
-                },
-                "Black Pluge HD": {
-                    "id": 40,
-                    "tag": "Black Pluge HD",
-                },
-                "Geometry 178 HD": {
-                    "id": 41,
-                    "tag": "Geometry 178 HD",
-                },
-                "Geometry 240 HD": {
-                    "id": 42,
-                    "tag": "Geometry 240 HD",
-                },
-                "ISF Color Girls": {
-                    "id": 43,
-                    "tag": "ISF Color Girls",
-                },
-                "PD Family": {
-                    "id": 44,
-                    "tag": "PD Family",
-                },
-                "Red Blue MTB": {
-                    "id": 45,
-                    "tag": "Red Blue MTB",
-                },
-                "Cone Gradiant": {
-                    "id": 46,
-                    "tag": "Cone Gradiant",
-                },
-                "ISF Dog": {
-                    "id": 47,
-                    "tag": "ISF Dog",
-                },
+                "tag": "ISF",
+                1: {"id": 36, "tag": "White Pluge UHD"},
+                2: {"id": 37, "tag": "Black Pluge UHD"},
+                3: {"id": 38, "tag": "Geometry UHD"},
+                4: {"id": 39, "tag": "White Pluge HD"},
+                5: {"id": 40, "tag": "Black Pluge HD"},
+                6: {"id": 41, "tag": "Geometry 178 HD"},
+                7: {"id": 42, "tag": "Geometry 240 HD"},
+                8: {"id": 43, "tag": "ISF Color Girls"},
+                9: {"id": 44, "tag": "PD Family"},
+                10: {"id": 45, "tag": "Red Blue MTB"},
+                11: {"id": 46, "tag": "Cone Gradiant"},
+                12: {"id": 47, "tag": "ISF Dog"},
             },
             "dvs hdr": {
+                "tag": "DVS HDR",
                 "clipping & color": {
-                    "Black Level 1": {
-                        "id": 48,
-                        "tag": "Black Level 1",
-                    },
-                    "Black Level 2": {
-                        "id": 49,
-                        "tag": "Black Level 2",
-                    },
-                    "White Level 1": {
-                        "id": 50,
-                        "tag": "White Level 1",
-                    },
-                    "White Level 2": {
-                        "id": 51,
-                        "tag": "White Level 2",
-                    },
-                    "White Level 3": {
-                        "id": 52,
-                        "tag": "White Level 3",
-                    },
-                    "White 80-100": {
-                        "id": 53,
-                        "tag": "White 80-100",
-                    },
-                    "HDR Mix": {
-                        "id": 54,
-                        "tag": "HDR Mix",
-                    },
-                    "HDR Greyscale": {
-                        "id": 55,
-                        "tag": "HDR Greyscale",
-                    },
-                    "HDR Red": {
-                        "id": 56,
-                        "tag": "HDR Red",
-                    },
-                    "HDR Green": {
-                        "id": 57,
-                        "tag": "HDR Green",
-                    },
-                    "HDR Blue": {
-                        "id": 58,
-                        "tag": "HDR Blue",
-                    },
-                    "HDR Yellow": {
-                        "id": 59,
-                        "tag": "HDR Yellow",
-                    },
-                    "HDR Cyan": {
-                        "id": 60,
-                        "tag": "HDR Cyan",
-                    },
-                    "HDR Magenta": {
-                        "id": 61,
-                        "tag": "HDR Magenta",
-                    },
-                    "Multi-Cube": {
-                        "id": 62,
-                        "tag": "Multi-Cube",
-                    },
-                    "10 Patch Mix": {
-                        "id": 63,
-                        "tag": "10 Patch Mix",
-                    },
-                    "Greyscale 1000": {
-                        "id": 64,
-                        "tag": "Greyscale 1000",
-                    },
-                    "Greyscale 2000": {
-                        "id": 65,
-                        "tag": "Greyscale 2000",
-                    },
-                    "Greyscale 4000": {
-                        "id": 66,
-                        "tag": "Greyscale 4000",
-                    },
-                    "Greyscale 10000": {
-                        "id": 67,
-                        "tag": "Greyscale 10000",
-                    },
-                    "Color High": {
-                        "id": 68,
-                        "tag": "Color High",
-                    },
-                    "Color Low": {
-                        "id": 69,
-                        "tag": "Color Low",
-                    },
-                    "Decoding 50%": {
-                        "id": 70,
-                        "tag": "Decoding 50%",
-                    },
-                    "Decoding 100%": {
-                        "id": 71,
-                        "tag": "Decoding 100%",
-                    },
-                    "Blue Filter 100%": {
-                        "id": 72,
-                        "tag": "Blue Filter 100%",
-                    },
-                    "Green Filter 100%": {
-                        "id": 73,
-                        "tag": "Green Filter 100%",
-                    },
-                    "Red Filter 100%": {
-                        "id": 74,
-                        "tag": "Red Filter 100%",
-                    },
-                    "Blue Filter 50%": {
-                        "id": 75,
-                        "tag": "Blue Filter 50%",
-                    },
-                    "Green Filter 50%": {
-                        "id": 76,
-                        "tag": "Green Filter 50%",
-                    },
-                    "Red Filter 50%": {
-                        "id": 77,
-                        "tag": "Red Filter 50%",
-                    },
-                    "Color Flashing": {
-                        "id": 78,
-                        "tag": "Color Flashing",
-                    },
-                    "Dynamic Contrast": {
-                        "id": 79,
-                        "tag": "Dynamic Contrast",
-                    },
+                    "tag": "CLIPPING & COLOR",
+                    1: {"id": 48, "tag": "Black Level 1"},
+                    2: {"id": 49, "tag": "Black Level 2"},
+                    3: {"id": 50, "tag": "White Level 1"},
+                    4: {"id": 51, "tag": "White Level 2"},
+                    5: {"id": 52, "tag": "White Level 3"},
+                    6: {"id": 53, "tag": "White 80-100"},
+                    7: {"id": 54, "tag": "HDR Mix"},
+                    8: {"id": 55, "tag": "HDR Greyscale"},
+                    9: {"id": 56, "tag": "HDR Red"},
+                    10: {"id": 57, "tag": "HDR Green"},
+                    11: {"id": 58, "tag": "HDR Blue"},
+                    12: {"id": 59, "tag": "HDR Yellow"},
+                    13: {"id": 60, "tag": "HDR Cyan"},
+                    14: {"id": 61, "tag": "HDR Magenta"},
+                    15: {"id": 62, "tag": "Multi-Cube"},
+                    16: {"id": 63, "tag": "10 Patch Mix"},
+                    17: {"id": 64, "tag": "Greyscale 1000"},
+                    18: {"id": 65, "tag": "Greyscale 2000"},
+                    19: {"id": 66, "tag": "Greyscale 4000"},
+                    20: {"id": 67, "tag": "Greyscale 10000"},
+                    21: {"id": 68, "tag": "Color High"},
+                    22: {"id": 69, "tag": "Color Low"},
+                    23: {"id": 70, "tag": "Decoding 50%"},
+                    24: {"id": 71, "tag": "Decoding 100%"},
+                    25: {"id": 72, "tag": "Blue Filter 100%"},
+                    26: {"id": 73, "tag": "Green Filter 100%"},
+                    27: {"id": 74, "tag": "Red Filter 100%"},
+                    28: {"id": 75, "tag": "Blue Filter 50%"},
+                    29: {"id": 76, "tag": "Green Filter 50%"},
+                    30: {"id": 77, "tag": "Red Filter 50%"},
+                    31: {"id": 78, "tag": "Color Flashing"},
+                    32: {"id": 79, "tag": "Dynamic Contrast"},
                 },
                 "evaluation": {
-                    "Landscape": {
-                        "id": 80,
-                        "tag": "Landscape",
-                    },
-                    "Nature": {
-                        "id": 81,
-                        "tag": "Skin Tone",
-                    },
-                    "Skin Tone": {
-                        "id": 82,
-                        "tag": "Skin Tone",
-                    },
-                    "City Sunset": {
-                        "id": 83,
-                        "tag": "City Sunset",
-                    },
-                    "Oceanside": {
-                        "id": 84,
-                        "tag": "Oceanside",
-                    },
-                    "Pantone Skin": {
-                        "id": 85,
-                        "tag": "Pantone Skin",
-                    },
-                    "Restaurant": {
-                        "id": 86,
-                        "tag": "Restaurant",
-                    },
-                    "Indian Market": {
-                        "id": 87,
-                        "tag": "Indian Market",
-                    },
-                    "Ambient 05 Nit": {
-                        "id": 88,
-                        "tag": "Ambient 05 Nit",
-                    },
-                    "Ambient 10 Nit": {
-                        "id": 89,
-                        "tag": "Ambient 10 Nit",
-                    },
-                    "Ambient 15 Nit": {
-                        "id": 90,
-                        "tag": "Ambient 15 Nit",
-                    },
-                    "Chroma Sub 100": {
-                        "id": 91,
-                        "tag": "Chroma Sub 100",
-                    },
-                    "Chroma Sub 500": {
-                        "id": 92,
-                        "tag": "Chroma Sub 500",
-                    },
-                    "Chroma Sub 1000": {
-                        "id": 93,
-                        "tag": "Chroma Sub 1000",
-                    },
-                    "Judder 24 FPS": {
-                        "id": 94,
-                        "tag": "Judder 24 FPS",
-                    },
-                    "Judder 60 FPS": {
-                        "id": 95,
-                        "tag": "Judder 60 FPS",
-                    },
-                    "M Judder 24 FPS": {
-                        "id": 96,
-                        "tag": "M Judder 24 FPS",
-                    },
+                    "tag": "EVALUATION",
+                    1: {"id": 80, "tag": "Landscape"},
+                    2: {"id": 81, "tag": "Skin Tone"},
+                    3: {"id": 82, "tag": "Skin Tone"},
+                    4: {"id": 83, "tag": "City Sunset"},
+                    5: {"id": 84, "tag": "Oceanside"},
+                    6: {"id": 85, "tag": "Pantone Skin"},
+                    7: {"id": 86, "tag": "Restaurant"},
+                    8: {"id": 87, "tag": "Indian Market"},
+                    9: {"id": 88, "tag": "Ambient 05 Nit"},
+                    10: {"id": 89, "tag": "Ambient 10 Nit"},
+                    11: {"id": 90, "tag": "Ambient 15 Nit"},
+                    12: {"id": 91, "tag": "Chroma Sub 100"},
+                    13: {"id": 92, "tag": "Chroma Sub 500"},
+                    14: {"id": 93, "tag": "Chroma Sub 1000"},
+                    15: {"id": 94, "tag": "Judder 24 FPS"},
+                    16: {"id": 95, "tag": "Judder 60 FPS"},
+                    17: {"id": 96, "tag": "M Judder 24 FPS"},
                 },
                 "geometry & convergence": {
-                    "Apsect Ratio 1.78": {
-                        "id": 97,
-                        "tag": "Apsect Ratio 1.78",
-                    },
-                    "Apsect Ratio 1.85": {
-                        "id": 98,
-                        "tag": "Apsect Ratio 1.85",
-                    },
-                    "Apsect Ratio 2.00": {
-                        "id": 99,
-                        "tag": "Apsect Ratio 2.00",
-                    },
-                    "Apsect Ratio 2.35": {
-                        "id": 100,
-                        "tag": "Apsect Ratio 2.35",
-                    },
-                    "Apsect Ratio 2.40": {
-                        "id": 101,
-                        "tag": "Apsect Ratio 2.40",
-                    },
-                    "Apsect Ratio All": {
-                        "id": 102,
-                        "tag": "Apsect Ratio All",
-                    },
-                    "Grid White": {
-                        "id": 103,
-                        "tag": "Grid White",
-                    },
-                    "Grid Red": {
-                        "id": 104,
-                        "tag": "Grid Red",
-                    },
-                    "Grid Green": {
-                        "id": 105,
-                        "tag": "Grid Green",
-                    },
-                    "Grid Blue": {
-                        "id": 106,
-                        "tag": "Grid Blue",
-                    },
-                    "Grid Yellow": {
-                        "id": 107,
-                        "tag": "Grid Yellow",
-                    },
-                    "Grid Cyan": {
-                        "id": 108,
-                        "tag": "Grid Cyan",
-                    },
-                    "Grid Magenta": {
-                        "id": 109,
-                        "tag": "Grid Magenta",
-                    },
-                    "Dot White": {
-                        "id": 110,
-                        "tag": "Dot White",
-                    },
-                    "Dot Red": {
-                        "id": 111,
-                        "tag": "Dot Red",
-                    },
-                    "Dot Green": {
-                        "id": 112,
-                        "tag": "Dot Green",
-                    },
-                    "Dot Blue": {
-                        "id": 113,
-                        "tag": "Dot Blue",
-                    },
-                    "Dot Yellow": {
-                        "id": 114,
-                        "tag": "Dot Yellow",
-                    },
-                    "Dot Cyan": {
-                        "id": 115,
-                        "tag": "Dot Cyan",
-                    },
-                    "Dot Magenta": {
-                        "id": 116,
-                        "tag": "Dot Magenta",
-                    },
-                    "Cross White": {
-                        "id": 117,
-                        "tag": "Cross White",
-                    },
-                    "Cross Red": {
-                        "id": 118,
-                        "tag": "Cross Red",
-                    },
-                    "Cross Green": {
-                        "id": 119,
-                        "tag": "Cross Green",
-                    },
-                    "Cross Blue": {
-                        "id": 120,
-                        "tag": "Cross Blue",
-                    },
-                    "Cross Yellow": {
-                        "id": 121,
-                        "tag": "Cross Yellow",
-                    },
-                    "Cross Cyan": {
-                        "id": 122,
-                        "tag": "Cross Cyan",
-                    },
-                    "Cross Magenta": {
-                        "id": 123,
-                        "tag": "Cross Magenta",
-                    },
+                    "tag": "GEOMETRY & CONVERGENCE",
+                    1: {"id": 97, "tag": "Apsect Ratio 1.78"},
+                    2: {"id": 98, "tag": "Apsect Ratio 1.85"},
+                    3: {"id": 99, "tag": "Apsect Ratio 2.00"},
+                    4: {"id": 100, "tag": "Apsect Ratio 2.35"},
+                    5: {"id": 101, "tag": "Apsect Ratio 2.40"},
+                    6: {"id": 102, "tag": "Apsect Ratio All"},
+                    7: {"id": 103, "tag": "Grid White"},
+                    8: {"id": 104, "tag": "Grid Red"},
+                    9: {"id": 105, "tag": "Grid Green"},
+                    10: {"id": 106, "tag": "Grid Blue"},
+                    11: {"id": 107, "tag": "Grid Yellow"},
+                    12: {"id": 108, "tag": "Grid Cyan"},
+                    13: {"id": 109, "tag": "Grid Magenta"},
+                    14: {"id": 110, "tag": "Dot White"},
+                    15: {"id": 111, "tag": "Dot Red"},
+                    16: {"id": 112, "tag": "Dot Green"},
+                    17: {"id": 113, "tag": "Dot Blue"},
+                    18: {"id": 114, "tag": "Dot Yellow"},
+                    19: {"id": 115, "tag": "Dot Cyan"},
+                    20: {"id": 116, "tag": "Dot Magenta"},
+                    21: {"id": 117, "tag": "Cross White"},
+                    22: {"id": 118, "tag": "Cross Red"},
+                    23: {"id": 119, "tag": "Cross Green"},
+                    24: {"id": 120, "tag": "Cross Blue"},
+                    25: {"id": 121, "tag": "Cross Yellow"},
+                    26: {"id": 122, "tag": "Cross Cyan"},
+                    27: {"id": 123, "tag": "Cross Magenta"},
                 },
                 "ramps, gradients, zone plates": {
-                    "Greyscale Steps": {
-                        "id": 124,
-                        "tag": "Greyscale Steps",
-                    },
-                    "Greyscale Ramp": {
-                        "id": 125,
-                        "tag": "Greyscale Ramp",
-                    },
-                    "Greyscale Mix": {
-                        "id": 126,
-                        "tag": "Greyscale Mix",
-                    },
-                    "Color Steps": {
-                        "id": 127,
-                        "tag": "Color Steps",
-                    },
-                    "Color Ramp": {
-                        "id": 128,
-                        "tag": "Color Ramp",
-                    },
-                    "Color Ramp H&V": {
-                        "id": 129,
-                        "tag": "Color Ramp H&V",
-                    },
-                    "Color Ramp Mix": {
-                        "id": 130,
-                        "tag": "Color Ramp Mix",
-                    },
-                    "Color Bar Ramp": {
-                        "id": 131,
-                        "tag": "Color Bar Ramp",
-                    },
-                    "Ramp Red": {
-                        "id": 132,
-                        "tag": "Ramp Red",
-                    },
-                    "Ramp Green": {
-                        "id": 133,
-                        "tag": "Ramp Green",
-                    },
-                    "Ramp Blue": {
-                        "id": 134,
-                        "tag": "Ramp Blue",
-                    },
-                    "Ramp Yellow": {
-                        "id": 135,
-                        "tag": "Ramp Yellow",
-                    },
-                    "Ramp Cyan": {
-                        "id": 136,
-                        "tag": "Ramp Cyan",
-                    },
-                    "Ramp Magenta": {
-                        "id": 137,
-                        "tag": "Ramp Magenta",
-                    },
-                    "Zone White": {
-                        "id": 138,
-                        "tag": "Zone White",
-                    },
-                    "Zone Red": {
-                        "id": 139,
-                        "tag": "Zone Red",
-                    },
-                    "Zone Green": {
-                        "id": 140,
-                        "tag": "Zone Green",
-                    },
-                    "Zone Blue": {
-                        "id": 141,
-                        "tag": "Zone Blue",
-                    },
-                    "Zone Magenta": {
-                        "id": 142,
-                        "tag": "Zone Magenta",
-                    },
-                    "Zone Yellow": {
-                        "id": 143,
-                        "tag": "Zone Yellow",
-                    },
-                    "Zone Cyan": {
-                        "id": 144,
-                        "tag": "Zone Cyan",
-                    },
-                    "Radial Grey": {
-                        "id": 145,
-                        "tag": "Radial Grey",
-                    },
-                    "Radial Red": {
-                        "id": 146,
-                        "tag": "Radial Red",
-                    },
-                    "Radial Green": {
-                        "id": 147,
-                        "tag": "Radial Green",
-                    },
-                    "Radial Blue": {
-                        "id": 148,
-                        "tag": "Radial Blue",
-                    },
-                    "Radial Yellow": {
-                        "id": 149,
-                        "tag": "Radial Yellow",
-                    },
-                    "Radial Cyan": {
-                        "id": 150,
-                        "tag": "Radial Cyan",
-                    },
-                    "Radial Magenta": {
-                        "id": 151,
-                        "tag": "Radial Magenta",
-                    },
+                    "tag": "RAMPS,GRADIENTS,ZONE PLATES",
+                    1: {"id": 124, "tag": "Greyscale Steps"},
+                    2: {"id": 125, "tag": "Greyscale Ramp"},
+                    3: {"id": 126, "tag": "Greyscale Mix"},
+                    4: {"id": 127, "tag": "Color Steps"},
+                    5: {"id": 128, "tag": "Color Ramp"},
+                    6: {"id": 129, "tag": "Color Ramp H&V"},
+                    7: {"id": 130, "tag": "Color Ramp Mix"},
+                    8: {"id": 131, "tag": "Color Bar Ramp"},
+                    9: {"id": 132, "tag": "Ramp Red"},
+                    10: {"id": 133, "tag": "Ramp Green"},
+                    11: {"id": 134, "tag": "Ramp Blue"},
+                    12: {"id": 135, "tag": "Ramp Yellow"},
+                    13: {"id": 136, "tag": "Ramp Cyan"},
+                    14: {"id": 137, "tag": "Ramp Magenta"},
+                    15: {"id": 138, "tag": "Zone White"},
+                    16: {"id": 139, "tag": "Zone Red"},
+                    17: {"id": 140, "tag": "Zone Green"},
+                    18: {"id": 141, "tag": "Zone Blue"},
+                    19: {"id": 142, "tag": "Zone Magenta"},
+                    20: {"id": 143, "tag": "Zone Yellow"},
+                    21: {"id": 144, "tag": "Zone Cyan"},
+                    22: {"id": 145, "tag": "Radial Grey"},
+                    23: {"id": 146, "tag": "Radial Red"},
+                    24: {"id": 147, "tag": "Radial Green"},
+                    25: {"id": 148, "tag": "Radial Blue"},
+                    26: {"id": 149, "tag": "Radial Yellow"},
+                    27: {"id": 150, "tag": "Radial Cyan"},
+                    28: {"id": 151, "tag": "Radial Magenta"},
                 },
                 "resolution, ansi, placement": {
-                    "Resolution Mix": {
-                        "id": 152,
-                        "tag": "Resoltuion Mix",
-                    },
-                    "Checkerboard": {
-                        "id": 153,
-                        "tag": "Checkerboard",
-                    },
-                    "Horizontal 1px": {
-                        "id": 154,
-                        "tag": "Horizontal 1px",
-                    },
-                    "Horizontal 2px": {
-                        "id": 155,
-                        "tag": "Horizontal 2px",
-                    },
-                    "Horizontal 3px": {
-                        "id": 156,
-                        "tag": "Horizontal 3px",
-                    },
-                    "Vertical 1px": {
-                        "id": 157,
-                        "tag": "Vertical 1px",
-                    },
-                    "Vertical 2px": {
-                        "id": 158,
-                        "tag": "Vertical 2px",
-                    },
-                    "Vertical 3px": {
-                        "id": 159,
-                        "tag": "Vertical 3px",
-                    },
-                    "Black Pixels": {
-                        "id": 160,
-                        "tag": "Black Pixels",
-                    },
-                    "ANSI Meter 8x8": {
-                        "id": 161,
-                        "tag": "ANSI Meter 8x8",
-                    },
-                    "ANSI 8x8": {
-                        "id": 162,
-                        "tag": "ANSI 8x8",
-                    },
-                    "ANSI Meter 5x4": {
-                        "id": 163,
-                        "tag": "ANSI Meter 5x4",
-                    },
-                    "ANSI 5x4 Black": {
-                        "id": 164,
-                        "tag": "ANSI M5x4 Black",
-                    },
-                    "ANSI 5x4 White": {
-                        "id": 165,
-                        "tag": "ANSI M5x4 White",
-                    },
-                    "Meter Placement": {
-                        "id": 166,
-                        "tag": "Meter Placement",
-                    },
-                    "Sharp & Scan": {
-                        "id": 167,
-                        "tag": "Sharp & Scan",
-                    },
+                    "tag": "RESOLUTION,ANSI,PLACEMENT",
+                    1: {"id": 152, "tag": "Resoltuion Mix"},
+                    2: {"id": 153, "tag": "Checkerboard"},
+                    3: {"id": 154, "tag": "Horizontal 1px"},
+                    4: {"id": 155, "tag": "Horizontal 2px"},
+                    5: {"id": 156, "tag": "Horizontal 3px"},
+                    6: {"id": 157, "tag": "Vertical 1px"},
+                    7: {"id": 158, "tag": "Vertical 2px"},
+                    8: {"id": 159, "tag": "Vertical 3px"},
+                    9: {"id": 160, "tag": "Black Pixels"},
+                    10: {"id": 161, "tag": "ANSI Meter 8x8"},
+                    11: {"id": 162, "tag": "ANSI 8x8"},
+                    12: {"id": 163, "tag": "ANSI Meter 5x4"},
+                    13: {"id": 164, "tag": "ANSI M5x4 Black"},
+                    14: {"id": 165, "tag": "ANSI M5x4 White"},
+                    15: {"id": 166, "tag": "Meter Placement"},
+                    16: {"id": 167, "tag": "Sharp & Scan"},
                 },
             },
             "dvs dolby vision": {
+                "tag": "DVS Dolby Vision",
                 "clipping & color": {
-                    "Black Level 1": {
-                        "id": 472,
-                        "tag": "Black Level 1",
-                    },
-                    "Black Level 2": {
-                        "id": 473,
-                        "tag": "Black Level 2",
-                    },
-                    "White Level 1": {
-                        "id": 474,
-                        "tag": "White Level 1",
-                    },
-                    "White Level 2": {
-                        "id": 475,
-                        "tag": "White Level 2",
-                    },
-                    "White Level 3": {
-                        "id": 476,
-                        "tag": "White Level 3",
-                    },
-                    "White 80-100": {
-                        "id": 477,
-                        "tag": "White 80-100",
-                    },
-                    "Blue Filter 50%": {
-                        "id": 478,
-                        "tag": "Blue Filter 50%",
-                    },
-                    "Green Filter 50%": {
-                        "id": 479,
-                        "tag": "Green Filter 50%",
-                    },
-                    "Red Filter 50%": {
-                        "id": 480,
-                        "tag": "Red Filter 50%",
-                    },
-                    "Color Clipping High": {
-                        "id": 481,
-                        "tag": "Color Clipping High",
-                    },
-                    "Color Clipping Low": {
-                        "id": 482,
-                        "tag": "Color Clipping Low",
-                    },
-                    "Color Decoding": {
-                        "id": 483,
-                        "tag": "Color Decoding",
-                    },
-                    "Color Flashing": {
-                        "id": 484,
-                        "tag": "Color Flashing",
-                    },
+                    "tag": "CLIPPING & COLOR",
+                    1: {"id": 472, "tag": "Black Level 1"},
+                    2: {"id": 473, "tag": "Black Level 2"},
+                    3: {"id": 474, "tag": "White Level 1"},
+                    4: {"id": 475, "tag": "White Level 2"},
+                    5: {"id": 476, "tag": "White Level 3"},
+                    6: {"id": 477, "tag": "White 80-100"},
+                    7: {"id": 478, "tag": "Blue Filter 50%"},
+                    8: {"id": 479, "tag": "Green Filter 50%"},
+                    9: {"id": 480, "tag": "Red Filter 50%"},
+                    10: {"id": 481, "tag": "Color Clipping High"},
+                    11: {"id": 482, "tag": "Color Clipping Low"},
+                    12: {"id": 483, "tag": "Color Decoding"},
+                    13: {"id": 484, "tag": "Color Flashing"},
                 },
                 "evaluation": {
-                    "Landscape": {
-                        "id": 485,
-                        "tag": "Landscape",
-                    },
-                    "Nature": {
-                        "id": 486,
-                        "tag": "Nature",
-                    },
-                    "Skin Tone": {
-                        "id": 487,
-                        "tag": "Skin Tone",
-                    },
-                    "City Sunset": {
-                        "id": 488,
-                        "tag": "City Sunset",
-                    },
-                    "Oceanside": {
-                        "id": 489,
-                        "tag": "Oceanside",
-                    },
-                    "Pantone Skin": {
-                        "id": 490,
-                        "tag": "Pantone Skin",
-                    },
-                    "Restaurant": {
-                        "id": 491,
-                        "tag": "Restaurant",
-                    },
-                    "Indian Market": {
-                        "id": 492,
-                        "tag": "Indian Market",
-                    },
+                    "tag": "EVALUATION",
+                    1: {"id": 485, "tag": "Landscape"},
+                    2: {"id": 486, "tag": "Nature"},
+                    3: {"id": 487, "tag": "Skin Tone"},
+                    4: {"id": 488, "tag": "City Sunset"},
+                    5: {"id": 489, "tag": "Oceanside"},
+                    6: {"id": 490, "tag": "Pantone Skin"},
+                    7: {"id": 491, "tag": "Restaurant"},
+                    8: {"id": 492, "tag": "Indian Market"},
                 },
                 "ramps, gradients, zone plates": {
-                    "Greyscale Steps": {
-                        "id": 493,
-                        "tag": "Greyscale Steps",
-                    },
-                    "Greyscale Ramp": {
-                        "id": 494,
-                        "tag": "Greyscale Ramp",
-                    },
-                    "Greyscale Mix": {
-                        "id": 495,
-                        "tag": "Greyscale Mix",
-                    },
-                    "Color Steps": {
-                        "id": 496,
-                        "tag": "Color Steps",
-                    },
-                    "Red Radial Gradient": {
-                        "id": 497,
-                        "tag": "Red Radial Gradient",
-                    },
-                    "Green Radial Gradient": {
-                        "id": 498,
-                        "tag": "Green Radial Gradient",
-                    },
-                    "Blue Radial Gradient": {
-                        "id": 499,
-                        "tag": "Blue Radial Gradient",
-                    },
-                    "Yellow Radial Gradient": {
-                        "id": 500,
-                        "tag": "Yellow Radial Gradient",
-                    },
-                    "Cyan Radial Gradient": {
-                        "id": 501,
-                        "tag": "Cyan Radial Gradient",
-                    },
-                    "Magenta Radial Gradient": {
-                        "id": 502,
-                        "tag": "Magenta Radial Gradient",
-                    },
+                    "tag": "RAMPS,GRADIENTS,ZONE PLATES",
+                    1: {"id": 493, "tag": "Greyscale Steps"},
+                    2: {"id": 494, "tag": "Greyscale Ramp"},
+                    3: {"id": 495, "tag": "Greyscale Mix"},
+                    4: {"id": 496, "tag": "Color Steps"},
+                    5: {"id": 497, "tag": "Red Radial Gradient"},
+                    6: {"id": 498, "tag": "Green Radial Gradient"},
+                    7: {"id": 499, "tag": "Blue Radial Gradient"},
+                    8: {"id": 500, "tag": "Yellow Radial Gradient"},
+                    9: {"id": 501, "tag": "Cyan Radial Gradient"},
+                    10: {"id": 502, "tag": "Magenta Radial Gradient"},
                 },
                 "resolution, ansi, placement": {
-                    "ANSI Meter 8x8": {
-                        "id": 503,
-                        "tag": "ANSI Meter 8x8",
-                    },
-                    "ANSI 8x8 Black": {
-                        "id": 504,
-                        "tag": "ANSI 8x8 Black",
-                    },
-                    "ANSI 8x8 White": {
-                        "id": 505,
-                        "tag": "ANSI 8x8 White",
-                    },
-                    "ANSI Meter 5x4": {
-                        "id": 506,
-                        "tag": "ANSI Meter 5x4",
-                    },
-                    "ANSI 5x4 Black": {
-                        "id": 507,
-                        "tag": "ANSI M5x4 Black",
-                    },
-                    "ANSI 5x4 White": {
-                        "id": 508,
-                        "tag": "ANSI M5x4 White",
-                    },
-                    "Meter Placement": {
-                        "id": 509,
-                        "tag": "Meter Placement",
-                    },
-                    "Sharp & Scan": {
-                        "id": 510,
-                        "tag": "Sharp & Scan",
-                    },
+                    "tag": "RESOLUTION,ANSI,PLACEMENT",
+                    1: {"id": 503, "tag": "ANSI Meter 8x8"},
+                    2: {"id": 504, "tag": "ANSI 8x8 Black"},
+                    3: {"id": 505, "tag": "ANSI 8x8 White"},
+                    4: {"id": 506, "tag": "ANSI Meter 5x4"},
+                    5: {"id": 507, "tag": "ANSI M5x4 Black"},
+                    6: {"id": 508, "tag": "ANSI M5x4 White"},
+                    7: {"id": 509, "tag": "Meter Placement"},
+                    8: {"id": 510, "tag": "Sharp & Scan"},
                 },
             },
             "dvs hlg": {
+                "tag": "DVS HLG",
                 "clipping & color": {
-                    "Black Level 1": {
-                        "id": 511,
-                        "tag": "Black Level 1",
-                    },
-                    "Black Level 2": {
-                        "id": 512,
-                        "tag": "Black Level 2",
-                    },
-                    "White Level 1": {
-                        "id": 513,
-                        "tag": "White Level 1",
-                    },
-                    "White Level 2": {
-                        "id": 514,
-                        "tag": "White Level 2",
-                    },
-                    "White Level 3": {
-                        "id": 515,
-                        "tag": "White Level 3",
-                    },
-                    "HDR Mix": {
-                        "id": 517,
-                        "tag": "HDR Mix",
-                    },
-                    "HDR Greyscale": {
-                        "id": 518,
-                        "tag": "HDR Greyscale",
-                    },
-                    "HDR Red": {
-                        "id": 519,
-                        "tag": "HDR Red",
-                    },
-                    "HDR Green": {
-                        "id": 520,
-                        "tag": "HDR Green",
-                    },
-                    "HDR Blue": {
-                        "id": 521,
-                        "tag": "HDR Blue",
-                    },
-                    "HDR Yellow": {
-                        "id": 522,
-                        "tag": "HDR Yellow",
-                    },
-                    "HDR Cyan": {
-                        "id": 523,
-                        "tag": "HDR Cyan",
-                    },
-                    "HDR Magenta": {
-                        "id": 524,
-                        "tag": "HDR Magenta",
-                    },
-                    "Multi-Cube": {
-                        "id": 525,
-                        "tag": "Multi-Cube",
-                    },
-                    "10 Patch Mix": {
-                        "id": 526,
-                        "tag": "10 Patch Mix",
-                    },
-                    "Blue Filter 100%": {
-                        "id": 529,
-                        "tag": "Blue Filter 100%",
-                    },
-                    "Green Filter 100%": {
-                        "id": 530,
-                        "tag": "Green Filter 100%",
-                    },
-                    "Red Filter 100%": {
-                        "id": 531,
-                        "tag": "Red Filter 100%",
-                    },
-                    "Color Clipping High": {
-                        "id": 527,
-                        "tag": "Color Clipping High",
-                    },
-                    "Color Clipping Low": {
-                        "id": 528,
-                        "tag": "Color Clipping Low",
-                    },
-                    "Color Decoding 50%": {
-                        "id": 532,
-                        "tag": "Color Decoding 50%",
-                    },
-                    "Color Decoding 100%": {
-                        "id": 533,
-                        "tag": "Color Decoding 100%",
-                    },
-                    "Color Flashing": {
-                        "id": 516,
-                        "tag": "Color Flashing",
-                    },
+                    "tag": "CLIPPING & COLOR",
+                    1: {"id": 511, "tag": "Black Level 1"},
+                    2: {"id": 512, "tag": "Black Level 2"},
+                    3: {"id": 513, "tag": "White Level 1"},
+                    4: {"id": 514, "tag": "White Level 2"},
+                    5: {"id": 515, "tag": "White Level 3"},
+                    6: {"id": 517, "tag": "HDR Mix"},
+                    7: {"id": 518, "tag": "HDR Greyscale"},
+                    8: {"id": 519, "tag": "HDR Red"},
+                    9: {"id": 520, "tag": "HDR Green"},
+                    10: {"id": 521, "tag": "HDR Blue"},
+                    11: {"id": 522, "tag": "HDR Yellow"},
+                    12: {"id": 523, "tag": "HDR Cyan"},
+                    13: {"id": 524, "tag": "HDR Magenta"},
+                    14: {"id": 525, "tag": "Multi-Cube"},
+                    15: {"id": 526, "tag": "10 Patch Mix"},
+                    16: {"id": 529, "tag": "Blue Filter 100%"},
+                    17: {"id": 530, "tag": "Green Filter 100%"},
+                    18: {"id": 531, "tag": "Red Filter 100%"},
+                    19: {"id": 527, "tag": "Color Clipping High"},
+                    20: {"id": 528, "tag": "Color Clipping Low"},
+                    21: {"id": 532, "tag": "Color Decoding 50%"},
+                    22: {"id": 533, "tag": "Color Decoding 100%"},
+                    23: {"id": 516, "tag": "Color Flashing"},
                 },
                 "evaluation": {
-                    "Landscape": {
-                        "id": 534,
-                        "tag": "Landscape",
-                    },
-                    "Nature": {
-                        "id": 535,
-                        "tag": "Nature",
-                    },
-                    "Skin Tone": {
-                        "id": 536,
-                        "tag": "Skin Tone",
-                    },
-                    "City Sunset": {
-                        "id": 537,
-                        "tag": "City Sunset",
-                    },
-                    "Oceanside": {
-                        "id": 538,
-                        "tag": "Oceanside",
-                    },
-                    "Pantone Skin": {
-                        "id": 539,
-                        "tag": "Pantone Skin",
-                    },
-                    "Restaurant": {
-                        "id": 540,
-                        "tag": "Restaurant",
-                    },
-                    "Indian Market": {
-                        "id": 541,
-                        "tag": "Indian Market",
-                    },
+                    "tag": "EVALUATION",
+                    1: {"id": 534, "tag": "Landscape"},
+                    2: {"id": 535, "tag": "Nature"},
+                    3: {"id": 536, "tag": "Skin Tone"},
+                    4: {"id": 537, "tag": "City Sunset"},
+                    5: {"id": 538, "tag": "Oceanside"},
+                    6: {"id": 539, "tag": "Pantone Skin"},
+                    7: {"id": 540, "tag": "Restaurant"},
+                    8: {"id": 541, "tag": "Indian Market"},
                 },
                 "ramps, gradients, zone plates": {
-                    "Greyscale Steps": {
-                        "id": 542,
-                        "tag": "Greyscale Steps",
-                    },
-                    "Greyscale Ramp": {
-                        "id": 543,
-                        "tag": "Greyscale Ramp",
-                    },
-                    "Greyscale Mix": {
-                        "id": 544,
-                        "tag": "Greyscale Mix",
-                    },
-                    "Color Steps": {
-                        "id": 545,
-                        "tag": "Color Steps",
-                    },
-                    "Color Ramp": {
-                        "id": 546,
-                        "tag": "Color Ramp",
-                    },
-                    "Color Ramp H&V": {
-                        "id": 547,
-                        "tag": "Color Ramp H&V",
-                    },
-                    "Color Ramp Mix": {
-                        "id": 548,
-                        "tag": "Color Ramp Mix",
-                    },
-                    "Color Bar Ramp": {
-                        "id": 549,
-                        "tag": "Color Bar Ramp",
-                    },
-                    "Ramp Red": {
-                        "id": 550,
-                        "tag": "Ramp Red",
-                    },
-                    "Ramp Green": {
-                        "id": 551,
-                        "tag": "Ramp Green",
-                    },
-                    "Ramp Blue": {
-                        "id": 552,
-                        "tag": "Ramp Blue",
-                    },
-                    "Ramp Yellow": {
-                        "id": 553,
-                        "tag": "Ramp Yellow",
-                    },
-                    "Ramp Cyan": {
-                        "id": 554,
-                        "tag": "Ramp Cyan",
-                    },
-                    "Ramp Magenta": {
-                        "id": 555,
-                        "tag": "Ramp Magenta",
-                    },
-                    "Zone White": {
-                        "id": 556,
-                        "tag": "Zone White",
-                    },
-                    "Zone Red": {
-                        "id": 557,
-                        "tag": "Zone Red",
-                    },
-                    "Zone Green": {
-                        "id": 558,
-                        "tag": "Zone Green",
-                    },
-                    "Zone Blue": {
-                        "id": 559,
-                        "tag": "Zone Blue",
-                    },
-                    "Zone Magenta": {
-                        "id": 560,
-                        "tag": "Zone Magenta",
-                    },
-                    "Zone Yellow": {
-                        "id": 561,
-                        "tag": "Zone Yellow",
-                    },
-                    "Zone Cyan": {
-                        "id": 562,
-                        "tag": "Zone Cyan",
-                    },
-                    "Radial Grey": {
-                        "id": 563,
-                        "tag": "Radial Grey",
-                    },
-                    "Radial Red": {
-                        "id": 564,
-                        "tag": "Radial Red",
-                    },
-                    "Radial Green": {
-                        "id": 565,
-                        "tag": "Radial Green",
-                    },
-                    "Radial Blue": {
-                        "id": 566,
-                        "tag": "Radial Blue",
-                    },
-                    "Radial Yellow": {
-                        "id": 567,
-                        "tag": "Radial Yellow",
-                    },
-                    "Radial Cyan": {
-                        "id": 568,
-                        "tag": "Radial Cyan",
-                    },
-                    "Radial Magenta": {
-                        "id": 569,
-                        "tag": "Radial Magenta",
-                    },
+                    "tag": "RAMPS,GRADIENTS,ZONE PLATES",
+                    1: {"id": 542, "tag": "Greyscale Steps"},
+                    2: {"id": 543, "tag": "Greyscale Ramp"},
+                    3: {"id": 544, "tag": "Greyscale Mix"},
+                    4: {"id": 545, "tag": "Color Steps"},
+                    5: {"id": 546, "tag": "Color Ramp"},
+                    6: {"id": 547, "tag": "Color Ramp H&V"},
+                    7: {"id": 548, "tag": "Color Ramp Mix"},
+                    8: {"id": 549, "tag": "Color Bar Ramp"},
+                    9: {"id": 550, "tag": "Ramp Red"},
+                    10: {"id": 551, "tag": "Ramp Green"},
+                    11: {"id": 552, "tag": "Ramp Blue"},
+                    12: {"id": 553, "tag": "Ramp Yellow"},
+                    13: {"id": 554, "tag": "Ramp Cyan"},
+                    14: {"id": 555, "tag": "Ramp Magenta"},
+                    15: {"id": 556, "tag": "Zone White"},
+                    16: {"id": 557, "tag": "Zone Red"},
+                    17: {"id": 558, "tag": "Zone Green"},
+                    18: {"id": 559, "tag": "Zone Blue"},
+                    19: {"id": 560, "tag": "Zone Magenta"},
+                    20: {"id": 561, "tag": "Zone Yellow"},
+                    21: {"id": 562, "tag": "Zone Cyan"},
+                    22: {"id": 563, "tag": "Radial Grey"},
+                    23: {"id": 564, "tag": "Radial Red"},
+                    24: {"id": 565, "tag": "Radial Green"},
+                    25: {"id": 566, "tag": "Radial Blue"},
+                    26: {"id": 567, "tag": "Radial Yellow"},
+                    27: {"id": 568, "tag": "Radial Cyan"},
+                    28: {"id": 569, "tag": "Radial Magenta"},
                 },
                 "resolution, ansi, placement": {
-                    "ANSI Meter 8x8": {
-                        "id": 570,
-                        "tag": "ANSI Meter 8x8",
-                    },
-                    "ANSI 8x8 Black": {
-                        "id": 571,
-                        "tag": "ANSI 8x8 Black",
-                    },
-                    "ANSI 8x8 White": {
-                        "id": 572,
-                        "tag": "ANSI 8x8 White",
-                    },
-                    "ANSI Meter 5x4": {
-                        "id": 573,
-                        "tag": "ANSI Meter 5x4",
-                    },
-                    "ANSI 5x4 Black": {
-                        "id": 574,
-                        "tag": "ANSI M5x4 Black",
-                    },
-                    "ANSI 5x4 White": {
-                        "id": 575,
-                        "tag": "ANSI M5x4 White",
-                    },
-                    "Meter Placement": {
-                        "id": 576,
-                        "tag": "Meter Placement",
-                    },
-                    "Sharp & Scan": {
-                        "id": 577,
-                        "tag": "Sharp & Scan",
-                    },
-                    "Resolution Mix": {
-                        "id": 578,
-                        "tag": "Resolution Mix",
-                    },
+                    "tag": "RESOLUTION,ANSI,PLACEMENT",
+                    1: {"id": 570, "tag": "ANSI Meter 8x8"},
+                    2: {"id": 571, "tag": "ANSI 8x8 Black"},
+                    3: {"id": 572, "tag": "ANSI 8x8 White"},
+                    4: {"id": 573, "tag": "ANSI Meter 5x4"},
+                    5: {"id": 574, "tag": "ANSI M5x4 Black"},
+                    6: {"id": 575, "tag": "ANSI M5x4 White"},
+                    7: {"id": 576, "tag": "Meter Placement"},
+                    8: {"id": 577, "tag": "Sharp & Scan"},
+                    9: {"id": 578, "tag": "Resolution Mix"},
                 },
             },
             "uhd sdr": {
+                "tag": "UHD SDR",
                 "clipping & gamma": {
-                    "Target Limited": {
-                        "id": 168,
-                        "tag": "Target Limited",
-                    },
-                    "Target Full": {
-                        "id": 169,
-                        "tag": "Target Full",
-                    },
-                    "Contrast Check": {
-                        "id": 170,
-                        "tag": "Contrast Check",
-                    },
-                    "Contrast Lines": {
-                        "id": 171,
-                        "tag": "Contrast Lines",
-                    },
-                    "Gamma Check": {
-                        "id": 172,
-                        "tag": "Gamma Check",
-                    },
-                    "Gamma Lines": {
-                        "id": 173,
-                        "tag": "Gamma Lines",
-                    },
-                    "High Clipping": {
-                        "id": 174,
-                        "tag": "High Clipping",
-                    },
-                    "High Clip Red": {
-                        "id": 175,
-                        "tag": "High Clip Red",
-                    },
-                    "High Clip Green": {
-                        "id": 176,
-                        "tag": "High Clip Green",
-                    },
-                    "High Clip Blue": {
-                        "id": 177,
-                        "tag": "High Clip Blue",
-                    },
-                    "Low Clipping": {
-                        "id": 178,
-                        "tag": "Low Clipping",
-                    },
-                    "Low Clip Red": {
-                        "id": 179,
-                        "tag": "Low Clip Red",
-                    },
-                    "Low Clip Green": {
-                        "id": 180,
-                        "tag": "Low Clip Green",
-                    },
-                    "Low Clip Blue": {
-                        "id": 181,
-                        "tag": "Low Clip Blue",
-                    },
-                    "Composite Grey": {
-                        "id": 182,
-                        "tag": "Composite Grey",
-                    },
-                    "Composite Red": {
-                        "id": 183,
-                        "tag": "Composite Red",
-                    },
-                    "Composite Green": {
-                        "id": 184,
-                        "tag": "Composite Green",
-                    },
-                    "Composite Blue": {
-                        "id": 185,
-                        "tag": "Composite Blue",
-                    },
-                    "Lin Step Grey": {
-                        "id": 186,
-                        "tag": "Lin Step Grey",
-                    },
-                    "Lin Step Red": {
-                        "id": 187,
-                        "tag": "Lin Step Red",
-                    },
-                    "Lin Step Green": {
-                        "id": 188,
-                        "tag": "Lin Step Green",
-                    },
-                    "Lin Step Blue": {
-                        "id": 189,
-                        "tag": "Lin Step Blue",
-                    },
-                    "Lin Step Magent": {
-                        "id": 190,
-                        "tag": "Lin Step Magent",
-                    },
-                    "Lin Step Yellow": {
-                        "id": 191,
-                        "tag": "Lin Step Yellow",
-                    },
-                    "Lin Step Cyan": {
-                        "id": 192,
-                        "tag": "Lin Step Cyan",
-                    },
-                    "Log Step Grey": {
-                        "id": 193,
-                        "tag": "Log Step Grey",
-                    },
-                    "Log Step Red": {
-                        "id": 194,
-                        "tag": "Log Step Red",
-                    },
-                    "Log Step Green": {
-                        "id": 195,
-                        "tag": "Log Step Green",
-                    },
-                    "Log Step Blue": {
-                        "id": 196,
-                        "tag": "Log Step Blue",
-                    },
-                    "Log Step Magent": {
-                        "id": 197,
-                        "tag": "Log Step Magent",
-                    },
-                    "Log Step Yellow": {
-                        "id": 198,
-                        "tag": "Log Step Yellow",
-                    },
-                    "Log Step Cyan": {
-                        "id": 199,
-                        "tag": "Log Step Cyan",
-                    },
-                    "Gamma Grey": {
-                        "id": 200,
-                        "tag": "Gamma Grey",
-                    },
-                    "Gamma Red": {
-                        "id": 201,
-                        "tag": "Gamma Red",
-                    },
-                    "Gamma Green": {
-                        "id": 202,
-                        "tag": "Gamma Green",
-                    },
-                    "Gamma Blue": {
-                        "id": 203,
-                        "tag": "Gamma Blue",
-                    },
-                    "Gamma Lines Grey": {
-                        "id": 204,
-                        "tag": "Gamma Lines Grey",
-                    },
-                    "Gamma Lines Red": {
-                        "id": 205,
-                        "tag": "Gamma Lines Red",
-                    },
-                    "Gamma Lines Green": {
-                        "id": 206,
-                        "tag": "Gamma Lines Green",
-                    },
-                    "Gamma Lines Blue": {
-                        "id": 207,
-                        "tag": "Gamma Lines Blue",
-                    },
+                    "tag": "CLIPPING & GAMMA",
+                    1: {"id": 168, "tag": "Target Limited"},
+                    2: {"id": 169, "tag": "Target Full"},
+                    3: {"id": 170, "tag": "Contrast Check"},
+                    4: {"id": 171, "tag": "Contrast Lines"},
+                    5: {"id": 172, "tag": "Gamma Check"},
+                    6: {"id": 173, "tag": "Gamma Lines"},
+                    7: {"id": 174, "tag": "High Clipping"},
+                    8: {"id": 175, "tag": "High Clip Red"},
+                    9: {"id": 176, "tag": "High Clip Green"},
+                    10: {"id": 177, "tag": "High Clip Blue"},
+                    11: {"id": 178, "tag": "Low Clipping"},
+                    12: {"id": 179, "tag": "Low Clip Red"},
+                    13: {"id": 180, "tag": "Low Clip Green"},
+                    14: {"id": 181, "tag": "Low Clip Blue"},
+                    15: {"id": 182, "tag": "Composite Grey"},
+                    16: {"id": 183, "tag": "Composite Red"},
+                    17: {"id": 184, "tag": "Composite Green"},
+                    18: {"id": 185, "tag": "Composite Blue"},
+                    19: {"id": 186, "tag": "Lin Step Grey"},
+                    20: {"id": 187, "tag": "Lin Step Red"},
+                    21: {"id": 188, "tag": "Lin Step Green"},
+                    22: {"id": 189, "tag": "Lin Step Blue"},
+                    23: {"id": 190, "tag": "Lin Step Magent"},
+                    24: {"id": 191, "tag": "Lin Step Yellow"},
+                    25: {"id": 192, "tag": "Lin Step Cyan"},
+                    26: {"id": 193, "tag": "Log Step Grey"},
+                    27: {"id": 194, "tag": "Log Step Red"},
+                    28: {"id": 195, "tag": "Log Step Green"},
+                    29: {"id": 196, "tag": "Log Step Blue"},
+                    30: {"id": 197, "tag": "Log Step Magent"},
+                    31: {"id": 198, "tag": "Log Step Yellow"},
+                    32: {"id": 199, "tag": "Log Step Cyan"},
+                    33: {"id": 200, "tag": "Gamma Grey"},
+                    34: {"id": 201, "tag": "Gamma Red"},
+                    35: {"id": 202, "tag": "Gamma Green"},
+                    36: {"id": 203, "tag": "Gamma Blue"},
+                    37: {"id": 204, "tag": "Gamma Lines Grey"},
+                    38: {"id": 205, "tag": "Gamma Lines Red"},
+                    39: {"id": 206, "tag": "Gamma Lines Green"},
+                    40: {"id": 207, "tag": "Gamma Lines Blue"},
                 },
                 "color bars & noise": {
                     "Color Wipe Full": {
