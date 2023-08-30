@@ -40,7 +40,7 @@ When inspecting the webUI the websocket is listed as `uart` under the network ta
 Format for the dictionary is the following:
 
 ```python
-Murideo_WebUI = {  # Master Dictionary for WebUI of Murideo 8K Seven Genderator
+Murideo_WebUI = {  # Master Dictionary for WebUI of Murideo 8K Seven Generator
     "video_generator": {
         "timing": {
             "function": "sendsingle",  # Function needed to send the command ex: SENDSINGLE||97,110
