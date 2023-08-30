@@ -4,5 +4,6 @@
   },
   "python.formatting.provider": "none",
   "python.linting.banditEnabled": true,
-  "python.linting.enabled": true
+  "python.linting.enabled": true,
+  "cSpell.enableFiletypes": ["python"]
 }

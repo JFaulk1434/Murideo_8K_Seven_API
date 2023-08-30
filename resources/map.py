@@ -1,6 +1,6 @@
 """Decoder ring for the WebUI on the murideo"""
 
-# Master Dictionary for WebUI of Murideo 8K Seven Genderator
+# Master Dictionary for WebUI of Murideo 8K Seven Generator
 Murideo_WebUI = {
     "video generator": {
         "tag": "Video Generator",
@@ -981,7 +981,7 @@ Murideo_WebUI = {
                 },
                 "resolution, ansi, placement": {
                     "tag": "RESOLUTION,ANSI,PLACEMENT",
-                    1: {"id": 152, "tag": "Resoltuion Mix"},
+                    1: {"id": 152, "tag": "Resolution Mix"},
                     2: {"id": 153, "tag": "Checkerboard"},
                     3: {"id": 154, "tag": "Horizontal 1px"},
                     4: {"id": 155, "tag": "Horizontal 2px"},
@@ -1182,85 +1182,86 @@ Murideo_WebUI = {
                     40: {"id": 207, "tag": "Gamma Lines Blue"},
                 },
                 "color bars & noise": {
-                    "Color Wipe Full": {
+                    "tag": "COLOR BARS & NOISE"
+                    1: {
                         "id": 208,
-                        "tag": "Color Wipe Full",
+                        "tag": "Color Wipe Full"
                     },
                     "Color Wipe Half": {
                         "id": 209,
-                        "tag": "Color Wipe Half",
+                        "tag": "Color Wipe Half"
                     },
                     "Quick Check": {
                         "id": 210,
-                        "tag": "Quick Check",
+                        "tag": "Quick Check"
                     },
                     "H Bars RGB": {
                         "id": 211,
-                        "tag": "H Bars RGB",
+                        "tag": "H Bars RGB"
                     },
                     "H Bars RGBCMY": {
                         "id": 212,
-                        "tag": "H Bars RGBCMY",
+                        "tag": "H Bars RGBCMY"
                     },
                     "H Bars Shade": {
                         "id": 214,
-                        "tag": "H Bars Shade",
+                        "tag": "H Bars Shade"
                     },
                     "V Bars RGB": {
                         "id": 215,
-                        "tag": "V Bars RGB",
+                        "tag": "V Bars RGB"
                     },
                     "V Bars RGBCMY": {
                         "id": 216,
-                        "tag": "V Bars RGBCMY",
+                        "tag": "V Bars RGBCMY"
                     },
                     "V Bars Layover": {
                         "id": 217,
-                        "tag": "V Bars Layover",
+                        "tag": "V Bars Layover"
                     },
                     "V Bars Shade": {
                         "id": 218,
-                        "tag": "V Bars Shade",
+                        "tag": "V Bars Shade"
                     },
                     "Color Noise 01": {
                         "id": 219,
-                        "tag": "Color Noise 01",
+                        "tag": "Color Noise 01"
                     },
                     "Color Noise 02": {
                         "id": 220,
-                        "tag": "Color Noise 02",
+                        "tag": "Color Noise 02"
                     },
                     "Color Noise 04": {
                         "id": 221,
-                        "tag": "Color Noise 04",
+                        "tag": "Color Noise 04"
                     },
                     "Color Noise 08": {
                         "id": 222,
-                        "tag": "Color Noise 08",
+                        "tag": "Color Noise 08"
                     },
                     "Color Noise 16": {
                         "id": 223,
-                        "tag": "Color Noise 16",
+                        "tag": "Color Noise 16"
                     },
-                    "Grey Moise 01": {
+                    "Grey Noise 01": {
                         "id": 224,
-                        "tag": "Color Noise 01",
+                        "tag": "Color Noise 01"
                     },
-                    "Grey Moise 02": {
+                    "Grey Noise 02": {
                         "id": 225,
-                        "tag": "Color Noise 02",
+                        "tag": "Color Noise 02"
                     },
-                    "Grey Moise 04": {
+                    "Grey Noise 04": {
                         "id": 226,
-                        "tag": "Color Noise 04",
+                        "tag": "Color Noise 04"
                     },
-                    "Grey Moise 08": {
+                    "Grey Noise 08": {
                         "id": 227,
-                        "tag": "Color Noise 08",
+                        "tag": "Color Noise 08"
                     },
-                    "Grey Moise 16": {
+                    "Grey Noise 16": {
                         "id": 228,
-                        "tag": "Color Noise 16",
+                        "tag": "Color Noise 16"
                     },
                 },
                 "color checker": {
@@ -2338,14 +2339,14 @@ Murideo_WebUI = {
         "london sidewalk": {"id": 413, "tag": "Spicey Pixels London Sidewalk"},
         "london busses": {"id": 414, "tag": "Spicey Pixels London Busses"},
         "london cafe": {"id": 415, "tag": "Spicey Pixels London cafe"},
-        "mukilteo street": {"id": 416, "tag": "Spicey Pixels Mokilteo Street"},
-        "mukilteo loading": {"id": 417, "tag": "Spicey Pixels Mokilteo Loading"},
+        "mukilteo street": {"id": 416, "tag": "Spicey Pixels Mukilteo Street"},
+        "mukilteo loading": {"id": 417, "tag": "Spicey Pixels Mukilteo Loading"},
         "carnival wheel": {"id": 418, "tag": "Spicey Pixels Carnival Wheel"},
         "carnival ride": {"id": 419, "tag": "Spicey Pixels Carnival Ride"},
         "carnival night": {"id": 420, "tag": "Spicey Pixels Carnival night"},
-        "carnival baloon pop": {
+        "carnival balloonnnnn pop": {
             "id": 421,
-            "tag": "Spicey Pixels Carnival Baloon Pop",
+            "tag": "Spicey Pixels Carnival Balloon Pop",
         },
         "tiger Mountain 120": {
             "id": 422,
@@ -2470,10 +2471,10 @@ Murideo_WebUI = {
                 "tag": "DOLBY Digital Plus",
                 "function": "senddouble",
                 "category_type": 105,
-                1: {"id": 8, "tag": "Dobly Digital Plus-48KHz-2.0Ch"},
-                2: {"id": 9, "tag": "Dobly Digital Plus-48KHz-5.1Ch"},
-                3: {"id": 10, "tag": "Dobly Digital Plus-48KHz-7.1Ch"},
-                4: {"id": 11, "tag": "Dobly Digital Plus-48KHz-Atmos"},
+                1: {"id": 8, "tag": "Dolby Digital Plus-48KHz-2.0Ch"},
+                2: {"id": 9, "tag": "Dolby Digital Plus-48KHz-5.1Ch"},
+                3: {"id": 10, "tag": "Dolby Digital Plus-48KHz-7.1Ch"},
+                4: {"id": 11, "tag": "Dolby Digital Plus-48KHz-Atmos"},
             },
             "dolby mat": {
                 "tag": "DOLBY MAT",
@@ -2625,32 +2626,31 @@ Murideo_WebUI = {
                 "tag": "AV SENSORS FUNCTIONAL TEST",
                 "function": "sendsingle",
                 "category_type": 136,
-                1: {
-                    "id": 0,
-                    "tag": "Mic Functional Test - READ STATUS",
-                },  # TODO Not sure how to handle this
-                2: {
-                    "id": 1,
-                    "tag": "Visual Sensor Test - READ STATUS",
-                },  # TODO Not sure how to handle this
+                1: {"id": 0, "tag": "Mic Functional Test - READ STATUS"},
+                # TODO Not sure how to handle this
+                2: {"id": 1, "tag": "Visual Sensor Test - READ STATUS"},
+                # TODO Not sure how to handle this
             },
             "arm av latency": {
                 "tag": "ARM AV LATENCY",
                 "function": "sendsingle",
                 "category_type": 131,
-                1: {},  # TODO Not sure how to handle this
+                1: {},
+                # TODO Not sure how to handle this
             },
             "arm ARC latency": {
                 "tag": "ARM ARC LATENCY",
                 "function": "sendsingle",
                 "category_type": 131,
-                1: {},  # TODO Not sure how to handle this
+                1: {},
+                # TODO Not sure how to handle this
             },
             "arm eARC latency": {
                 "tag": "ARM eARC LATENCY",
                 "function": "sendsingle",
                 "category_type": 131,
-                1: {},  # TODO Not sure how to handle this
+                1: {},
+                # TODO Not sure how to handle this
             },
         },
         "source-speaker test": {
@@ -2658,14 +2658,10 @@ Murideo_WebUI = {
             "function": "senddouble",
             "category_type": 105,
             1: {"id": 528, "tag": "SPEAKER ALLOCATION"},
-            2: {
-                "id": 538,
-                "tag": "WHITE NOISE",
-            },  # TODO pulls up graphic unsure how to handle
-            3: {
-                "id": 548,
-                "tag": "SWEEP AUDIO",
-            },  # TODO pulls up graphic unsure how to handle
+            2: {"id": 538, "tag": "WHITE NOISE"},
+            # TODO pulls up graphic unsure how to handle
+            3: {"id": 548, "tag": "SWEEP AUDIO"},
+            # TODO pulls up graphic unsure how to handle
         },
     },
     "edid earc cds": {
@@ -2674,18 +2670,12 @@ Murideo_WebUI = {
             "tag": "SINK DEVICE EDID INFO",
             "function": "sendsingle",
             "category_type": 47160,
-            1: {
-                "id": 1,
-                "tag": "READ EDID",
-            },  # TODO Returns EDID Information example: RESPONSE||47160||HDMI EDID,check sum Ok !||00 FF FF FF FF FF FF 00 4D D9 07 31 01 01 01 01 01 20 01 03 80 A6 5D 78 0A 0D C9 A0 57 47 98 27 12 48 4C 21 08 00 81 80 A9 C0 71 4F B3 00 01 01 01 01 01 01 01 01 08 E8 00 30 F2 70 5A 80 B0 58 8A 00 7C A6 63 00 00 1E 02 3A 80 18 71 38 2D 40 58 2C 45 00 7C A6 63 00 00 1E 00 00 00 FC 00 53 4F 4E 59 20 54 56 20 20 2A 33 30 0A 00 00 00 FD 00 17 79 0E 88 3C 00 0A 20 20 20 20 20 20 01 FC 02 03 67 F0 58 61 60 5D 5E 5F 62 1F 10 14 05 13 04 20 22 3C 3E 12 03 11 02 65 66 3F 40 2F 0D 7F 07 15 07 50 3D 07 BC 57 06 01 67 04 03 83 0F 00 00 6E 03 0C 00 20 00 B8 44 2B 00 80 01 02 03 04 67 D8 5D C4 01 00 00 00 EB 01 46 D0 00 48 2B BA 88 62 76 97 E2 00 CB E3 05 DF 01 E4 0F 03 00 30 E6 06 0D 01 D2 C5 06 01 1D 00 72 51 D0 1E 20 6E 28 55 00 7C A6 63 00 00 1E 00 00 00 00 00 00 72||||Preferred Timing:3840x2160@60Hz,Detailed Timing:1920x1080@60Hz,Extension Detailed Timing1:1280x720@60Hz,,Short Video Descripter:,3840x2160p@60Hz  16:9,3840x2160p@50Hz  16:9,3840x2160p@24Hz  16:9,3840x2160p@25Hz  16:9,3840x2160p@30Hz  16:9,4096x2160p@24Hz  256:135,1920x1080p@50Hz  16:9,1920x1080p@60Hz  16:9,1920x1080i@50Hz  16:9,1920x1080i@60Hz  16:9,1280x720p@50Hz  16:9,1280x720p@60Hz  16:9,1920x1080p@24Hz  16:9,1920x1080p@30Hz  16:9,1280x720p@24Hz  16:9,1280x720p@30Hz  16:9,720x576p@50Hz  16:9,720x480p@60Hz  16:9,720x576p@50Hz  4:3,720x480p@60Hz  4:3,4096x2160p@50Hz  256:135,4096x2160p@60Hz  256:135,1920x1080p@120Hz  16:9,1920x1080p@100Hz  16:9||
-            2: {
-                "id": None,
-                "tag": "SAVE EDID",
-            },  # TODO Does not seem to do anything but should prompt to save the EDID file
-            3: {
-                "id": None,
-                "tag": "OPEN EDID",
-            },  # TODO Opens file dialog to select EDID file
+            1: {"id": 1, "tag": "READ EDID"},
+            # TODO Returns EDID Information example: RESPONSE||47160||HDMI EDID,check sum Ok !||00 FF FF FF FF FF FF 00 4D D9 07 31 01 01 01 01 01 20 01 03 80 A6 5D 78 0A 0D C9 A0 57 47 98 27 12 48 4C 21 08 00 81 80 A9 C0 71 4F B3 00 01 01 01 01 01 01 01 01 08 E8 00 30 F2 70 5A 80 B0 58 8A 00 7C A6 63 00 00 1E 02 3A 80 18 71 38 2D 40 58 2C 45 00 7C A6 63 00 00 1E 00 00 00 FC 00 53 4F 4E 59 20 54 56 20 20 2A 33 30 0A 00 00 00 FD 00 17 79 0E 88 3C 00 0A 20 20 20 20 20 20 01 FC 02 03 67 F0 58 61 60 5D 5E 5F 62 1F 10 14 05 13 04 20 22 3C 3E 12 03 11 02 65 66 3F 40 2F 0D 7F 07 15 07 50 3D 07 BC 57 06 01 67 04 03 83 0F 00 00 6E 03 0C 00 20 00 B8 44 2B 00 80 01 02 03 04 67 D8 5D C4 01 00 00 00 EB 01 46 D0 00 48 2B BA 88 62 76 97 E2 00 CB E3 05 DF 01 E4 0F 03 00 30 E6 06 0D 01 D2 C5 06 01 1D 00 72 51 D0 1E 20 6E 28 55 00 7C A6 63 00 00 1E 00 00 00 00 00 00 72||||Preferred Timing:3840x2160@60Hz,Detailed Timing:1920x1080@60Hz,Extension Detailed Timing1:1280x720@60Hz,,Short Video Descripter:,3840x2160p@60Hz  16:9,3840x2160p@50Hz  16:9,3840x2160p@24Hz  16:9,3840x2160p@25Hz  16:9,3840x2160p@30Hz  16:9,4096x2160p@24Hz  256:135,1920x1080p@50Hz  16:9,1920x1080p@60Hz  16:9,1920x1080i@50Hz  16:9,1920x1080i@60Hz  16:9,1280x720p@50Hz  16:9,1280x720p@60Hz  16:9,1920x1080p@24Hz  16:9,1920x1080p@30Hz  16:9,1280x720p@24Hz  16:9,1280x720p@30Hz  16:9,720x576p@50Hz  16:9,720x480p@60Hz  16:9,720x576p@50Hz  4:3,720x480p@60Hz  4:3,4096x2160p@50Hz  256:135,4096x2160p@60Hz  256:135,1920x1080p@120Hz  16:9,1920x1080p@100Hz  16:9||
+            2: {"id": None, "tag": "SAVE EDID"},
+            # TODO Does not seem to do anything but should prompt to save the EDID file
+            3: {"id": None, "tag": "OPEN EDID"},
+            # TODO Opens file dialog to select EDID file
         },
     },
 }
