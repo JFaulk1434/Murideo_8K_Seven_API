@@ -1,12 +1,20 @@
 """Decoder ring for the WebUI on the murideo"""
 
 # Master Dictionary for WebUI of Murideo 8K Seven Generator
+# commands should be formatted {function}||{category_type},{arg1},{arg2},{arg3},{arg4}
+# function choices are SENDSINGLE, SENDDOUBLE, SENDOTHER
+# id's are the args
+# sometimes no args are sent
+# TODO change keys to start at 0
+# TODO keys that are titles currently should be changed to unique numbers
+# TODO create documentation on the map in markdown
 Murideo_WebUI = {
     "video generator": {
         "tag": "Video Generator",
         "timing": {
             "tag": "TIMING",
-            "function": "sendsingle",  # Function needed to send the command ex: SENDSINGLE||97,110
+            # Function needed to send the command ex: SENDSINGLE||97,110
+            "function": "sendsingle",
             "category_type": 97,  # ID For the category in this case it's 97=Timing
             "8k": {
                 "tag": "8K",
@@ -794,19 +802,20 @@ Murideo_WebUI = {
             "auto": {
                 "tag": "AUTO",
                 "AUTO": {
+                    # TODO Figure out how to send 2 commands
+                    # 1. SENDSINGLE||97,42 2. SENDSINGLE||47160,1
                     "id": 43,
                     "h_rez": None,
                     "v_rez": None,
                     "refresh": None,
                     "tag": "Auto(Output timing based on EDID of sink device)",
-                    "note": "This needs to send 2 commands, 1. SENDSINGLE||97,42 2. SENDSINGLE||47160,1",  # TODO Figure out how to send 2 commands
                 },
             },
         },
         "pattern": {
             "tag": "PATTERN",
-            "function": "senddouble",  # Function needed to send the command ex: SENDDOUBLE||98,458
-            "category_type": 98,  # ID for the category in this case it's 98=Pattern
+            "function": "senddouble",
+            "category_type": 98,
             "fpga": {
                 "tag": "FPGA",
                 1: {"id": 0, "tag": "100% Color Bars"},
@@ -1182,1239 +1191,457 @@ Murideo_WebUI = {
                     40: {"id": 207, "tag": "Gamma Lines Blue"},
                 },
                 "color bars & noise": {
-                    "tag": "COLOR BARS & NOISE"
-                    1: {
-                        "id": 208,
-                        "tag": "Color Wipe Full"
-                    },
-                    "Color Wipe Half": {
-                        "id": 209,
-                        "tag": "Color Wipe Half"
-                    },
-                    "Quick Check": {
-                        "id": 210,
-                        "tag": "Quick Check"
-                    },
-                    "H Bars RGB": {
-                        "id": 211,
-                        "tag": "H Bars RGB"
-                    },
-                    "H Bars RGBCMY": {
-                        "id": 212,
-                        "tag": "H Bars RGBCMY"
-                    },
-                    "H Bars Shade": {
-                        "id": 214,
-                        "tag": "H Bars Shade"
-                    },
-                    "V Bars RGB": {
-                        "id": 215,
-                        "tag": "V Bars RGB"
-                    },
-                    "V Bars RGBCMY": {
-                        "id": 216,
-                        "tag": "V Bars RGBCMY"
-                    },
-                    "V Bars Layover": {
-                        "id": 217,
-                        "tag": "V Bars Layover"
-                    },
-                    "V Bars Shade": {
-                        "id": 218,
-                        "tag": "V Bars Shade"
-                    },
-                    "Color Noise 01": {
-                        "id": 219,
-                        "tag": "Color Noise 01"
-                    },
-                    "Color Noise 02": {
-                        "id": 220,
-                        "tag": "Color Noise 02"
-                    },
-                    "Color Noise 04": {
-                        "id": 221,
-                        "tag": "Color Noise 04"
-                    },
-                    "Color Noise 08": {
-                        "id": 222,
-                        "tag": "Color Noise 08"
-                    },
-                    "Color Noise 16": {
-                        "id": 223,
-                        "tag": "Color Noise 16"
-                    },
-                    "Grey Noise 01": {
-                        "id": 224,
-                        "tag": "Color Noise 01"
-                    },
-                    "Grey Noise 02": {
-                        "id": 225,
-                        "tag": "Color Noise 02"
-                    },
-                    "Grey Noise 04": {
-                        "id": 226,
-                        "tag": "Color Noise 04"
-                    },
-                    "Grey Noise 08": {
-                        "id": 227,
-                        "tag": "Color Noise 08"
-                    },
-                    "Grey Noise 16": {
-                        "id": 228,
-                        "tag": "Color Noise 16"
-                    },
+                    "tag": "COLOR BARS & NOISE",
+                    1: {"id": 208, "tag": "Color Wipe Full"},
+                    2: {"id": 209, "tag": "Color Wipe Half"},
+                    3: {"id": 210, "tag": "Quick Check"},
+                    4: {"id": 211, "tag": "H Bars RGB"},
+                    5: {"id": 212, "tag": "H Bars RGBCMY"},
+                    6: {"id": 214, "tag": "H Bars Shade"},
+                    7: {"id": 215, "tag": "V Bars RGB"},
+                    8: {"id": 216, "tag": "V Bars RGBCMY"},
+                    9: {"id": 217, "tag": "V Bars Layover"},
+                    10: {"id": 218, "tag": "V Bars Shade"},
+                    11: {"id": 219, "tag": "Color Noise 01"},
+                    12: {"id": 220, "tag": "Color Noise 02"},
+                    13: {"id": 221, "tag": "Color Noise 04"},
+                    14: {"id": 222, "tag": "Color Noise 08"},
+                    15: {"id": 223, "tag": "Color Noise 16"},
+                    16: {"id": 224, "tag": "Color Noise 01"},
+                    17: {"id": 225, "tag": "Color Noise 02"},
+                    18: {"id": 226, "tag": "Color Noise 04"},
+                    19: {"id": 227, "tag": "Color Noise 08"},
+                    20: {"id": 228, "tag": "Color Noise 16"},
                 },
                 "color checker": {
-                    "HSL BlueMagenta": {
-                        "id": 229,
-                        "tag": "HSL BlueMagenta",
-                    },
-                    "HSL Blue": {
-                        "id": 230,
-                        "tag": "HSL Blue",
-                    },
-                    "HSL Cyan Blue": {
-                        "id": 231,
-                        "tag": "HSL Cyan Blue",
-                    },
-                    "HSL Cyan": {
-                        "id": 232,
-                        "tag": "HSL Cyan",
-                    },
-                    "HSL Green Cyan": {
-                        "id": 233,
-                        "tag": "HSL Green Cyan",
-                    },
-                    "HSL Green": {
-                        "id": 234,
-                        "tag": "HSL Green",
-                    },
-                    "HSL Magenta Red": {
-                        "id": 235,
-                        "tag": "HSL Magenta Red",
-                    },
-                    "HSL Magenta": {
-                        "id": 236,
-                        "tag": "HSL Magenta",
-                    },
-                    "HSL Red": {
-                        "id": 237,
-                        "tag": "HSL Red",
-                    },
-                    "HSL Yellow Green": {
-                        "id": 238,
-                        "tag": "HSL Yellow Green",
-                    },
-                    "HSL Yellow Red": {
-                        "id": 239,
-                        "tag": "HSL Yellow Red",
-                    },
-                    "HSL Yellow": {
-                        "id": 240,
-                        "tag": "HSL Yellow",
-                    },
-                    "HSV BlueMagenta": {
-                        "id": 241,
-                        "tag": "HSV BlueMagenta",
-                    },
-                    "HSV Cyan Blue": {
-                        "id": 243,
-                        "tag": "HSV Cyan Blue",
-                    },
-                    "HSV Cyan": {
-                        "id": 244,
-                        "tag": "HSV Cyan",
-                    },
-                    "HSV Green Cyan": {
-                        "id": 245,
-                        "tag": "HSV Green Cyan",
-                    },
-                    "HSV Green": {
-                        "id": 246,
-                        "tag": "HSV Green",
-                    },
-                    "HSV Magenta Red": {
-                        "id": 247,
-                        "tag": "HSV Magenta Red",
-                    },
-                    "HSV Magenta": {
-                        "id": 248,
-                        "tag": "HSV Magenta",
-                    },
-                    "HSV Red": {
-                        "id": 249,
-                        "tag": "HSV Red",
-                    },
-                    "HSV Yellow Green": {
-                        "id": 250,
-                        "tag": "HSV Yellow Green",
-                    },
-                    "HSV Yellow Red": {
-                        "id": 251,
-                        "tag": "HSV Yellow Red",
-                    },
-                    "HSV Yellow": {
-                        "id": 252,
-                        "tag": "HSV Yellow",
-                    },
-                    "RGB Blue 064": {
-                        "id": 253,
-                        "tag": "RGB Blue 064",
-                    },
-                    "RGB Blue 127": {
-                        "id": 254,
-                        "tag": "RGB Blue 127",
-                    },
-                    "RGB Blue 191": {
-                        "id": 255,
-                        "tag": "RGB Blue 191",
-                    },
-                    "RGB Blue 255": {
-                        "id": 256,
-                        "tag": "RGB Blue 255",
-                    },
-                    "RGB Green 064": {
-                        "id": 257,
-                        "tag": "RGB Green 064",
-                    },
-                    "RGB Green 127": {
-                        "id": 258,
-                        "tag": "RGB Green 127",
-                    },
-                    "RGB Green 191": {
-                        "id": 259,
-                        "tag": "RGB Green 191",
-                    },
-                    "RGB Green 255": {
-                        "id": 260,
-                        "tag": "RGB Green 255",
-                    },
-                    "RGB Red 064": {
-                        "id": 261,
-                        "tag": "RGB Red 064",
-                    },
-                    "RGB Red 127": {
-                        "id": 262,
-                        "tag": "RGB Red 127",
-                    },
-                    "RGB Red 191": {
-                        "id": 263,
-                        "tag": "RGB Red 191",
-                    },
-                    "RGB Red 255": {
-                        "id": 264,
-                        "tag": "RGB Red 255",
-                    },
+                    "tag": "COLOR CHECKER",
+                    1: {"id": 229, "tag": "HSL BlueMagenta"},
+                    2: {"id": 230, "tag": "HSL Blue"},
+                    3: {"id": 231, "tag": "HSL Cyan Blue"},
+                    4: {"id": 232, "tag": "HSL Cyan"},
+                    5: {"id": 233, "tag": "HSL Green Cyan"},
+                    6: {"id": 234, "tag": "HSL Green"},
+                    7: {"id": 235, "tag": "HSL Magenta Red"},
+                    8: {"id": 236, "tag": "HSL Magenta"},
+                    9: {"id": 237, "tag": "HSL Red"},
+                    10: {"id": 238, "tag": "HSL Yellow Green"},
+                    11: {"id": 239, "tag": "HSL Yellow Red"},
+                    12: {"id": 240, "tag": "HSL Yellow"},
+                    13: {"id": 241, "tag": "HSV BlueMagenta"},
+                    14: {"id": 243, "tag": "HSV Cyan Blue"},
+                    15: {"id": 244, "tag": "HSV Cyan"},
+                    16: {"id": 245, "tag": "HSV Green Cyan"},
+                    17: {"id": 246, "tag": "HSV Green"},
+                    18: {"id": 247, "tag": "HSV Magenta Red"},
+                    19: {"id": 248, "tag": "HSV Magenta"},
+                    20: {"id": 249, "tag": "HSV Red"},
+                    21: {"id": 250, "tag": "HSV Yellow Green"},
+                    22: {"id": 251, "tag": "HSV Yellow Red"},
+                    23: {"id": 252, "tag": "HSV Yellow"},
+                    24: {"id": 253, "tag": "RGB Blue 064"},
+                    25: {"id": 254, "tag": "RGB Blue 127"},
+                    26: {"id": 255, "tag": "RGB Blue 191"},
+                    27: {"id": 256, "tag": "RGB Blue 255"},
+                    28: {"id": 257, "tag": "RGB Green 064"},
+                    29: {"id": 258, "tag": "RGB Green 127"},
+                    30: {"id": 259, "tag": "RGB Green 191"},
+                    31: {"id": 260, "tag": "RGB Green 255"},
+                    32: {"id": 261, "tag": "RGB Red 064"},
+                    33: {"id": 262, "tag": "RGB Red 127"},
+                    34: {"id": 263, "tag": "RGB Red 191"},
+                    35: {"id": 264, "tag": "RGB Red 255"},
                 },
                 "geometry and resolution": {
-                    "H Convergence": {
-                        "id": 265,
-                        "tag": "H Convergence",
-                    },
-                    "V Convergence": {
-                        "id": 266,
-                        "tag": "V Convergence",
-                    },
-                    "H Length": {
-                        "id": 267,
-                        "tag": "H Length",
-                    },
-                    "V Length": {
-                        "id": 268,
-                        "tag": "V Length",
-                    },
-                    "Overscan": {
-                        "id": 269,
-                        "tag": "Overscan",
-                    },
-                    "BW Evaluation": {
-                        "id": 270,
-                        "tag": "BW Evaluation",
-                    },
-                    "BW Evaluation 2": {
-                        "id": 271,
-                        "tag": "BW Evaluation 2",
-                    },
-                    "H Wedge": {
-                        "id": 272,
-                        "tag": "H Wedge",
-                    },
-                    "Star Burst": {
-                        "id": 273,
-                        "tag": "Star Burst",
-                    },
-                    "V Wedge": {
-                        "id": 274,
-                        "tag": "V Wedge",
-                    },
-                    "H Multiburst": {
-                        "id": 275,
-                        "tag": "H Multiburst",
-                    },
-                    "V Multiburst": {
-                        "id": 276,
-                        "tag": "V Multiburst",
-                    },
-                    "Checkers 02": {
-                        "id": 277,
-                        "tag": "Checkers 02",
-                    },
-                    "Checkers 04": {
-                        "id": 278,
-                        "tag": "Checkers 04",
-                    },
-                    "Checkers 08": {
-                        "id": 279,
-                        "tag": "Checkers 08",
-                    },
-                    "Checkers 16": {
-                        "id": 280,
-                        "tag": "Checkers 16",
-                    },
-                    "Checkers 32": {
-                        "id": 281,
-                        "tag": "Checkers 32",
-                    },
-                    "Checkers Log": {
-                        "id": 282,
-                        "tag": "Checkers Log",
-                    },
-                    "Many Circles": {
-                        "id": 283,
-                        "tag": "Many Circles",
-                    },
-                    "Center Circle": {
-                        "id": 284,
-                        "tag": "Center Circle",
-                    },
-                    "Many Squares": {
-                        "id": 285,
-                        "tag": "Many Squares",
-                    },
-                    "Grid": {
-                        "id": 286,
-                        "tag": "Grid",
-                    },
-                    "H Lines 02": {
-                        "id": 287,
-                        "tag": "H Lines 02",
-                    },
-                    "H Lines 04": {
-                        "id": 288,
-                        "tag": "H Lines 04",
-                    },
-                    "H Lines 08": {
-                        "id": 289,
-                        "tag": "H Lines 08",
-                    },
-                    "H Lines Log": {
-                        "id": 290,
-                        "tag": "H Lines Log",
-                    },
-                    "V Lines 02": {
-                        "id": 291,
-                        "tag": "V Lines 02",
-                    },
-                    "V Lines 04": {
-                        "id": 292,
-                        "tag": "V Lines 04",
-                    },
-                    "V Lines 08": {
-                        "id": 293,
-                        "tag": "V Lines 08",
-                    },
-                    "V Lines Log": {
-                        "id": 294,
-                        "tag": "V Lines Log",
-                    },
-                    "Points 02": {
-                        "id": 295,
-                        "tag": "Points 02",
-                    },
-                    "Points 04": {
-                        "id": 296,
-                        "tag": "Points 04",
-                    },
-                    "Points 08": {
-                        "id": 297,
-                        "tag": "Points 08",
-                    },
-                    "Points 16": {
-                        "id": 298,
-                        "tag": "Points 16",
-                    },
-                    "Points 32": {
-                        "id": 299,
-                        "tag": "Points 32",
-                    },
-                    "Squares 02": {
-                        "id": 300,
-                        "tag": "Squares 02",
-                    },
-                    "Squares 04": {
-                        "id": 301,
-                        "tag": "Squares 04",
-                    },
-                    "Squares 08": {
-                        "id": 302,
-                        "tag": "Squares 08",
-                    },
-                    "Squares 16": {
-                        "id": 303,
-                        "tag": "Squares 16",
-                    },
-                    "Squares 32": {
-                        "id": 304,
-                        "tag": "Squares 32",
-                    },
+                    "tag": "GEOMETRY AND RESOLUTION",
+                    1: {"id": 265, "tag": "H Convergence"},
+                    2: {"id": 266, "tag": "V Convergence"},
+                    3: {"id": 267, "tag": "H Length"},
+                    4: {"id": 268, "tag": "V Length"},
+                    5: {"id": 269, "tag": "Overscan"},
+                    6: {"id": 270, "tag": "BW Evaluation"},
+                    7: {"id": 271, "tag": "BW Evaluation 2"},
+                    8: {"id": 272, "tag": "H Wedge"},
+                    9: {"id": 273, "tag": "Star Burst"},
+                    10: {"id": 274, "tag": "V Wedge"},
+                    11: {"id": 275, "tag": "H Multiburst"},
+                    12: {"id": 276, "tag": "V Multiburst"},
+                    13: {"id": 277, "tag": "Checkers 02"},
+                    14: {"id": 278, "tag": "Checkers 04"},
+                    15: {"id": 279, "tag": "Checkers 08"},
+                    16: {"id": 280, "tag": "Checkers 16"},
+                    17: {"id": 281, "tag": "Checkers 32"},
+                    18: {"id": 282, "tag": "Checkers Log"},
+                    19: {"id": 283, "tag": "Many Circles"},
+                    20: {"id": 284, "tag": "Center Circle"},
+                    21: {"id": 285, "tag": "Many Squares"},
+                    22: {"id": 286, "tag": "Grid"},
+                    23: {"id": 287, "tag": "H Lines 02"},
+                    24: {"id": 288, "tag": "H Lines 04"},
+                    25: {"id": 289, "tag": "H Lines 08"},
+                    26: {"id": 290, "tag": "H Lines Log"},
+                    27: {"id": 291, "tag": "V Lines 02"},
+                    28: {"id": 292, "tag": "V Lines 04"},
+                    29: {"id": 293, "tag": "V Lines 08"},
+                    30: {"id": 294, "tag": "V Lines Log"},
+                    31: {"id": 295, "tag": "Points 02"},
+                    32: {"id": 296, "tag": "Points 04"},
+                    33: {"id": 297, "tag": "Points 08"},
+                    34: {"id": 298, "tag": "Points 16"},
+                    35: {"id": 299, "tag": "Points 32"},
+                    36: {"id": 300, "tag": "Squares 02"},
+                    37: {"id": 301, "tag": "Squares 04"},
+                    38: {"id": 302, "tag": "Squares 08"},
+                    39: {"id": 303, "tag": "Squares 16"},
+                    40: {"id": 304, "tag": "Squares 32"},
                 },
                 "ramps": {
-                    "Color Patch": {
-                        "id": 305,
-                        "tag": "Color Patch",
-                    },
-                    "Triangle ": {
-                        "id": 306,
-                        "tag": "Triangle",
-                    },
-                    "Wireframe": {
-                        "id": 307,
-                        "tag": "Wireframe",
-                    },
-                    "Full Red": {
-                        "id": 308,
-                        "tag": "Full Red",
-                    },
-                    "Full Green": {
-                        "id": 309,
-                        "tag": "Full Green",
-                    },
-                    "Full Blue": {
-                        "id": 310,
-                        "tag": "Full Blue",
-                    },
-                    "Full Magenta": {
-                        "id": 311,
-                        "tag": "Full Magenta",
-                    },
-                    "Full Yellow": {
-                        "id": 312,
-                        "tag": "Full Yellow",
-                    },
-                    "Full Cyan": {
-                        "id": 313,
-                        "tag": "Full Cyan",
-                    },
-                    "Full Grey": {
-                        "id": 314,
-                        "tag": "Full Grey",
-                    },
-                    "Half Red": {
-                        "id": 315,
-                        "tag": "Half Red",
-                    },
-                    "Half Green": {
-                        "id": 316,
-                        "tag": "Half Green",
-                    },
-                    "Half Blue": {
-                        "id": 317,
-                        "tag": "Half Blue",
-                    },
-                    "Half Magenta": {
-                        "id": 318,
-                        "tag": "Half Magenta",
-                    },
-                    "Half Yellow": {
-                        "id": 319,
-                        "tag": "Half Yellow",
-                    },
-                    "Half Cyan": {
-                        "id": 320,
-                        "tag": "Half Cyan",
-                    },
-                    "HSL Sat 0.00": {
-                        "id": 321,
-                        "tag": "HSL Sat 0.00",
-                    },
-                    "HSL Hue 0.00": {
-                        "id": 322,
-                        "tag": "HSL Hue 0.00",
-                    },
-                    "HSL Hue 0.33": {
-                        "id": 323,
-                        "tag": "HSL Hue 0.33",
-                    },
-                    "HSL Hue 0.66": {
-                        "id": 324,
-                        "tag": "HSL Hue 0.66",
-                    },
-                    "HSL Lev 0.25": {
-                        "id": 325,
-                        "tag": "HSL Lev 0.25",
-                    },
-                    "HSL Lev 0.50": {
-                        "id": 326,
-                        "tag": "HSL Lev 0.50",
-                    },
-                    "HSL Lev 0.75": {
-                        "id": 327,
-                        "tag": "HSL Lev 0.75",
-                    },
-                    "HSV Sat 0.00": {
-                        "id": 328,
-                        "tag": "HSV Sat 0.00",
-                    },
-                    "HSV Sat 0.50": {
-                        "id": 329,
-                        "tag": "HSV Sat 0.50",
-                    },
-                    "HSV Sat 1.00": {
-                        "id": 330,
-                        "tag": "HSV Sat 1.00",
-                    },
-                    "HSV Hue 0.00": {
-                        "id": 331,
-                        "tag": "HSV Hue 0.00",
-                    },
-                    "HSV Hue 0.33": {
-                        "id": 332,
-                        "tag": "HSV Hue 0.33",
-                    },
-                    "HSV Hue 0.66": {
-                        "id": 333,
-                        "tag": "HSV Hue 0.66",
-                    },
-                    "HSV Sat 0.50": {
-                        "id": 334,
-                        "tag": "HSV Sat 0.50",
-                    },
-                    "HSV Sat 1.00": {
-                        "id": 335,
-                        "tag": "HSV Sat 1.00",
-                    },
-                    "HSV Val 0.00": {
-                        "id": 336,
-                        "tag": "HSV Sat 0.00",
-                    },
-                    "HSV Val 0.50": {
-                        "id": 337,
-                        "tag": "HSV Sat 0.50",
-                    },
-                    "HSV Val 1.00": {
-                        "id": 338,
-                        "tag": "HSV Sat 1.00",
-                    },
-                    "RGB Green 000": {
-                        "id": 339,
-                        "tag": "RGB Green 000",
-                    },
-                    "RGB Green 127": {
-                        "id": 340,
-                        "tag": "RGB Green 127",
-                    },
-                    "RGB Green 255": {
-                        "id": 341,
-                        "tag": "RGB Green 255",
-                    },
-                    "RGB Blue 000": {
-                        "id": 342,
-                        "tag": "RGB Blue 000",
-                    },
-                    "RGB Blue 127": {
-                        "id": 343,
-                        "tag": "RGB Blue 127",
-                    },
-                    "RGB Blue 255": {
-                        "id": 344,
-                        "tag": "RGB Blue 255",
-                    },
-                    "RGB Red 000": {
-                        "id": 345,
-                        "tag": "RGB Red 000",
-                    },
-                    "RGB Red 127": {
-                        "id": 346,
-                        "tag": "RGB Red 127",
-                    },
-                    "RGB Red 255": {
-                        "id": 347,
-                        "tag": "RGB Red 255",
-                    },
+                    "tag": "RAMPS",
+                    1: {"id": 305, "tag": "Color Patch"},
+                    2: {"id": 306, "tag": "Triangle"},
+                    3: {"id": 307, "tag": "Wireframe"},
+                    4: {"id": 308, "tag": "Full Red"},
+                    5: {"id": 309, "tag": "Full Green"},
+                    6: {"id": 310, "tag": "Full Blue"},
+                    7: {"id": 311, "tag": "Full Magenta"},
+                    8: {"id": 312, "tag": "Full Yellow"},
+                    9: {"id": 313, "tag": "Full Cyan"},
+                    10: {"id": 314, "tag": "Full Grey"},
+                    11: {"id": 315, "tag": "Half Red"},
+                    12: {"id": 316, "tag": "Half Green"},
+                    13: {"id": 317, "tag": "Half Blue"},
+                    14: {"id": 318, "tag": "Half Magenta"},
+                    15: {"id": 319, "tag": "Half Yellow"},
+                    16: {"id": 320, "tag": "Half Cyan"},
+                    17: {"id": 321, "tag": "HSL Sat 0.00"},
+                    18: {"id": 322, "tag": "HSL Hue 0.00"},
+                    19: {"id": 323, "tag": "HSL Hue 0.33"},
+                    20: {"id": 324, "tag": "HSL Hue 0.66"},
+                    21: {"id": 325, "tag": "HSL Lev 0.25"},
+                    22: {"id": 326, "tag": "HSL Lev 0.50"},
+                    23: {"id": 327, "tag": "HSL Lev 0.75"},
+                    24: {"id": 328, "tag": "HSV Sat 0.00"},
+                    25: {"id": 329, "tag": "HSV Sat 0.50"},
+                    26: {"id": 330, "tag": "HSV Sat 1.00"},
+                    27: {"id": 331, "tag": "HSV Hue 0.00"},
+                    28: {"id": 332, "tag": "HSV Hue 0.33"},
+                    29: {"id": 333, "tag": "HSV Hue 0.66"},
+                    30: {"id": 334, "tag": "HSV Sat 0.50"},
+                    31: {"id": 335, "tag": "HSV Sat 1.00"},
+                    32: {"id": 336, "tag": "HSV Sat 0.00"},
+                    33: {"id": 337, "tag": "HSV Sat 0.50"},
+                    34: {"id": 338, "tag": "HSV Sat 1.00"},
+                    35: {"id": 339, "tag": "RGB Green 000"},
+                    36: {"id": 340, "tag": "RGB Green 127"},
+                    37: {"id": 341, "tag": "RGB Green 255"},
+                    38: {"id": 342, "tag": "RGB Blue 000"},
+                    39: {"id": 343, "tag": "RGB Blue 127"},
+                    40: {"id": 344, "tag": "RGB Blue 255"},
+                    41: {"id": 345, "tag": "RGB Red 000"},
+                    42: {"id": 346, "tag": "RGB Red 127"},
+                    43: {"id": 347, "tag": "RGB Red 255"},
                 },
             },
             "dolby vision": {
-                "Dolby Vision UHD": {
-                    "id": 425,
-                    "tag": "Dolby Vision UHD",
-                },
-                "CornerBox_UHD": {
-                    "id": 426,
-                    "tag": "CornerBox_UHD",
-                },
-                "Checker_UHD": {
-                    "id": 427,
-                    "tag": "Checker_UHD",
-                },
-                "Steps_UHD_L255rm1": {
-                    "id": 428,
-                    "tag": "Steps_UHD_L255rm1",
-                },
-                "Steps_UHD_L255rm2": {
-                    "id": 429,
-                    "tag": "Steps_UHD_L255rm2",
-                },
-                "Steps_UHD_noL255": {
-                    "id": 430,
-                    "tag": "Steps_UHD_noL255",
-                },
-                "Ramp_UHD_L255rm1": {
-                    "id": 431,
-                    "tag": "Ramp_UHD_L255rm1",
-                },
-                "Ramp_UHD_L255rm2": {
-                    "id": 432,
-                    "tag": "Ramp_UHD_L255rm2",
-                },
-                "Ramp_UHD_noL255": {
-                    "id": 433,
-                    "tag": "Ramp_UHD_noL255",
-                },
-                "Dolby Vision FHD": {
-                    "id": 434,
-                    "tag": "Dolby Vision FHD",
-                },
-                "CornerBox_FHD": {
-                    "id": 435,
-                    "tag": "CornerBox_FHD",
-                },
-                "Checker_FHD": {
-                    "id": 436,
-                    "tag": "Checker_FHD",
-                },
-                "Steps_FHD_L255rm1": {
-                    "id": 437,
-                    "tag": "Steps_FHD_L255rm1",
-                },
-                "Steps_FHD_L255rm2": {
-                    "id": 438,
-                    "tag": "Steps_FHD_L255rm2",
-                },
-                "Steps_FHD_noL255": {
-                    "id": 439,
-                    "tag": "Steps_FHD_noL255",
-                },
-                "Ramp_FHD_L255rm1": {
-                    "id": 440,
-                    "tag": "Ramp_FHD_L255rm1",
-                },
-                "Ramp_FHD_L255rm2": {
-                    "id": 441,
-                    "tag": "Ramp_FHD_L255rm2",
-                },
-                "Ramp_FHD_noL255": {
-                    "id": 442,
-                    "tag": "Ramp_FHD_noL255",
-                },
+                "tag": "Dolby Vision",
+                1: {"id": 425, "tag": "Dolby Vision UHD"},
+                2: {"id": 426, "tag": "CornerBox_UHD"},
+                3: {"id": 427, "tag": "Checker_UHD"},
+                4: {"id": 428, "tag": "Steps_UHD_L255rm1"},
+                5: {"id": 429, "tag": "Steps_UHD_L255rm2"},
+                6: {"id": 430, "tag": "Steps_UHD_noL255"},
+                7: {"id": 431, "tag": "Ramp_UHD_L255rm1"},
+                8: {"id": 432, "tag": "Ramp_UHD_L255rm2"},
+                9: {"id": 433, "tag": "Ramp_UHD_noL255"},
+                10: {"id": 434, "tag": "Dolby Vision FHD"},
+                11: {"id": 435, "tag": "CornerBox_FHD"},
+                12: {"id": 436, "tag": "Checker_FHD"},
+                13: {"id": 437, "tag": "Steps_FHD_L255rm1"},
+                14: {"id": 438, "tag": "Steps_FHD_L255rm2"},
+                15: {"id": 439, "tag": "Steps_FHD_noL255"},
+                16: {"id": 440, "tag": "Ramp_FHD_L255rm1"},
+                17: {"id": 441, "tag": "Ramp_FHD_L255rm2"},
+                18: {"id": 442, "tag": "Ramp_FHD_noL255"},
             },
             "hd": {
-                "High Clipping": {
-                    "id": 350,
-                    "tag": "High Clipping",
-                },
-                "Low Clipping": {
-                    "id": 351,
-                    "tag": "Low Clipping",
-                },
-                "Color Noise 01": {
-                    "id": 352,
-                    "tag": "Color Noise 01",
-                },
-                "Color Noise 02": {
-                    "id": 353,
-                    "tag": "Color Noise 02",
-                },
-                "Color Noise 04": {
-                    "id": 354,
-                    "tag": "Color Noise 04",
-                },
-                "Color Noise 08": {
-                    "id": 355,
-                    "tag": "Color Noise 08",
-                },
-                "Triangle": {
-                    "id": 356,
-                    "tag": "Triangle",
-                },
-                "Color Wipe Full": {
-                    "id": 357,
-                    "tag": "Color Wipe Full",
-                },
-                "Color Wipe Half": {
-                    "id": 358,
-                    "tag": "Color Wipe Half",
-                },
-                "Composite": {
-                    "id": 359,
-                    "tag": "Composite",
-                },
-                "H Multiburst": {
-                    "id": 360,
-                    "tag": "H Multiburst",
-                },
-                "V Multiburst": {
-                    "id": 361,
-                    "tag": "V Multiburst",
-                },
-                "Checkers 02": {
-                    "id": 362,
-                    "tag": "Checkers 02",
-                },
-                "Checkers 04": {
-                    "id": 363,
-                    "tag": "Checkers 04",
-                },
-                "Checkers 08": {
-                    "id": 364,
-                    "tag": "Checkers 08",
-                },
-                "Checkers 16": {
-                    "id": 365,
-                    "tag": "Checkers 16",
-                },
-                "Checkers 32": {
-                    "id": 366,
-                    "tag": "Checkers 32",
-                },
-                "Checkers Log": {
-                    "id": 367,
-                    "tag": "Checkers Log",
-                },
-                "Many Circles": {
-                    "id": 368,
-                    "tag": "Many Circles",
-                },
-                "Center Circle": {
-                    "id": 369,
-                    "tag": "Center Circle",
-                },
-                "Many Squares": {
-                    "id": 370,
-                    "tag": "Many Squares",
-                },
-                "Grid": {
-                    "id": 371,
-                    "tag": "Grid",
-                },
-                "H Lines 02": {
-                    "id": 372,
-                    "tag": "H Lines 02",
-                },
-                "H Lines 04": {
-                    "id": 373,
-                    "tag": "H Lines 04",
-                },
-                "H Lines 08": {
-                    "id": 374,
-                    "tag": "H Lines 08",
-                },
-                "H Lines Log": {
-                    "id": 375,
-                    "tag": "H Lines Log",
-                },
-                "V Lines 02": {
-                    "id": 376,
-                    "tag": "V Lines 02",
-                },
-                "V Lines 04": {
-                    "id": 377,
-                    "tag": "V Lines 04",
-                },
-                "V Lines 08": {
-                    "id": 378,
-                    "tag": "V Lines 08",
-                },
-                "Geometry Points 02": {
-                    "id": 380,
-                    "tag": "Geometry Points 02",
-                },
-                "Geometry Points 04": {
-                    "id": 381,
-                    "tag": "Geometry Points 04",
-                },
-                "Geometry Points 08": {
-                    "id": 382,
-                    "tag": "Geometry Points 08",
-                },
-                "Geometry Points 16": {
-                    "id": 383,
-                    "tag": "Geometry Points 16",
-                },
-                "Geometry Points 32": {
-                    "id": 384,
-                    "tag": "Geometry Points 32",
-                },
-                "Geometry Squares 04": {
-                    "id": 385,
-                    "tag": "Geometry Squares 04",
-                },
-                "Geometry Squares 08": {
-                    "id": 386,
-                    "tag": "Geometry Squares 08",
-                },
-                "Geometry Squares 16": {
-                    "id": 387,
-                    "tag": "Geometry Squares 16",
-                },
-                "Geometry Squares 32": {
-                    "id": 388,
-                    "tag": "Geometry Squares 32",
-                },
-                "H Length": {
-                    "id": 389,
-                    "tag": "H Length",
-                },
-                "V Length": {
-                    "id": 390,
-                    "tag": "V Length",
-                },
-                "Overscan": {
-                    "id": 391,
-                    "tag": "Overscan",
-                },
-                "BW Evaluation 2": {
-                    "id": 392,
-                    "tag": "BW Evaluation 2",
-                },
-                "BW Evaluation": {
-                    "id": 393,
-                    "tag": "BW Evaluation",
-                },
-                "H Wedge": {
-                    "id": 394,
-                    "tag": "H Wedge",
-                },
-                "Star Burst": {
-                    "id": 395,
-                    "tag": "Star Burst",
-                },
-                "V Wedge": {
-                    "id": 396,
-                    "tag": "V Wedge",
-                },
-                "RGB Text": {
-                    "id": 397,
-                    "tag": "RGB Text",
-                },
+                "tag": "HD",
+                1: {"id": 350, "tag": "High Clipping"},
+                2: {"id": 351, "tag": "Low Clipping"},
+                3: {"id": 352, "tag": "Color Noise 01"},
+                4: {"id": 353, "tag": "Color Noise 02"},
+                5: {"id": 354, "tag": "Color Noise 04"},
+                6: {"id": 355, "tag": "Color Noise 08"},
+                7: {"id": 356, "tag": "Triangle"},
+                8: {"id": 357, "tag": "Color Wipe Full"},
+                9: {"id": 358, "tag": "Color Wipe Half"},
+                10: {"id": 359, "tag": "Composite"},
+                11: {"id": 360, "tag": "H Multiburst"},
+                12: {"id": 361, "tag": "V Multiburst"},
+                13: {"id": 362, "tag": "Checkers 02"},
+                14: {"id": 363, "tag": "Checkers 04"},
+                15: {"id": 364, "tag": "Checkers 08"},
+                16: {"id": 365, "tag": "Checkers 16"},
+                17: {"id": 366, "tag": "Checkers 32"},
+                18: {"id": 367, "tag": "Checkers Log"},
+                19: {"id": 368, "tag": "Many Circles"},
+                20: {"id": 369, "tag": "Center Circle"},
+                21: {"id": 370, "tag": "Many Squares"},
+                22: {"id": 371, "tag": "Grid"},
+                23: {"id": 372, "tag": "H Lines 02"},
+                24: {"id": 373, "tag": "H Lines 04"},
+                25: {"id": 374, "tag": "H Lines 08"},
+                26: {"id": 375, "tag": "H Lines Log"},
+                27: {"id": 376, "tag": "V Lines 02"},
+                28: {"id": 377, "tag": "V Lines 04"},
+                29: {"id": 378, "tag": "V Lines 08"},
+                30: {"id": 380, "tag": "Geometry Points 02"},
+                31: {"id": 381, "tag": "Geometry Points 04"},
+                32: {"id": 382, "tag": "Geometry Points 08"},
+                33: {"id": 383, "tag": "Geometry Points 16"},
+                34: {"id": 384, "tag": "Geometry Points 32"},
+                35: {"id": 385, "tag": "Geometry Squares 04"},
+                36: {"id": 386, "tag": "Geometry Squares 08"},
+                37: {"id": 387, "tag": "Geometry Squares 16"},
+                38: {"id": 388, "tag": "Geometry Squares 32"},
+                39: {"id": 389, "tag": "H Length"},
+                40: {"id": 390, "tag": "V Length"},
+                41: {"id": 391, "tag": "Overscan"},
+                42: {"id": 392, "tag": "BW Evaluation 2"},
+                43: {"id": 393, "tag": "BW Evaluation"},
+                44: {"id": 394, "tag": "H Wedge"},
+                45: {"id": 395, "tag": "Star Burst"},
+                46: {"id": 396, "tag": "V Wedge"},
+                47: {"id": 397, "tag": "RGB Text"},
             },
             "pva": {
-                "BT709 White_Clipping": {
-                    "id": 443,
-                    "tag": "(BT709) White_Clipping",
-                },
-                "BT709 Black_Clipping": {
-                    "id": 444,
-                    "tag": "(BT709) Black_Clipping",
-                },
-                "BT709 APL_W_B_CLipping": {
-                    "id": 445,
-                    "tag": "(BT709) APL_W_B_Clipping",
-                },
-                "BT709 Color_Clipping": {
-                    "id": 446,
-                    "tag": "(BT709) Color_Clipping",
-                },
-                "BT709 Sharpness_Overscan": {
-                    "id": 447,
-                    "tag": "(BT709) Sharpness_Overscan",
-                },
-                "BT709 Alignment": {
-                    "id": 448,
-                    "tag": "(BT709) Alignment",
-                },
-                "BT709 Multi_Skin_Tone": {
-                    "id": 449,
-                    "tag": "(BT709) Multi_Skin_Tone",
-                },
-                "BT709 Restaurant_Scene": {
-                    "id": 450,
-                    "tag": "(BT709) Restaurant_Scene",
-                },
-                "BT709 Skin_Tone": {
-                    "id": 451,
-                    "tag": "(BT709) Skin_Tone",
-                },
-                "BT2020 White_Clipping": {
-                    "id": 579,
-                    "tag": "(BT2020) White_Clipping",
-                },
-                "BT2020 Black_Clipping": {
-                    "id": 580,
-                    "tag": "(BT2020) Black_Clipping",
-                },
-                "BT2020 APL_W_B_CLipping": {
-                    "id": 581,
-                    "tag": "(BT2020) APL_W_B_Clipping",
-                },
-                "BT2020 Color_Clipping": {
-                    "id": 582,
-                    "tag": "(BT2020) Color_Clipping",
-                },
-                "BT2020 Sharpness_Overscan": {
-                    "id": 583,
-                    "tag": "(BT2020) Sharpness_Overscan",
-                },
-                "BT2020 Alignment": {
-                    "id": 584,
-                    "tag": "(BT2020) Alignment",
-                },
-                "BT2020 Multi_Skin_Tone": {
-                    "id": 585,
-                    "tag": "(BT2020) Multi_Skin_Tone",
-                },
-                "BT2020 Restaurant_Scene": {
-                    "id": 586,
-                    "tag": "(BT2020) Restaurant_Scene",
-                },
-                "BT2020 Skin_Tone": {
-                    "id": 587,
-                    "tag": "(BT2020) Skin_Tone",
-                },
+                "tag": "PVA",
+                1: {"id": 443, "tag": "(BT709) White_Clipping"},
+                2: {"id": 444, "tag": "(BT709) Black_Clipping"},
+                3: {"id": 445, "tag": "(BT709) APL_W_B_Clipping"},
+                4: {"id": 446, "tag": "(BT709) Color_Clipping"},
+                5: {"id": 447, "tag": "(BT709) Sharpness_Overscan"},
+                6: {"id": 448, "tag": "(BT709) Alignment"},
+                7: {"id": 449, "tag": "(BT709) Multi_Skin_Tone"},
+                8: {"id": 450, "tag": "(BT709) Restaurant_Scene"},
+                9: {"id": 451, "tag": "(BT709) Skin_Tone"},
+                10: {"id": 579, "tag": "(BT2020) White_Clipping"},
+                11: {"id": 580, "tag": "(BT2020) Black_Clipping"},
+                12: {"id": 581, "tag": "(BT2020) APL_W_B_Clipping"},
+                13: {"id": 582, "tag": "(BT2020) Color_Clipping"},
+                14: {"id": 583, "tag": "(BT2020) Sharpness_Overscan"},
+                15: {"id": 584, "tag": "(BT2020) Alignment"},
+                16: {"id": 585, "tag": "(BT2020) Multi_Skin_Tone"},
+                17: {"id": 586, "tag": "(BT2020) Restaurant_Scene"},
+                18: {"id": 587, "tag": "(BT2020) Skin_Tone"},
             },
             "spe": {
-                "4:2:0 Girl": {
-                    "id": 452,
-                    "tag": "(4:2:0) Girl",
-                },
-                "4:2:0 Women": {
-                    "id": 453,
-                    "tag": "(4:2:0) Women",
-                },
-                "4:2:0 Girl HDR & SDR": {
-                    "id": 454,
-                    "tag": "(4:2:0) Girl HDR & SDR",
-                },
-                "4:4:4 Full Girl": {
-                    "id": 455,
-                    "tag": "(4:4:4 Full) Girl",
-                },
-                "4:4:4 Full Women": {
-                    "id": 588,
-                    "tag": "(4:4:4 Full) Women",
-                },
-                "4:4:4 Full Girl HDR & SDR": {
-                    "id": 589,
-                    "tag": "(4:4:4 Full) Girl HDR & SDR",
-                },
-                "4:4:4 Limit Girl": {
-                    "id": 590,
-                    "tag": "(4:4:4 Limit) Girl",
-                },
-                "4:4:4 Limit Women": {
-                    "id": 591,
-                    "tag": "(4:4:4 Limit) Women",
-                },
-                "4:4:4 Limit Girl HDR & SDR": {
-                    "id": 590,
-                    "tag": "(4:4:4 Limit) Girl HDR & SDR",
-                },
+                "tag": "SPE",
+                1: {"id": 452, "tag": "(4:2:0) Girl"},
+                2: {"id": 453, "tag": "(4:2:0) Women"},
+                3: {"id": 454, "tag": "(4:2:0) Girl HDR & SDR"},
+                4: {"id": 455, "tag": "(4:4:4 Full) Girl"},
+                5: {"id": 588, "tag": "(4:4:4 Full) Women"},
+                6: {"id": 589, "tag": "(4:4:4 Full) Girl HDR & SDR"},
+                7: {"id": 590, "tag": "(4:4:4 Limit) Girl"},
+                8: {"id": 591, "tag": "(4:4:4 Limit) Women"},
+                9: {"id": 590, "tag": "(4:4:4 Limit) Girl HDR & SDR"},
             },
             "spears & munsil": {
-                "Bias_Light_10%": {
-                    "id": 456,
-                    "tag": "Bias_Light_10%",
-                },
-                "Bias_Light_15%": {
-                    "id": 457,
-                    "tag": "Bias_Light_15%",
-                },
-                "Framing": {
-                    "id": 458,
-                    "tag": "Framing",
-                },
-                "Hammock_24p": {
-                    "id": 459,
-                    "tag": "Hammock_24p",
-                },
-                "Hammock_30p": {
-                    "id": 460,
-                    "tag": "Hammock_30p",
-                },
-                "Hammock_60i": {
-                    "id": 461,
-                    "tag": "Hammock_260i",
-                },
-                "Mixed_video_H_60i": {
-                    "id": 462,
-                    "tag": "Mixed_video_H_60i",
-                },
-                "Mixed_Video_V_60i": {
-                    "id": 463,
-                    "tag": "Mixed_Video_V_60i",
-                },
-                "ColorTint_01_Red": {
-                    "id": 464,
-                    "tag": "ColorTint_01_Red",
-                },
-                "ColorTint_01_Green": {
-                    "id": 465,
-                    "tag": "ColorTint_01_Green",
-                },
-                "ColorTint_01_Blue": {
-                    "id": 466,
-                    "tag": "ColorTint_01_Blue",
-                },
-                "Jaggies_Full_60i": {
-                    "id": 467,
-                    "tag": "Jaggies_Full_60i",
-                },
-                "Ship1_60i": {
-                    "id": 468,
-                    "tag": "Ship1_60i",
-                },
-                "Ship2_60i": {
-                    "id": 469,
-                    "tag": "Ship2_60i",
-                },
-                "Ship3_60i": {
-                    "id": 470,
-                    "tag": "Ship3_60i",
-                },
+                "tag": "SPEARS & MUNSIL",
+                1: {"id": 456, "tag": "Bias_Light_10%"},
+                2: {"id": 457, "tag": "Bias_Light_15%"},
+                3: {"id": 458, "tag": "Framing"},
+                4: {"id": 459, "tag": "Hammock_24p"},
+                5: {"id": 460, "tag": "Hammock_30p"},
+                6: {"id": 461, "tag": "Hammock_260i"},
+                7: {"id": 462, "tag": "Mixed_video_H_60i"},
+                8: {"id": 463, "tag": "Mixed_Video_V_60i"},
+                9: {"id": 464, "tag": "ColorTint_01_Red"},
+                10: {"id": 465, "tag": "ColorTint_01_Green"},
+                11: {"id": 466, "tag": "ColorTint_01_Blue"},
+                12: {"id": 467, "tag": "Jaggies_Full_60i"},
+                13: {"id": 468, "tag": "Ship1_60i"},
+                14: {"id": 469, "tag": "Ship2_60i"},
+                15: {"id": 470, "tag": "Ship3_60i"},
             },
             "user (stills)": {
-                "User Pattern1": {
-                    "id": 398,
-                    "tag": "User Pattern1 ()",
-                },
-                "User Pattern2": {
-                    "id": 399,
-                    "tag": "User Pattern2 ()",
-                },
-                "User Pattern3": {
-                    "id": 400,
-                    "tag": "User Pattern3 ()",
-                },
-                "User Pattern4": {
-                    "id": 401,
-                    "tag": "User Pattern4 ()",
-                },
-                "User Pattern5": {
-                    "id": 402,
-                    "tag": "User Pattern5 ()",
-                },
-                "User Pattern6": {
-                    "id": 403,
-                    "tag": "User Pattern6 ()",
-                },
+                "tag": "USER (STILLS)",
+                1: {"id": 398, "tag": "User Pattern1 ()"},
+                2: {"id": 399, "tag": "User Pattern2 ()"},
+                3: {"id": 400, "tag": "User Pattern3 ()"},
+                4: {"id": 401, "tag": "User Pattern4 ()"},
+                5: {"id": 402, "tag": "User Pattern5 ()"},
+                6: {"id": 403, "tag": "User Pattern6 ()"},
             },
             "ire window": {
                 # TODO need to figure out to structure this
             },
             "shortcuts": {
-                "shortcuts 1": {
-                    "id": 471,
-                    "tag": "SHORTCUTS 1",
-                },
-                "shortcuts 2": {
-                    "id": 472,
-                    "tag": "SHORTCUTS 2",
-                },
-                "shortcuts 3": {
-                    "id": 473,
-                    "tag": "SHORTCUTS 3",
-                },
-                "shortcuts 4": {
-                    "id": 474,
-                    "tag": "SHORTCUTS 4",
-                },
-                "shortcuts 5": {
-                    "id": 475,
-                    "tag": "SHORTCUTS 5",
-                },
-                "shortcuts 6": {
-                    "id": 476,
-                    "tag": "SHORTCUTS 6",
-                },
-                "shortcuts 7": {
-                    "id": 477,
-                    "tag": "SHORTCUTS 7",
-                },
-                "shortcuts 8": {
-                    "id": 478,
-                    "tag": "SHORTCUTS 8",
-                },
-                "shortcuts 9": {
-                    "id": 495,
-                    "tag": "SHORTCUTS 9",
-                },
-                "shortcuts 10": {
-                    "id": 480,
-                    "tag": "SHORTCUTS 10",
-                },
-                "shortcuts 11": {
-                    "id": 481,
-                    "tag": "SHORTCUTS 11",
-                },
-                "shortcuts 12": {
-                    "id": 482,
-                    "tag": "SHORTCUTS 12",
-                },
-                "shortcuts 13": {
-                    "id": 483,
-                    "tag": "SHORTCUTS 13",
-                },
-                "shortcuts 14": {
-                    "id": 484,
-                    "tag": "SHORTCUTS 14",
-                },
+                "tag": "SHORTCUTS",
+                1: {"id": 471, "tag": "SHORTCUTS 1"},
+                2: {"id": 472, "tag": "SHORTCUTS 2"},
+                3: {"id": 473, "tag": "SHORTCUTS 3"},
+                4: {"id": 474, "tag": "SHORTCUTS 4"},
+                5: {"id": 475, "tag": "SHORTCUTS 5"},
+                6: {"id": 476, "tag": "SHORTCUTS 6"},
+                7: {"id": 477, "tag": "SHORTCUTS 7"},
+                8: {"id": 478, "tag": "SHORTCUTS 8"},
+                9: {"id": 495, "tag": "SHORTCUTS 9"},
+                10: {"id": 480, "tag": "SHORTCUTS 10"},
+                11: {"id": 481, "tag": "SHORTCUTS 11"},
+                12: {"id": 482, "tag": "SHORTCUTS 12"},
+                13: {"id": 483, "tag": "SHORTCUTS 13"},
+                14: {"id": 484, "tag": "SHORTCUTS 14"},
             },
         },
         "color space": {
-            "function": "sendsingle",  # Function needed to send the command ex: SENDDOUBLE||98,458
+            # Function needed to send the command ex: SENDDOUBLE||98,458
+            "tag": "COLOR SPACE",
+            "function": "sendsingle",
             "category_type": 99,
-            "RGB(0-255)": {"id": 0, "tag": "RGB(0-255)"},
-            "RGB(16-235)": {"id": 1, "tag": "RGB(16-235)"},
-            "YC 4:4:4(16-235)": {"id": 2, "tag": "YC 4:4:4(16-235)"},
-            "YC 4:2:2(16-235)": {"id": 3, "tag": "YC 4:2:2(16-235)"},
-            "YC 4:2:0(16-235)": {"id": 4, "tag": "YC 4:2:0(16-235)"},
+            1: {"id": 0, "tag": "RGB(0-255)"},
+            2: {"id": 1, "tag": "RGB(16-235)"},
+            3: {"id": 2, "tag": "YC 4:4:4(16-235)"},
+            4: {"id": 3, "tag": "YC 4:2:2(16-235)"},
+            5: {"id": 4, "tag": "YC 4:2:0(16-235)"},
         },
         "bt 2020": {
+            "tag": "BT 2020",
             "function": "sendsingle",
             "category_type": 112,
-            "enable": {"id": 1, "tag": "ENABLE"},
-            "disable": {"id": 0, "tag": "DISABLE"},
+            1: {"id": 1, "tag": "ENABLE"},
+            2: {"id": 0, "tag": "DISABLE"},
         },
         "color depth": {
+            "tag": "COLOR DEPTH",
             "function": "sendsingle",
             "category_type": 100,
-            "8Bit": {"id": 0, "tag": "8Bit"},
-            "10Bit": {"id": 1, "tag": "10Bit"},
-            "12Bit": {"id": 2, "tag": "12Bit"},
-            "16Bit": {"id": 3, "tag": "16Bit"},
+            1: {"id": 0, "tag": "8Bit"},
+            2: {"id": 1, "tag": "10Bit"},
+            3: {"id": 2, "tag": "12Bit"},
+            4: {"id": 3, "tag": "16Bit"},
         },
         "hdcp": {
+            "tag": "HDCP",
             "function": "sendsingle",
             "category_type": 101,
-            "hdcp off": {"id": 0, "tag": "HDCP OFF"},
-            "hdcp 1.4": {"id": 1, "tag": "HDCP 1.4"},
-            "hdcp 2.2": {"id": 2, "tag": "HDCP 2.2"},
-            "hdcp auto": {"id": 3, "tag": "HDCP AUTO"},
+            1: {"id": 0, "tag": "HDCP OFF"},
+            2: {"id": 1, "tag": "HDCP 1.4"},
+            3: {"id": 2, "tag": "HDCP 2.2"},
+            4: {"id": 3, "tag": "HDCP AUTO"},
         },
         "hdmi/dvi": {
+            "tag": "HDMI/DVI",
             "function": "sendsingle",
             "category_type": 102,
-            "dvi": {"id": 0, "tag": "DVI"},
-            "hdmi": {"id": 1, "tag": "HDMI"},
-            "auto": {"id": 2, "tag": "AUTO"},
+            1: {"id": 0, "tag": "DVI"},
+            2: {"id": 1, "tag": "HDMI"},
+            3: {"id": 2, "tag": "AUTO"},
         },
         "hdr": {
+            "tag": "HDR",
             "function": "sendsingle",
             "category_type": 111,
-            "hdr off(sdr)": {"id": 0, "tag": "HDR OFF(SDR)"},
-            "hdr-10": {"id": 1, "tag": "HDR-10"},
-            "hlg": {"id": 2, "tag": "HLG"},
-            "hdr custom 1": {"id": 3, "tag": "HDR CUSTOM 1"},
-            "hdr custom 2": {"id": 4, "tag": "HDR CUSTOM 2"},
-            "hdr custom 3": {"id": 5, "tag": "HDR CUSTOM 3"},
-            "hdr custom 4": {"id": 6, "tag": "HDR CUSTOM 4"},
-            "hdr custom 5": {"id": 7, "tag": "HDR CUSTOM 5"},
-            "hdr custom 6": {"id": 8, "tag": "HDR CUSTOM 6"},
-            "hdr custom 7": {"id": 9, "tag": "HDR CUSTOM 7"},
-            "hdr custom 8": {"id": 10, "tag": "HDR CUSTOM 8"},
-            "infoframe injection": {},  # TODO Need to add this
+            1: {"id": 0, "tag": "HDR OFF(SDR)"},
+            2: {"id": 1, "tag": "HDR-10"},
+            3: {"id": 2, "tag": "HLG"},
+            4: {"id": 3, "tag": "HDR CUSTOM 1"},
+            5: {"id": 4, "tag": "HDR CUSTOM 2"},
+            6: {"id": 5, "tag": "HDR CUSTOM 3"},
+            7: {"id": 6, "tag": "HDR CUSTOM 4"},
+            8: {"id": 7, "tag": "HDR CUSTOM 5"},
+            9: {"id": 8, "tag": "HDR CUSTOM 6"},
+            10: {"id": 9, "tag": "HDR CUSTOM 7"},
+            11: {"id": 10, "tag": "HDR CUSTOM 8"},
+            12: {},  # TODO Need to add this
         },
         "rgb triplet": {},  # TODO Need to add this
         "timing details": {},  # TODO Need to add this
     },
     "video tests": {
+        "tag": "Video Tests",
         "function": "senddouble",
         "category_type": 98,
-        "chongqing day": {"id": 404, "tag": "Spicey Pixels Chongqing Day"},
-        "chongqing night": {"id": 405, "tag": "Spicey Pixels Chongqing Night"},
-        "chongqing lights": {"id": 406, "tag": "Spicey Pixels Chongqing Lights"},
-        "chongqing cars": {"id": 407, "tag": "Spicey Pixels Chongqing Cars"},
-        "chongqing cars2": {"id": 408, "tag": "Spicey Pixels Chongqing Cars2"},
-        "london yogurt": {"id": 411, "tag": "Spicey Pixels London Yogurt"},
-        "london river": {"id": 412, "tag": "Spicey Pixels London River"},
-        "london sidewalk": {"id": 413, "tag": "Spicey Pixels London Sidewalk"},
-        "london busses": {"id": 414, "tag": "Spicey Pixels London Busses"},
-        "london cafe": {"id": 415, "tag": "Spicey Pixels London cafe"},
-        "mukilteo street": {"id": 416, "tag": "Spicey Pixels Mukilteo Street"},
-        "mukilteo loading": {"id": 417, "tag": "Spicey Pixels Mukilteo Loading"},
-        "carnival wheel": {"id": 418, "tag": "Spicey Pixels Carnival Wheel"},
-        "carnival ride": {"id": 419, "tag": "Spicey Pixels Carnival Ride"},
-        "carnival night": {"id": 420, "tag": "Spicey Pixels Carnival night"},
-        "carnival balloonnnnn pop": {
-            "id": 421,
-            "tag": "Spicey Pixels Carnival Balloon Pop",
-        },
-        "tiger Mountain 120": {
-            "id": 422,
-            "tag": "Spicey Pixels Tiger Mountain 120",
-        },
-        "biker 120": {"id": 423, "tag": "Spicey Pixels Biker 120"},
-        "test video": {"id": 424, "tag": "SPE Test Video"},
-        "user video clip 1": {"id": 409, "tag": "User Video Clip 1"},
-        "user video clip 2": {"id": 410, "tag": "User Video Clip 2"},
-        "automation testing clip": {"id": 471, "tag": "Automation Testing Clip"},
+        1: {"id": 404, "tag": "Spicey Pixels Chongqing Day"},
+        2: {"id": 405, "tag": "Spicey Pixels Chongqing Night"},
+        3: {"id": 406, "tag": "Spicey Pixels Chongqing Lights"},
+        4: {"id": 407, "tag": "Spicey Pixels Chongqing Cars"},
+        5: {"id": 408, "tag": "Spicey Pixels Chongqing Cars2"},
+        6: {"id": 411, "tag": "Spicey Pixels London Yogurt"},
+        7: {"id": 412, "tag": "Spicey Pixels London River"},
+        8: {"id": 413, "tag": "Spicey Pixels London Sidewalk"},
+        9: {"id": 414, "tag": "Spicey Pixels London Busses"},
+        10: {"id": 415, "tag": "Spicey Pixels London cafe"},
+        11: {"id": 416, "tag": "Spicey Pixels Mukilteo Street"},
+        12: {"id": 417, "tag": "Spicey Pixels Mukilteo Loading"},
+        13: {"id": 418, "tag": "Spicey Pixels Carnival Wheel"},
+        14: {"id": 419, "tag": "Spicey Pixels Carnival Ride"},
+        15: {"id": 420, "tag": "Spicey Pixels Carnival night"},
+        16: {"id": 421, "tag": "Spicey Pixels Carnival Balloon Pop"},
+        17: {"id": 422, "tag": "Spicey Pixels Tiger Mountain 120"},
+        18: {"id": 423, "tag": "Spicey Pixels Biker 120"},
+        19: {"id": 424, "tag": "SPE Test Video"},
+        20: {"id": 409, "tag": "User Video Clip 1"},
+        21: {"id": 410, "tag": "User Video Clip 2"},
+        22: {"id": 471, "tag": "Automation Testing Clip"},
     },
     "audio generator": {
+        "tag": "Audio Generator",
         "pcm audio": {
             "tag": "PCM AUDIO",
             "audio sampling rate": {
                 "tag": "Audio Sampling Rate",
                 "function": "sendsingle",
                 "category_type": 103,
-                "32k": {"id": 0, "tag": "32K"},
-                "44.1k": {"id": 1, "tag": "44.1K"},
-                "48k": {"id": 2, "tag": "48K"},
-                "88k": {"id": 3, "tag": "88K"},
-                "96k": {"id": 4, "tag": "96K"},
-                "176k": {"id": 5, "tag": "176k"},
-                "192k": {"id": 6, "tag": "192k"},
+                1: {"id": 0, "tag": "32K"},
+                2: {"id": 1, "tag": "44.1K"},
+                3: {"id": 2, "tag": "48K"},
+                4: {"id": 3, "tag": "88K"},
+                5: {"id": 4, "tag": "96K"},
+                6: {"id": 5, "tag": "176k"},
+                7: {"id": 6, "tag": "192k"},
             },
             "audio bit depth": {
                 "tag": "Audio Bit Depth",
                 "function": "sendsingle",
                 "category_type": 104,
-                "16bit": {"id": 0, "tag": "16Bit"},
-                "20bit": {"id": 1, "tag": "20Bit"},
-                "24bit": {"id": 2, "tag": "24Bit"},
+                1: {"id": 0, "tag": "16Bit"},
+                2: {"id": 1, "tag": "20Bit"},
+                3: {"id": 2, "tag": "24Bit"},
             },
             "sinewave tone": {
                 "tag": "Sinewave Tone",
                 "function": "sendsingle",
                 "category_type": 115,
-                "100hz": {"id": 0, "tag": "SINEWAVE TONE(100Hz)"},
-                "200hz": {"id": 1, "tag": "SINEWAVE TONE(200Hz)"},
-                "300hz": {"id": 2, "tag": "SINEWAVE TONE(300Hz)"},
-                "400hz": {"id": 3, "tag": "SINEWAVE TONE(400Hz)"},
-                "500hz": {"id": 4, "tag": "SINEWAVE TONE(500Hz)"},
-                "600hz": {"id": 5, "tag": "SINEWAVE TONE(600Hz)"},
-                "700hz": {"id": 6, "tag": "SINEWAVE TONE(700Hz)"},
-                "800hz": {"id": 7, "tag": "SINEWAVE TONE(800Hz)"},
-                "900hz": {"id": 8, "tag": "SINEWAVE TONE(900Hz)"},
-                "1khz": {"id": 9, "tag": "SINEWAVE TONE(1KHz)"},
-                "2khz": {"id": 10, "tag": "SINEWAVE TONE(2KHz)"},
-                "3khz": {"id": 11, "tag": "SINEWAVE TONE(3KHz)"},
-                "4khz": {"id": 12, "tag": "SINEWAVE TONE(4KHz)"},
-                "5khz": {"id": 13, "tag": "SINEWAVE TONE(5KHz)"},
+                1: {"id": 0, "tag": "SINEWAVE TONE(100Hz)"},
+                2: {"id": 1, "tag": "SINEWAVE TONE(200Hz)"},
+                3: {"id": 2, "tag": "SINEWAVE TONE(300Hz)"},
+                4: {"id": 3, "tag": "SINEWAVE TONE(400Hz)"},
+                5: {"id": 4, "tag": "SINEWAVE TONE(500Hz)"},
+                6: {"id": 5, "tag": "SINEWAVE TONE(600Hz)"},
+                7: {"id": 6, "tag": "SINEWAVE TONE(700Hz)"},
+                8: {"id": 7, "tag": "SINEWAVE TONE(800Hz)"},
+                9: {"id": 8, "tag": "SINEWAVE TONE(900Hz)"},
+                10: {"id": 9, "tag": "SINEWAVE TONE(1KHz)"},
+                11: {"id": 10, "tag": "SINEWAVE TONE(2KHz)"},
+                12: {"id": 11, "tag": "SINEWAVE TONE(3KHz)"},
+                13: {"id": 12, "tag": "SINEWAVE TONE(4KHz)"},
+                14: {"id": 13, "tag": "SINEWAVE TONE(5KHz)"},
             },
             "audio volume": {
                 "tag": "Audio Volume",
                 "function": "sendsingle",
                 "category_type": 109,
-                "-60db": {"id": 0, "tag": "-60db"},
-                "-54db": {"id": 1, "tag": "-54db"},
-                "-48db": {"id": 2, "tag": "-48db"},
-                "-42db": {"id": 3, "tag": "-42db"},
-                "-36db": {"id": 4, "tag": "-36db"},
-                "-30db": {"id": 5, "tag": "-30db"},
-                "-24db": {"id": 6, "tag": "-24db"},
-                "-18db": {"id": 7, "tag": "-18db"},
-                "-12": {"id": 8, "tag": "-12"},
-                "-6db": {"id": 9, "tag": "-6db"},
-                "0db": {"id": 10, "tag": "0db"},
+                1: {"id": 0, "tag": "-60db"},
+                2: {"id": 1, "tag": "-54db"},
+                3: {"id": 2, "tag": "-48db"},
+                4: {"id": 3, "tag": "-42db"},
+                5: {"id": 4, "tag": "-36db"},
+                6: {"id": 5, "tag": "-30db"},
+                7: {"id": 6, "tag": "-24db"},
+                8: {"id": 7, "tag": "-18db"},
+                9: {"id": 8, "tag": "-12"},
+                10: {"id": 9, "tag": "-6db"},
+                11: {"id": 10, "tag": "0db"},
             },
             "audio channel config": {
                 "tag": "Audio Channel Config",
@@ -2522,7 +1749,7 @@ Murideo_WebUI = {
             "tag": "EXT.ANALOG L/R INPUT",
             "function": "senddouble",
             "category_type": 105,
-            "enable": {"id": 0, "tag": "ENABLE"},
+            1: {"id": 0, "tag": "ENABLE"},
         },
         "dts audio generator": {
             "tag": "DTS AUDIO GENERATOR",
@@ -2659,9 +1886,7 @@ Murideo_WebUI = {
             "category_type": 105,
             1: {"id": 528, "tag": "SPEAKER ALLOCATION"},
             2: {"id": 538, "tag": "WHITE NOISE"},
-            # TODO pulls up graphic unsure how to handle
             3: {"id": 548, "tag": "SWEEP AUDIO"},
-            # TODO pulls up graphic unsure how to handle
         },
     },
     "edid earc cds": {
@@ -2671,11 +1896,156 @@ Murideo_WebUI = {
             "function": "sendsingle",
             "category_type": 47160,
             1: {"id": 1, "tag": "READ EDID"},
-            # TODO Returns EDID Information example: RESPONSE||47160||HDMI EDID,check sum Ok !||00 FF FF FF FF FF FF 00 4D D9 07 31 01 01 01 01 01 20 01 03 80 A6 5D 78 0A 0D C9 A0 57 47 98 27 12 48 4C 21 08 00 81 80 A9 C0 71 4F B3 00 01 01 01 01 01 01 01 01 08 E8 00 30 F2 70 5A 80 B0 58 8A 00 7C A6 63 00 00 1E 02 3A 80 18 71 38 2D 40 58 2C 45 00 7C A6 63 00 00 1E 00 00 00 FC 00 53 4F 4E 59 20 54 56 20 20 2A 33 30 0A 00 00 00 FD 00 17 79 0E 88 3C 00 0A 20 20 20 20 20 20 01 FC 02 03 67 F0 58 61 60 5D 5E 5F 62 1F 10 14 05 13 04 20 22 3C 3E 12 03 11 02 65 66 3F 40 2F 0D 7F 07 15 07 50 3D 07 BC 57 06 01 67 04 03 83 0F 00 00 6E 03 0C 00 20 00 B8 44 2B 00 80 01 02 03 04 67 D8 5D C4 01 00 00 00 EB 01 46 D0 00 48 2B BA 88 62 76 97 E2 00 CB E3 05 DF 01 E4 0F 03 00 30 E6 06 0D 01 D2 C5 06 01 1D 00 72 51 D0 1E 20 6E 28 55 00 7C A6 63 00 00 1E 00 00 00 00 00 00 72||||Preferred Timing:3840x2160@60Hz,Detailed Timing:1920x1080@60Hz,Extension Detailed Timing1:1280x720@60Hz,,Short Video Descripter:,3840x2160p@60Hz  16:9,3840x2160p@50Hz  16:9,3840x2160p@24Hz  16:9,3840x2160p@25Hz  16:9,3840x2160p@30Hz  16:9,4096x2160p@24Hz  256:135,1920x1080p@50Hz  16:9,1920x1080p@60Hz  16:9,1920x1080i@50Hz  16:9,1920x1080i@60Hz  16:9,1280x720p@50Hz  16:9,1280x720p@60Hz  16:9,1920x1080p@24Hz  16:9,1920x1080p@30Hz  16:9,1280x720p@24Hz  16:9,1280x720p@30Hz  16:9,720x576p@50Hz  16:9,720x480p@60Hz  16:9,720x576p@50Hz  4:3,720x480p@60Hz  4:3,4096x2160p@50Hz  256:135,4096x2160p@60Hz  256:135,1920x1080p@120Hz  16:9,1920x1080p@100Hz  16:9||
+            # TODO Returns EDID Information example:
+            # RESPONSE||47160||HDMI EDID,check sum Ok !||
+            # 00 FF FF FF FF FF FF 00 4D D9 07 31 01 01 01 01 01 20 01 03 80 A6 5D 78
+            # 0A 0D C9 A0 57 47 98 27 12 48 4C 21 08 00 81 80 A9 C0 71 4F B3 00 01 01
+            # 01 01 01 01 01 01 08 E8 00 30 F2 70 5A 80 B0 58 8A 00 7C A6 63 00 00 1E
+            # 02 3A 80 18 71 38 2D 40 58 2C 45 00 7C A6 63 00 00 1E 00 00 00 FC 00 53
+            # 4F 4E 59 20 54 56 20 20 2A 33 30 0A 00 00 00 FD 00 17 79 0E 88 3C 00 0A
+            # 20 20 20 20 20 20 01 FC 02 03 67 F0 58 61 60 5D 5E 5F 62 1F 10 14 05 13
+            # 04 20 22 3C 3E 12 03 11 02 65 66 3F 40 2F 0D 7F 07 15 07 50 3D 07 BC 57
+            # 06 01 67 04 03 83 0F 00 00 6E 03 0C 00 20 00 B8 44 2B 00 80 01 02 03 04
+            # 67 D8 5D C4 01 00 00 00 EB 01 46 D0 00 48 2B BA 88 62 76 97 E2 00 CB E3
+            # 05 DF 01 E4 0F 03 00 30 E6 06 0D 01 D2 C5 06 01 1D 00 72 51 D0 1E 20 6E
+            # 28 55 00 7C A6 63 00 00 1E 00 00 00 00 00 00 72||
+            # ||Preferred Timing:3840x2160@60Hz,Detailed Timing:1920x1080@60Hz,
+            # Extension Detailed Timing1:1280x720@60Hz,,Short Video Descripter:,
+            # 3840x2160p@60Hz  16:9,3840x2160p@50Hz  16:9,3840x2160p@24Hz  16:9,
+            # 3840x2160p@25Hz  16:9,3840x2160p@30Hz  16:9,4096x2160p@24Hz  256:135,
+            # 1920x1080p@50Hz  16:9,1920x1080p@60Hz  16:9,1920x1080i@50Hz  16:9,
+            # 1920x1080i@60Hz  16:9,1280x720p@50Hz  16:9,1280x720p@60Hz  16:9,
+            # 1920x1080p@24Hz  16:9,1920x1080p@30Hz  16:9,1280x720p@24Hz  16:9,
+            # 1280x720p@30Hz  16:9,720x576p@50Hz  16:9,720x480p@60Hz  16:9,
+            # 720x576p@50Hz  4:3,720x480p@60Hz  4:3,4096x2160p@50Hz  256:135,
+            # 4096x2160p@60Hz  256:135,1920x1080p@120Hz  16:9,1920x1080p@100Hz  16:9||
             2: {"id": None, "tag": "SAVE EDID"},
             # TODO Does not seem to do anything but should prompt to save the EDID file
             3: {"id": None, "tag": "OPEN EDID"},
             # TODO Opens file dialog to select EDID file
+        },
+        "earc/arc audio info": {
+            # TODO Multiple Category commands needed
+            "tag": "eARC/ARC AUDIO INFO",
+            "function": "sendother",
+            "category_type": None,
+        },
+        "arc hpd ctl": {
+            # TODO Both arc hpd and arc physical hpd use the same commands?
+            "tag": "ARC HPD CTL",
+            "function": "sendsingle",
+            "category_type": 177,
+            1: {"id": 1, "tag": "ASSERT HPD(HIGH)"},
+            2: {"id": 0, "tag": "DEASSERT HPD(LOW)"},
+        },
+        "arc physical hpd ctl": {
+            # TODO Both arc hpd and arc physical hpd use the same commands?
+            "tag": "ARC PHYSICAL HPD CTL",
+            "function": "sendsingle",
+            "category_type": 177,
+            1: {"id": 1, "tag": "ASSERT HPD(HIGH)"},
+            2: {"id": 0, "tag": "DEASSERT HPD(LOW)"},
+        },
+        "earc hpd bit ctl": {
+            "tag": "eARC HPD bit CTL",
+            "function": "sendsingle",
+            "category_type": 178,
+            1: {"id": 1, "tag": "SET HDMI_HPD bit(=1)"},
+            2: {"id": 0, "tag": "CLERA HDMI_HPD bit(=0)"},
+        },
+        "hdmi +5v power ctl": {
+            "tag": "HDMI +5V POWER CTL",
+            "function": "sendsingle",
+            "category_type": 179,
+            1: {"id": 1, "tag": "SET HDMI TX +5V ON"},
+            2: {"id": 0, "tag": "SET HDMI TX +5V OFF"},
+        },
+        "earc tx latency": {
+            "tag": "eARC TX LATENCY",
+            "function": "sendsingle",
+            "category_type": 121,
+            1: {"id": None, "tag": "ERX_LATENCY_REQ(To eARC RX) id=ms"},
+        },
+        "earc rx latency": {
+            "tag": "eARC RX LATENCY",
+            "function": "sendsingle",
+            "category_type": 122,
+            1: {"id": None, "tag": "ERX_LATENCY_REQ(To eARC TX) id=ms"},
+        },
+        "send cec command": {
+            # TODO requires logic for HDMI input and output
+            # TODO requires fields for logic address, opcode, paramter
+            # Note: In the parameters,when there are multiple parameters,you need to use
+            # a dot(.) to split,such as:2C.0E.3A.63
+            "tag": "Send CEC Command",
+            "function": "sendsingle",
+            "category_type": 122,
+            1: {},
+        },
+    },
+    "system setup": {
+        "tag": "System Setup",
+        "ip management": {
+            # TODO can't see what is being sent when selecting DHCP On/Off
+            # TODO can't see command to send static IP
+            "tag": "IP MANAGEMENT",
+        },
+        "arc/earc out setup": {
+            "tag": "ARC/eARC OUT SETUP",
+            "function": "sendsingle",
+            "category_type": 131,
+            1: {"id": 0, "tag": "DISABLE ARC/eARC"},
+            2: {"id": 1, "tag": "ENABLE eARC"},
+            3: {"id": 2, "tag": "ENABLE ARC"},
+        },
+        "vitals": {
+            # TODO Returns a bunch of values for firmware and chip temperatures
+            "tag": "VITALS",
+            "function": "sendsingle",
+            "category_type": 63577,
+            "id": 1,
+        },
+        "fan control": {
+            "tag": "FAN CONTROL",
+            "function": "sendsingle",
+            "category_type": 30723,
+            1: {"id": 0, "tag": "OFF"},
+            2: {"id": 1, "tag": "LOW SPEED"},
+            3: {"id": 2, "tag": "MIDDLE SPEED"},
+            4: {"id": 3, "tag": "HIGH SPEED"},  # TODO Speed seems the same as middle
+        },
+        "reset all settings": {
+            # When sending SENDOTHER||30722
+            # Upon reset SEVEN-G will turn to
+            # -1080P Resolution with
+            # -Color bar 75% and
+            # -2Ch 48KHz PCM Audio.
+            # Please note that eARC and ARC will be disabled.
+            "tag": "RESET ALL SETTINGS",
+            "reset default": {
+                "function": "sendother",
+                "category_type": 30722,
+                "id": None,
+            },
+        },
+        "tools": {
+            # TODO Buttons READ - Returns audio InfoFrame information
+            # TODO Buttons WRITE - Write an Audio InfoFrame
+            "tag": "Tools",
+            "function": "sendother",
+            "category_type": 65025,
+            "id": None,
+        },
+        "update firmware": {
+            "tag": "UPDATE FIRMWARE",
+            "update firmware": {
+                "tag": "Update Firmware",
+                # TODO Opens File dialog box
+            },
+            "reboot": {
+                "tag": "reboot",
+                # TODO Reboots unit but unable to see command sent
+            },
         },
     },
 }
