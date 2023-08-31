@@ -40,103 +40,42 @@ When inspecting the webUI the websocket is listed as `uart` under the network ta
 Format for the dictionary is the following:
 
 ```python
-Murideo_WebUI = {  # Master Dictionary for WebUI of Murideo 8K Seven Generator
-    "video_generator": {
+"video generator": {
+        "tag": "Video Generator",
         "timing": {
-            "function": "sendsingle",  # Function needed to send the command ex: SENDSINGLE||97,110
-            "category_type": 97, # ID For the category in this case it's 97=Timing
+            "tag": "TIMING",
+            # Function needed to send the command ex: SENDSINGLE||97,110
+            "function": "sendsingle",
+            "category_type": 97,  # ID For the category in this case it's 97=Timing
             "8k": {
+                "tag": "8K",
                 "7680x4320@30": {
-                    "id": 110, # command to be called for this resolution
-                    "h_rez": 7680, # Horizontal Pixels
-                    "v_rez": 4320, # Vertical Pixels
-                    "refresh": 30, # Refresh Rate
-                    "tag": "7680x4320 30Hz", # The actual Button text
-                },
-                "7680x4320@29.97": {
-                    "id": 111, # command to be called for this resolution
-                    "h_rez": 7680, # Horizontal Pixels
-                    "v_rez": 4320, # Vertical Pixels
-                    "refresh": 29.97, # Refresh Rate
-                    "tag": "7680x4320 29.97Hz", # The actual Button text
-                },
-                "7680x4320@25": {
-                    "id": 112, # command to be called for this resolution
-                    "h_rez": 7680, # Horizontal Pixels
-                    "v_rez": 4320, # Vertical Pixels
-                    "refresh": 25, # Refresh Rate
-                    "tag": "7680x4320 25Hz", # The actual Button text
-                },
-                "7680x4320@24": {
-                    "id": 113, # command to be called for this resolution
-                    "h_rez": 7680, # Horizontal Pixels
-                    "v_rez": 4320, # Vertical Pixels
-                    "refresh": 24, # Refresh Rate
-                    "tag": "7680x4320 24Hz", # The actual Button text
-                },
-                "7680x4320@23.98": {
-                    "id": 114, # command to be called for this resolution
-                    "h_rez": 7680, # Horizontal Pixels
-                    "v_rez": 4320, # Vertical Pixels
-                    "refresh": 23.98, # Refresh Rate
-                    "tag": "7680x4320 23.98Hz", # The actual Button text
-                },
-                "7680x4320@60": {
-                    "id": 115, # command to be called for this resolution
-                    "h_rez": 7680, # Horizontal Pixels
-                    "v_rez": 4320, # Vertical Pixels
-                    "refresh": 60, # Refresh Rate
-                    "tag": "7680x4320 60Hz", # The actual Button text
-                },
-                "7680x4320@59.94": {
-                    "id": 116, # command to be called for this resolution
-                    "h_rez": 7680, # Horizontal Pixels
-                    "v_rez": 4320, # Vertical Pixels
-                    "refresh": 59.94, # Refresh Rate
-                    "tag": "7680x4320 59.94Hz", # The actual Button text
-                },
-                "7680x4320@50": {
-                    "id": 117, # command to be called for this resolution
-                    "h_rez": 7680, # Horizontal Pixels
-                    "v_rez": 4320, # Vertical Pixels
-                    "refresh": 50, # Refresh Rate
-                    "tag": "7680x4320 50Hz", # The actual Button text
-                },
-                "7680x4320@48": {
-                    "id": 118, # command to be called for this resolution
-                    "h_rez": 7680, # Horizontal Pixels
-                    "v_rez": 4320, # Vertical Pixels
-                    "refresh": 48, # Refresh Rate
-                    "tag": "7680x4320 48Hz", # The actual Button text
-                },
-                "7680x4320@47.95": {
-                    "id": 119, # command to be called for this resolution
-                    "h_rez": 7680, # Horizontal Pixels
-                    "v_rez": 4320, # Vertical Pixels
-                    "refresh": 47.95, # Refresh Rate
-                    "tag": "7680x4320 47.95Hz", # The actual Button text
-                },
-            },
-            "uhd": {
-                1: {
-                    "id": 28,
-                    "h_rez": 3840,
-                    "v_rez": 2160,
-                    "refresh": 30,
-                    "tag": "3840x2160 30Hz",
-                },
-            },
-            "4k-dci": {
-                1: {
-                    "id": 53,
-                    "h_rez": 4096,
-                    "v_rez": 2160,
-                    "refresh": 30,
-                    "tag": "4096x2160 30Hz",
-                },
-            },
+                    "id": 110,  # command to be called for this resolution
+                    "h_rez": 7680,  # Horizontal Pixels
+                    "v_rez": 4320,  # Vertical Pixels
+                    "refresh": 30,  # Refresh Rate
+                    "tag": "7680x4320 30Hz",  # The actual Button text
+                }
+            }
         }
-    }
+}
+```
+
+```python
+"ramps, gradients, zone plates": {
+                    "tag": "RAMPS,GRADIENTS,ZONE PLATES",
+                    1: {"id": 124, "tag": "Greyscale Steps"},
+                    2: {"id": 125, "tag": "Greyscale Ramp"},
+                    3: {"id": 126, "tag": "Greyscale Mix"},
+                    4: {"id": 127, "tag": "Color Steps"},
+                    5: {"id": 128, "tag": "Color Ramp"},
+                    6: {"id": 129, "tag": "Color Ramp H&V"},
+                    7: {"id": 130, "tag": "Color Ramp Mix"},
+                    8: {"id": 131, "tag": "Color Bar Ramp"},
+                    9: {"id": 132, "tag": "Ramp Red"},
+                    10: {"id": 133, "tag": "Ramp Green"},
+                    11: {"id": 134, "tag": "Ramp Blue"},
+                    12: {"id": 135, "tag": "Ramp Yellow"},
 }
 ```
 
