@@ -1935,7 +1935,7 @@ murideo = {
             "function": "sendsingle",
             "category_type": 178,
             0: {"id": 1, "tag": "SET HDMI_HPD bit(=1)"},
-            1: {"id": 0, "tag": "CLERA HDMI_HPD bit(=0)"},
+            1: {"id": 0, "tag": "CLEAR HDMI_HPD bit(=0)"},
         },
         "hdmi +5v power ctl": {
             "tag": "HDMI +5V POWER CTL",
@@ -2010,3 +2010,17 @@ murideo = {
         },
     },
 }
+
+
+def find_tag_by_id(target_id, dic=None):
+    if dic is None:
+        dic = murideo
+
+    for key, value in dic.items():
+        if isinstance(value, dict):
+            if "id" in value and value["id"] == target_id:
+                return value.get("tag", "Unknown Tag")
+            found = find_tag_by_id(target_id, value)
+            if found:
+                return found
+    return None
