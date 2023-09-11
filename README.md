@@ -8,6 +8,7 @@
     - [Short Term](#short-term)
     - [Long Term](#long-term)
   - [Current Status](#current-status)
+    - [Next up](#next-up)
     - [Finding the information](#finding-the-information)
     - [Map.py](#mappy)
   - [About](#about)
@@ -29,7 +30,13 @@
 
 ## Current Status
 
-Currently I just figured out the commands for the WebUI. Right now I'm writing the dictionary that will hold all of the commands to be used. I've lightly tested a websocket for proof of concept.
+`map_key.py` is about 90% complete dictionary of the webUI. Also has `find_tag_by_id` function to return the "tag" aka: **Title**
+
+`murideo.py` have added classes for Video/Audio/Commands. Including subclass for Audio/PCM. This has not been tested yet.
+
+### Next up
+
+Testing murideo.py on what has been built so far. Then adding a new folder called tests not to be confused with unit tests. That will have some sample tests configured for 4k30 no HDR, 4k30 w/HDR, 4k60 no HDR, 4k60 w/HDR. These files would run through a handful of settings to test common setting that should be supported by a device of that type.
 
 ### Finding the information
 
