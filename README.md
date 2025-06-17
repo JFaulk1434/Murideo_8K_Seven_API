@@ -17,7 +17,7 @@
 
 # CURRENT STATUS - Project On-Hold
 
-With no good API documentation from Murideo I am no longer working on this project
+**With no good API documentation from Murideo I am no longer working on this project**
 
 ## Goals
 
